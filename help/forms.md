@@ -2,9 +2,9 @@
 title: FORMULÄR
 description: Hjälpsida för mönsteravkännarkod
 translation-type: tm+mt
-source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
+source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Följande undertyper hjälper dig att identifiera olika typer av problem:
 
 * `modified.feature`: Dessa funktioner, resurser och API:er har uppdaterats eller ändrats för Cloud Service. Innan du migrerar till Cloud Servicen kör du migreringsverktyget för att göra dessa funktioner och resurser kompatibla med Cloud Servicen.
 * `unavailable.feature`: Miljön innehåller funktioner och resurser som inte är tillgängliga eller har tagits bort från Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö.
-* `unsupported.feature`: I din miljö används vissa funktioner som inte stöds på Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö. Håll ett öga på månadsversionsinformationen om vilka funktioner som är tillgängliga.
-* `unsupported.api`: Miljön har vissa API:er som inte stöds på Cloud Servicen. Inaktivera, ersätt eller ta bort dessa API:er från koden innan du migrerar till Cloud Servicen. Håll ett öga på månadsversionsinformationen om vilka funktioner som är tillgängliga.
+* `unsupported.feature`: I din miljö används vissa funktioner som inte stöds på Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
+* `unsupported.api`: Miljön har vissa API:er som inte stöds på Cloud Servicen. Inaktivera, ersätt eller ta bort dessa API:er från koden innan du migrerar till Cloud Servicen. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
 
 Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lösningar](#solutions) för information om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen
 
@@ -75,19 +75,19 @@ Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [M�
 
 * Ta bort verifieringssteget från din befintliga adaptiva Forms innan du flyttar sådana formulär till en [!DNL Cloud Service]-miljö. (VERIFY_STEP)
 
-* Ändra dina befintliga adaptiva formulär så att de använder [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) och [Anropa ett AEM arbetsflöde](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Skicka-åtgärder. Forms Portal och Forms Portal Submit Action är inte tillgängliga än. Håll ett öga på månadsversionsinformationen om vilka funktioner som är tillgängliga. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* Ändra dina befintliga adaptiva formulär så att de använder [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) och [Anropa ett AEM arbetsflöde](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Skicka-åtgärder. Forms Portal och Forms Portal Submit Action är inte tillgängliga än. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
 
 * Du kan utveckla ett AEM arbetsflöde och ändra dina befintliga adaptiva formulär så att du kan använda [AEM arbetsflöde](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Skicka åtgärd för att skicka data till ett AEM arbetsflöde i stället för att använda åtgärden Skicka. **[!UICONTROL Submit to Forms Workflow]** Du kan utveckla en anpassad Skicka-åtgärd för att skicka data, bilagor eller DoR-filer (Document of Record) till en LiveCycle-process i stället för att använda [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
-* Håll ett öga på månadsversionsinformationen om tillgängligheten av funktionen Interaktiv kommunikation. Migrera inte dina interaktiva Cloud Service, brev och relaterade ordlistor till en textmiljö förrän funktionen inte är tillgänglig. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* Information om tillgängligheten av funktionen Interaktiv kommunikation finns i månadsversionsinformationen. Migrera inte dina interaktiva Cloud Service, brev och relaterade ordlistor till en textmiljö förrän funktionen inte är tillgänglig. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Inaktivera alternativen **[!UICONTROL Save as draft]** och **[!UICONTROL Enable Auto Save]** i din adaptiva Forms innan du migrerar dem till Cloud Servicen. Du kan aktivera dessa alternativ när funktionen Forms Portal släpps för Cloud Servicen. Håll ett öga på månadsversionsinformationen om vilka funktioner som är tillgängliga. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* Inaktivera alternativen **[!UICONTROL Save as draft]** och **[!UICONTROL Enable Auto Save]** i din adaptiva Forms innan du migrerar dem till Cloud Servicen. Du kan aktivera dessa alternativ när funktionen Forms Portal släpps för Cloud Servicen. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * Det finns ingen ersättning för metadatadragspelspanelen. Ta bort det från formulären innan du migrerar dem till Cloud Servicen.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Använd Google reCaptcha i stället för den CAPTCHA-tjänst som tillhandahålls av Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Adaptiv Forms har en responsiv design. Dessa formulär ändrar utseende, design och interaktivitet baserat på den underliggande enheten. Du kan fortsätta att använda Adaptiv Forms på en mobil enhet samtidigt som du håller ett öga på månadsversionsinformationen för tillgängligheten för [!DNL AEM Forms]-appen. (AEM_FORMS_APP)
+* Adaptiv Forms har en responsiv design. Dessa formulär ändrar utseende, design och interaktivitet baserat på den underliggande enheten. Du kan fortsätta använda Adaptiv Forms på en mobil enhet. Leta efter månadsversionsinformation om du vill ha information om tillgängligheten för [!DNL AEM Forms]-appen. (AEM_FORMS_APP)
 
 * Migrera inte en AEM arbetsflödesmodell som använder ett Document Services-arbetsflödessteg. Migrera inte heller Adaptive Forms som skickar användardata till en arbetsflödesmodell som använder Document Services-arbetsflödessteg eller ändra Skicka-åtgärden till en [som stöds](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) innan du migrerar formuläret. (WORKFLOW_DOCSERVICES)
 
