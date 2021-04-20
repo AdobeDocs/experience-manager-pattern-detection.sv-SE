@@ -4,7 +4,7 @@ user-guide-title: Guide för mönsteridentifiering i Experience Manager
 breadcrumb-title: AEM mönsteravkänning
 user-guide-description: Läs om Adobe Experience Manager Mönsterupptäckt.
 feature-set: Experience Manager
-feature: Utvecklarverktyg
+feature: Developer Tools
 role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
