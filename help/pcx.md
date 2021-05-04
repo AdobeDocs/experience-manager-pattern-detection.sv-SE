@@ -1,20 +1,27 @@
 ---
 title: PCX
 description: Hjälpsida för mönsteravkännarkod
+exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 translation-type: tm+mt
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # PCX {#pcx}
 
 Sidkomplexitet
 
 ## Bakgrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_overview"
+>title="Sidkomplexitet"
+>abstract="PCX identifierar sidor som innehåller ett stort antal noder i sin struktur."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM som en Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM som Cloud Service - Versionsinformation"
 
 `PCX` identifierar sidor som innehåller ett stort antal noder i sin struktur.
 
@@ -28,6 +35,12 @@ Undertyper används för att identifiera olika typer av information:
 * Ett stort antal noder på en sida kan påverka återgivningsprestanda.
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_guidance"
+>title="Implementeringsvägledning"
+>abstract="Det bästa sättet är att granska innehållsstrukturen för att minska sidkomplexiteten, vilket resulterar i bättre sidåtergivningsprestanda. Kontakta Adobe Support för hjälp och förtydliganden"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Minska det totala antalet noder på en sida genom att utföra följande steg:
    * Kontrollera att det inte finns några onödiga behållare.
