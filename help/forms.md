@@ -1,20 +1,26 @@
 ---
 title: FORMULÄR
 description: Hjälpsida för mönsteravkännarkod
+exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## Bakgrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="Forms"
+>abstract="Forms-kod identifierar potentiella problem med migrering från Adobe Experience Manager Forms till Adobe Experience Manager Forms som Cloud Service. Granska eventuella konsekvenser och risker som är förknippade med detta och åtgärda dessa problem innan du migrerar till Cloud Servicen."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="Möjliga konsekvenser och risker"
 
 `FORMS` Identifierar potentiella problem relaterade till migrering från  [!DNL Adobe Experience Manager Forms] till  [!DNL Adobe Experience Manager Form]som en  [!DNL Cloud Service]fil. Åtgärda problemen innan du migrerar till [!DNL Cloud Service].
 
@@ -62,6 +68,12 @@ Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [M�
 * [Dokumenttjänststeg är inte ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) tillgängliga i AEM arbetsflöden. (WORKFLOW_DOCSERVICES)
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="Implementeringsvägledning"
+>abstract="Information som visas via FORMS-kod kan ge vägledning om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen. Kontakta Adobe Support för hjälp och förtydliganden"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Använd migreringsverktyget för att konvertera alla regelskript i miljön till återanvändbara funktioner. Du kan använda de återanvändbara funktionerna med redigeraren för visuell regel för att fortsätta hämta resultat som erhållits med regelskript. (CODE_EDITOR)
 
