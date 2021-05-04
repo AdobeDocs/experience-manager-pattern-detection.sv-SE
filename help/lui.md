@@ -1,20 +1,26 @@
 ---
 title: LUI
 description: Hjälpsida för mönsteravkännarkod
+exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '554'
 ht-degree: 2%
 
 ---
-
 
 # LUI {#lui}
 
 Äldre användargränssnitt
 
 ## Bakgrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_overview"
+>title="Äldre användargränssnitt"
+>abstract="LUI identifierar användningen av borttagna element i användargränssnittet som inte rekommenderas eller inte stöds i senare versioner av AEM och AEM som en Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM som en Cloud Service"
 
 `LUI` används för att använda inaktuella användargränssnittselement som inte rekommenderas eller som inte stöds i senare versioner av AEM och AEM som Cloud Service.
 
@@ -37,10 +43,23 @@ och egenskapsvärdet `sling:resourceType` inte innehåller
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_guidance"
+>title="Implementeringsvägledning"
+>abstract="Det klassiska användargränssnittet är inte längre tillgängligt i AEM som Cloud Service och standardgränssnittet för redigering är det användargränssnitt som har stöd för pekfunktioner. Bästa praxis är att flytta alla gränssnitt som inte stöds och länkade anpassningar bör omarbetas till nyare funktioner som är kompatibla med AEM som en Cloud Service. Kunderna kan utnyttja det befintliga AEM Moderniseringssviten för att minska den ansträngning som krävs för att modernisera AEM Sites implementeringar."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM Modernization Tools"
+
 * Det klassiska användargränssnittet är inte längre tillgängligt i AEM som Cloud Service. Standardgränssnittet för redigering är det pekaktiverade gränssnittet.
 * Om du förlitar dig på äldre anpassade komponenter kan underhållskostnaderna öka med tiden.
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_tools"
+>title="Verktyg och resurser"
+>abstract="Med hjälp av AEM Modernization Suite kan kunderna konvertera klassiska (ExtJS) dialogrutor till koralldialogrutor. Avsikten är att hjälpa kunderna att gå över från funktioner som inte stöds eller äldre till robusta, moderna AEM. De här verktygen är konfigurerbara, konfigureringsmedvetna och utökningsbara. Utforska även att ersätta anpassade komponenter med en uppsättning standardkomponenter för att snabba upp utvecklingstiden och minska underhållskostnaderna för dina program."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Komponentkonverterare"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kärnkomponenter"
 
 * Använd [AEM Moderniseringsverktyg](https://opensource.adobe.com/aem-modernize-tools/) för att minska den ansträngning som krävs för att modernisera AEM Sites-implementeringarna. Bland dessa verktyg finns konvertering av:
    * Klassiska (ExtJS) dialogrutor till koralldialogrutor
