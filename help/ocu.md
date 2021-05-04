@@ -1,20 +1,26 @@
 ---
 title: OCU
 description: Hjälpsida för mönsteravkännarkod
+exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 translation-type: tm+mt
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
-
 
 # OCU {#ocu}
 
 Inaktuell kodanvändning
 
 ## Bakgrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ocu_overview"
+>title="Inaktuell kodanvändning"
+>abstract="OCU identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM som en Cloud Service"
 
 `OCU` identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
 
@@ -26,6 +32,13 @@ Eftersom de gamla versionerna inte installeras som standard kanske kundapplikati
 * Vissa funktioner i kundprogrammet eller vissa AEM kanske inte fungerar som de ska eller kanske inte är aktiva efter en uppgradering.
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ocu_guidance"
+>title="Implementeringsvägledning"
+>abstract="Det bästa sättet är att granska och anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er. Kontakta Adobe Support för hjälp och förtydliganden."
+>additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Kortfristig: Installation av kompatibilitetspaket kan vara till hjälp.
 * Långsiktigt: Anpassa kundkoden till den senaste versionen av AEM eller API:er.
