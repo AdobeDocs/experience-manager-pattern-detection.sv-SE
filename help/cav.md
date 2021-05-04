@@ -1,14 +1,14 @@
 ---
 title: CAV
 description: Hjälpsida för mönsteravkännarkod
+exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 translation-type: tm+mt
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
+source-git-commit: 1966a3e83ab6b2247d9f1095c8965eac399e3b6e
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
-
 
 # CAV {#cav}
 
@@ -16,9 +16,15 @@ Felaktigt innehållsområde
 
 ## Bakgrund {#background}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_overview"
+>title="Felaktigt innehållsområde"
+>abstract="CAV-koden identifierar mönstret där olika innehållsområden används på ett sätt som bryter mot reglerna i innehållsklassificeringen. Den här överträdelsen ger dig en översikt över övertäckningar, begränsat innehåll som kan behöva ändras när vi går vidare till AEM som en Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Samla resurser"
+
 `CAV` identifierar mönstret där olika innehållsområden används på ett sätt som bryter mot reglerna i innehållsklassificeringen.
 
-Hanteringen av Sling-begäranden definierar hur innehållet i en resurs, i synnerhet egenskapen `sling:resourceType`, används för att avgöra vilket skript som ska användas för att återge innehållet. (Mer information finns i [Leta reda på skriptet](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html#locating-the-script).) Sling tillhandahåller också tekniker för åtkomst och sammanslagning av resurser via&quot;Övertäckningar&quot; och&quot;Åsidosättningar&quot;. Dessa beskrivs som en del av [Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html) och i [Overlays](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html).
+Hanteringen av Sling-begäranden definierar hur innehållet i en resurs, i synnerhet egenskapen `sling:resourceType`, används för att avgöra vilket skript som ska användas för att återge innehållet. Mer information finns i [Leta reda på skriptet](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html#locating-the-script). Sling tillhandahåller också tekniker för åtkomst och sammanslagning av resurser via&quot;Övertäckningar&quot; och&quot;Åsidosättningar&quot;. Dessa beskrivs som en del av [Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html) och i [Overlays](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html).
 
 För att göra det säkrare och enklare för kunderna att förstå vilka områden i `/libs` som är säkra att använda och täcka över innehållet i `/libs` har klassificerats med &quot;mixin&quot;-egenskaper: Offentlig, Abstract, Final och Internal. Varje klassificering innehåller regler om hur innehållet kan användas, ärvas eller överlagras. Se [Hållbara uppgraderingar](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html) för en detaljerad beskrivning.
 
@@ -28,6 +34,13 @@ För att göra det säkrare och enklare för kunderna att förstå vilka område
 * Säkerhetsuppdateringar gäller inte.
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_guidance"
+>title="Implementeringsvägledning"
+>abstract="Mönster som har identifierats med CAS där det finns olika brott mot innehållsområdet bör granskas. Klassificeringsområden för slutligt och internt innehåll bör undvikas. Kontakta Adobe Support för hjälp och förtydliganden."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Hållbara uppgraderingar"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Minimera användningen av innehållsövertäckning till de fall där den behövs.
 * Undvik framför allt överläggning av begränsat innehåll (slutlig och intern klassificering).
