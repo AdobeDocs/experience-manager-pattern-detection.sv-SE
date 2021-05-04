@@ -1,20 +1,25 @@
 ---
 title: CCOM
 description: Hjälpsida för mönsteravkännarkod
+exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # CCOM {#ccom}
 
 Egen komponent
 
 ## Bakgrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ccom_overview"
+>title="Egen komponent"
+>abstract="CCOM identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls i syfte att bedöma bästa praxis"
 
 `CCOM` identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
 
@@ -30,6 +35,13 @@ En undertyp används med den här koden för att identifiera komponentkategorin:
 * Bästa praxis är att minimera antalet anpassade komponenter, utnyttja kärnkomponenterna och använda huvudkomponenterna med Style System för att minska den tekniska skulden.
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ccom_guidance"
+>title="Implementeringsvägledning"
+>abstract="Bästa praxis är att minimera antalet anpassade komponenter, utnyttja kärnkomponenterna och använda huvudkomponenterna med Style System för att minska den tekniska skulden."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kärnkomponenter"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring" text="Formatsystem"
 
 * Mer information om kärnkomponenter finns i [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
 * Mer information om Style System finns på [Använda Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
