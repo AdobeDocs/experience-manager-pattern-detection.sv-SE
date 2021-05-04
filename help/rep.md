@@ -1,20 +1,27 @@
 ---
 title: REP
 description: Hjälpsida för mönsteravkännarkod
+exl-id: e788deba-a301-404f-8e90-51f721409e69
 translation-type: tm+mt
-source-git-commit: 7d05067fc624571e6fe520e2a1addd5dff8acbd8
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
-
 
 # [!DNL REP] {#rep}
 
 Replikeringsagent
 
 ## Bakgrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_rep_overview"
+>title="Replikeringsagent"
+>abstract="REP identifierar aktiverade replikeringsagenter. Dessa rapporteras på grund av risken för problem som bör åtgärdas vid uppgradering till AEM som Cloud Service. AEM som Cloud Service använder Sling Content Distribution för att distribuera innehåll från författare till publiceringsmiljöer. Detta görs utanför AEM med hjälp av pipelinetjänsten i Adobe I/O. Detta konfigureras automatiskt som en Cloud Service i den tilldelade AEM."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents" text="Betydande ändringar - AEM som en Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents" text="Utvecklingsriktlinjer"
 
 `REP` identifierar aktiverade replikeringsagenter. Dessa rapporteras på grund av risken för problem som bör åtgärdas vid uppgradering till AEM som Cloud Service.
 
@@ -28,6 +35,13 @@ AEM som Cloud Service använder [Sling Content Distribution](https://sling.apach
 * Du behöver inte konfigurera en separat utgivarrensningsagent. Detta konfigureras automatiskt som en Cloud Service i AEM.
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_rep_guidance"
+>title="Implementeringsvägledning"
+>abstract="Bästa praxis är att granska, omforma och optimera anpassade funktioner direkt beroende på replikeringsagenter och göra dem kompatibla med AEM som en Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication" text="Replikering - AEM som Cloud Service"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Se AEM som en Cloud Service [Utvecklingsriktlinjer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) och versionsinformation för [replikeringsagenter](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents).
 * Granska, omforma och optimera funktioner som är direkt beroende av replikeringsagenter för att utföra affärsuppgifter.
