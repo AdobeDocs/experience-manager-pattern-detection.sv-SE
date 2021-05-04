@@ -1,20 +1,26 @@
 ---
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
+exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # ASO {#aso}
 
 AEM - systemöversikt
 
 ## Bakgrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_overview"
+>title="AEM - systemöversikt"
+>abstract="ASO-koden identifierar allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation som kan vara till hjälp vid migreringsplanering och omfaktorisering."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM som Cloud Service - Versionsinformation"
 
 `ASO` används för att identifiera allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation.
 
@@ -35,6 +41,12 @@ Undertyper används för att identifiera olika typer av information:
 * Uppgradering med funktioner som inte stöds kan leda till en misslyckad uppgradering och ett icke-funktionellt program.
 
 ## Möjliga lösningar {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_guidance"
+>title="Implementeringsvägledning"
+>abstract="Information som visas via ASO-koden ger allmän information för din AEM, inklusive version, produkttillägg, information på systemnivå och denna bör granskas för alla produkter eller funktioner som inte stöds i AEM som en Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden."
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * AEM uppgraderingar med produkter eller funktioner som inte stöds rekommenderas inte och kanske inte stöds.
 * Läs [versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) om du vill veta mer om de senaste ändringarna i AEM som en Cloud Service.
