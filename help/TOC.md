@@ -6,9 +6,9 @@ user-guide-description: Läs om Adobe Experience Manager Mönsterupptäckt.
 feature-set: Experience Manager
 feature: Utvecklarverktyg
 role: Developer
-source-git-commit: aaa66b80725dc92fc3e21c198f820f0cf6255da5
+source-git-commit: 600ae605e2a3ce707fccca389e9474e6e74099d6
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 
 # Guide för mönsteridentifiering i Experience Manager {#table-of-contents}
 
++ [ACV](acv.md)
 + [ASO](aso.md)
 + [CAV](cav.md)
 + [CCL](ccl.md)
