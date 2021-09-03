@@ -2,10 +2,9 @@
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-translation-type: tm+mt
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -28,8 +27,8 @@ Undertyper används för att identifiera olika typer av information:
 
 * `aem.version`: Den AEM versionen.
 * `aem.product`: Upptäckt av användning av en AEM (handel, Forms osv.).
-* `node.count`: Det ungefärliga antalet noder av en viss typ (Sida, Resurs osv.).
-* `node.store`: Nodlagringens implementeringstyp (SegmentNodeStore, DocumentNodeStore).
+* `node.count`: Det ungefärliga antalet noder av en viss typ (Sida, Resurs osv.) och det totala antalet noder.
+* `node.store`: Nodlagringens implementeringstyp (SegmentNodeStore, DocumentNodeStore) och dess storlek.
 * `data.store`: Implementeringstypen för datalagret (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: En underhållsuppgift.
 * `slow.query`: En långsam fråga.
