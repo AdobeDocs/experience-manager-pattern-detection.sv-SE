@@ -2,9 +2,9 @@
 title: URS
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,16 @@ Databasstrukturen stöds inte
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Databasstrukturen stöds inte"
->abstract="URS identifierar fall av databasstruktur som inte stöds. Den här informationen används för att undvika konflikter mellan AEM produktkod och kundkod, och innehållet struktureras om från /etc till andra mappar i databasen med mera."
+>abstract="URS identifierar fall av databasstruktur och nodegenskaper som inte stöds. Den här informationen används för att undvika konflikter mellan AEM produktkod och kundkod, och innehållet struktureras om från /etc till andra mappar i databasen med mera."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Omstrukturering av lager"
 
 ## Bakgrund {#background}
 
-`URS` används för att identifiera fall där databasstrukturen inte stöds. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod och undvika konflikter mellan dem, struktureras innehållet om från `/etc` till andra mappar i databasen, enligt följande högnivåregler:
+`URS` identifierar fall av databasstruktur och nodegenskaper som inte stöds. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod och undvika konflikter mellan dem, struktureras innehållet om från `/etc` till andra mappar i databasen, enligt följande högnivåregler:
 
-* AEM produktkod placeras alltid i `/libs`, som inte får skrivas över av anpassad kod. Anpassad kod ska placeras i `/apps`, `/content` och `/conf`.
+* AEM produktkod placeras alltid i `/libs`, som inte får skrivas över av anpassad kod.
+* Anpassad kod ska placeras i `/apps`, `/content` och `/conf`.
+* AEM som Cloud Service stöder inte långa nodnamn (>150 byte).
 * Vi rekommenderar starkt att dessa riktlinjer följs för AEM som Cloud Service.
 
 Undertyper används för att identifiera specifika typer av databasproblem som ska åtgärdas:
