@@ -2,9 +2,9 @@
 title: URS
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
+source-git-commit: 3e14d73acbe480dd861f492c24f67ffc37b1090d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,21 @@ Databasstrukturen stöds inte
 
 ## Bakgrund {#background}
 
-`URS` identifierar fall av databasstruktur och nodegenskaper som inte stöds. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod och undvika konflikter mellan dem, struktureras innehållet om från `/etc` till andra mappar i databasen, enligt följande högnivåregler:
+`URS` identifierar fall av databasstruktur och nodegenskaper som inte stöds. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod och undvika konflikter mellan dem struktureras innehållet om från `/etc` till andra mappar i databasen enligt följande högnivåregler:
 
 * AEM produktkod placeras alltid i `/libs`, som inte får skrivas över av anpassad kod.
 * Anpassad kod ska placeras i `/apps`, `/content` och `/conf`.
-* AEM som Cloud Service stöder inte långa nodnamn (>150 byte).
-* Vi rekommenderar starkt att dessa riktlinjer följs för AEM som Cloud Service.
+* AEM as a Cloud Service stöder inte långa nodnamn (>150 byte).
+* Vi rekommenderar starkt att dessa riktlinjer följs AEM as a Cloud Service.
 
 Undertyper används för att identifiera specifika typer av databasproblem som ska åtgärdas:
-* `clientlibs.location`: Ett klientbibliotek som refererar  `/etc` via sökväg.
-* `file.location`: En fil under  `/etc` som har ändrats sedan installationen.
-* `node.location`: En nod under  `/etc` som har ändrats sedan installationen.
-* `workflow.location`: En arbetsflödesmodell eller startfunktion under  `/etc/workflow`.
+* `clientlibs.location`: Ett klientbibliotek som refererar `/etc` efter bana.
+* `file.location`: En fil under `/etc` som har ändrats sedan installationen.
+* `node.location`: En nod under `/etc` som har ändrats sedan installationen.
+* `workflow.location`: En arbetsflödesmodell eller startfunktion under `/etc/workflow`.
 * `package.structure`: Ett paket som innehåller både ändringsbart och oföränderligt innehåll.
 * `node.name.length`: Ett nodnamn med en längd som inte stöds.
+* `node.size`: En nod med en storlek som inte stöds.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -46,11 +47,11 @@ Undertyper används för att identifiera specifika typer av databasproblem som s
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Implementeringsvägledning"
->abstract="Det bästa sättet är att granska kodprojektet och se till att det följer riktlinjerna för AEM projektstruktur och undvika att koden förlitar sig på äldre/databassökvägar som inte stöds, vilket kan orsaka oönskat beteende i AEM som en Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
+>abstract="Det bästa sättet är att granska kodprojektet och se till att det följer riktlinjerna för AEM projektstruktur och undvika att koden förlitar sig på äldre/databassökvägar som inte stöds, vilket kan orsaka oönskat beteende i AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEM riktlinjer för projektstruktur"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Se [Databasomstrukturering](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) för vägledning om hur du förbereder dig för AEM som Cloud Service.
-* Se även [AEM projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) för mer information om ändringsbara och oföränderliga områden i databasen.
-* Kontakta vårt [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
-* Dra nytta av [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) för att strukturera om befintliga projektpaket genom att separera innehåll och kod i diskreta paket som är kompatibla med den projektstruktur som har definierats för Adobe Experience Manager som en Cloud Service.
+* Se [Omstrukturering av lager](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) för att ta fram riktlinjer för AEM as a Cloud Service.
+* Se även [AEM projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) om du vill veta mer om ändringsbara och oföränderliga områden i databasen.
+* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Utnyttja [Databasmodernisering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) att strukturera om befintliga projektpaket genom att separera innehåll och kod i separata paket som är kompatibla med projektstrukturen som definierats för Adobe Experience Manager as a Cloud Service.
