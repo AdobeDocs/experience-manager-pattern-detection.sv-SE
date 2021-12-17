@@ -4,9 +4,9 @@ user-guide-title: Guide för mönsteridentifiering i Experience Manager
 breadcrumb-title: AEM mönsteravkänning
 user-guide-description: Läs om Adobe Experience Manager Mönsterupptäckt.
 feature-set: Experience Manager
-feature: Utvecklarverktyg
+feature: Developer Tools
 role: Developer
-source-git-commit: 600ae605e2a3ce707fccca389e9474e6e74099d6
+source-git-commit: cf5f2f8a9bcc4d745f424570875d21001e2f26f6
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%
@@ -21,6 +21,7 @@ ht-degree: 0%
 + [CAV](cav.md)
 + [CCL](ccl.md)
 + [CCOM](ccom.md)
++ [CIF](cif.md)
 + [CTEM](ctem.md)
 + [DG](dg.md)
 + [DM](dm.md)
@@ -33,13 +34,14 @@ ht-degree: 0%
 + [LUI](lui.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
++ [NCC](ncc.md)
 + [OAUI](oaui.md)
 + [OCU](ocu.md)
 + [OID](oid.md)
++ [OU](ou.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
 + [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
 + [ARRK](wrk.md)
-+ [CIF](cif.md)

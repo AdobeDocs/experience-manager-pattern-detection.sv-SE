@@ -1,27 +1,26 @@
 ---
-title: OCU
+title: OU
 description: Hjälpsida för mönsteravkännarkod
-exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-# OCU {#ocu}
+# OU {#ou}
 
-INAKTUELL: Inaktuell kodanvändning (ersatt av OU, inaktuell användning)
+Inaktuell användning
 
 ## Bakgrund {#background}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_overview"
->title="Inaktuell kodanvändning"
->abstract="OCU identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls."
+>id="aemcloud_bpa_ou_overview"
+>title="Inaktuell användning"
+>abstract="OU identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM as a Cloud Service"
 
-`OCU` identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
+`OU` identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
 
 Eftersom de gamla versionerna inte installeras som standard kanske kundapplikationen inte fungerar som den ska.
 
@@ -33,7 +32,7 @@ Eftersom de gamla versionerna inte installeras som standard kanske kundapplikati
 ## Möjliga lösningar {#solutions}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_guidance"
+>id="aemcloud_bpa_ou_guidance"
 >title="Implementeringsvägledning"
 >abstract="Det bästa sättet är att granska och anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er. Kontakta Adobe Support för hjälp och förtydliganden."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
