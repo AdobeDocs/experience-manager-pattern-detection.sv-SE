@@ -1,8 +1,8 @@
 ---
 title: ACV
 description: Hjälpsida för mönsteravkännarkod
-exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
-source-git-commit: 66489471aef923c6ab7e02acbab5f941b6459000
+exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
+source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -19,10 +19,10 @@ Assets Content Validator
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV identifierar de saknade obligatoriska noderna i resursinnehållet."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Betydande ändringar - Experience Manager som Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager som Cloud Service - Versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Betydande ändringar - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager as a Cloud Service - versionsinformation"
 
-`ACV`  Resursens innehållsvaliderare identifierar de saknade obligatoriska noderna i resursinnehållet. Detta kan leda till att vissa Assets-funktioner på Experience Manager inte fungerar som Cloud Service.
+`ACV`  Resursens innehållsvaliderare identifierar de saknade obligatoriska noderna i resursinnehållet. Detta kan leda till fel på vissa Assets-funktioner på Experience Manager as a Cloud Service.
 
 Undertyper används för att identifiera olika typer av information, t.ex.:
 
@@ -31,7 +31,7 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
-* Detta kan leda till fel på vissa resursfunktioner som är beroende av ärvda egenskaper i Experience Manager som en Cloud Service.
+* Detta kan leda till fel på vissa resursfunktioner som är beroende av ärvda egenskaper i Experience Manager as a Cloud Service.
 * AEM Assets är beroende av den ursprungliga återgivningen. Resursbearbetningen i Cloud Servicen kommer att hamna i en slinga om den ursprungliga återgivningen saknas.
 
 ## Möjliga lösningar {#solutions}
@@ -44,4 +44,4 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 
 * Analysera en mapp om den saknar en underordnad nod. Skapa noderna manuellt om det går att hantera antalet mappar. Använd i annat fall ett skript.
 * För resurser som saknar den ursprungliga återgivningen kan du antingen överföra resurserna igen eller ta bort dem innan du migrerar.
-* Kontakta vårt [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Nå ut till [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
