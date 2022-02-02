@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
+source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,14 @@ Undertyper används för att identifiera olika typer av information:
 * `maintenance.task`: En underhållsuppgift.
 * `slow.query`: En långsam fråga.
 * `group.membership`: Antalet användare och undergrupper (endast direkta/deklarerade medlemmar) i en grupp.
+* `cqtag.count`: Antalet CQ-taggade resurser.
+* `smarttag.count`: Antalet resurser med smarta taggar.
+* `ccom.version`: Versionen av Core Component-paketet.
+* `instance.type`: AEM instanstyp (författare|publicera).
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
-* AEM, nodantal, gruppmedlemskap och implementeringstyper för nodarkiv och datalager tillhandahålls i informationssyfte.
+* AEM, antal noder, gruppmedlemskap, nodbutik, implementeringstyper för datalager, CQ-taggantal, antal smarta taggar, Core Component version och AEM instanstyp tillhandahålls i informationssyfte.
 * Det anpassade programmet kan förlita sig på produkter eller funktioner som inte finns i AEM as a Cloud Service.
 * Uppgradering med funktioner som inte stöds kan leda till en misslyckad uppgradering och ett icke-funktionellt program.
 
