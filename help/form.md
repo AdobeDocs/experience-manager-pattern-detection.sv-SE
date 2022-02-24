@@ -2,7 +2,7 @@
 title: FORMULÄR
 description: Hjälpsida för mönsteravkännarkod
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
+source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -58,9 +58,9 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * CAPTCHA-komponenten använder nu Google reCAPTCHA-tjänsten som standard för att validera CAPTCHA. Alternativet att använda Adobe Experience Manager för att validera CAPTCHA är föråldrat. (FORMS_CAPTCHA)
 
-* [Dokumenttjänster](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) steg är inte tillgängliga i AEM arbetsflöden. (WORKFLOW_DOCSERVICES)
-
 * [!DNL AEM Forms] app är inte tillgänglig för [!DNL Cloud Services]. (AEM_FORMS_APP)
+
+* [Dokumenttjänster](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) steg är inte tillgängliga i AEM arbetsflöden. (WORKFLOW_DOCSERVICES)
 
 ## Möjliga lösningar {#solutions}
 
@@ -94,8 +94,8 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Migrera inte en AEM arbetsflödesmodell som använder ett Document Services-arbetsflödessteg. Migrera inte och uppdatera inte heller Adaptive Forms som skickar användardata till en arbetsflödesmodell som använder Document Services-arbetsflödessteg, eller ändra Skicka-åtgärden till en [stöds en](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) innan formuläret migreras. (WORKFLOW_DOCSERVICES)
 
-* Stöd för XFA-baserad Adaptive Forms finns inte direkt tillgängligt. Om du tänker använda XFA-baserad Adaptive Forms kontaktar du Adobe Support med information om ditt användningsfall och specifika krav.(XFA_BASED_FORM, XDP_BASED_FORM)
-
 * Adaptiv Forms har en responsiv design. Dessa formulär ändrar utseende, design och interaktivitet baserat på den underliggande enheten. Du kan fortsätta använda Adaptiv Forms på en mobil enhet. Leta efter månadsversionsinformation för information om tillgängligheten för [!DNL AEM Forms] app. (AEM_FORMS_APP)
+
+* Stöd för XFA-baserad Adaptive Forms finns inte direkt tillgängligt. Om du tänker använda XFA-baserad Adaptive Forms kontaktar du Adobe Support med information om ditt användningsfall och specifika krav.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Nå ut till [Stöd för Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
