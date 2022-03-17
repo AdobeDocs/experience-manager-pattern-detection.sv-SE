@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
+source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Undertyper används för att identifiera olika typer av information:
 * `ccom.version`: Versionen av Core Component-paketet.
 * `instance.type`: AEM instanstyp (författare|publicera).
 * `unprocessed.asset.count`: Antalet obearbetade resurser.
+* `vanity.url.count`: Antal mål-URL:er.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
