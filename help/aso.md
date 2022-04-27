@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
+source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,8 @@ Undertyper används för att identifiera olika typer av information:
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
-* AEM, antal noder, gruppmedlemskap, nodbutik, implementeringstyper för datalager, CQ-taggantal, antal smarta taggar, Core Component version och AEM instanstyp tillhandahålls i informationssyfte.
+* AEM, antal noder, gruppmedlemskap, nodbutik, implementeringstyper för datalager, CQ-taggantal, antal smarta taggar, kärnkomponentversion, AEM instanstyp och antal obearbetade resurser tillhandahålls i informationssyfte.
+* Det högre antalet tillfälliga URL:er (>1000) kan göra att Dispatcher och Publish-servrarna laddas med dyra frågor.
 * Det anpassade programmet kan förlita sig på produkter eller funktioner som inte finns i AEM as a Cloud Service.
 * Uppgradering med funktioner som inte stöds kan leda till en misslyckad uppgradering och ett icke-funktionellt program.
 
@@ -55,5 +56,7 @@ Undertyper används för att identifiera olika typer av information:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * AEM uppgraderingar med produkter eller funktioner som inte stöds rekommenderas inte och kanske inte stöds.
+* De obearbetade resurserna måste bearbetas och egenskapen dam:assetState på noden jcr:content i resursen måste ställas in på&quot;bearbetad&quot; eller ta bort dessa resurser från migreringsuppsättningen innan de migreras till AEMaaCS.
+* Vanity-URL:er kan ersättas med Apache Rewrites.
 * Granska [versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) om du vill veta mer om de senaste förändringarna AEM as a Cloud Service.
 * Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
