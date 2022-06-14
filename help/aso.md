@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,7 @@ Undertyper används för att identifiera olika typer av information:
 * `instance.type`: AEM instanstyp (författare|publicera).
 * `unprocessed.asset.count`: Antalet obearbetade resurser.
 * `vanity.url.count`: Antal mål-URL:er.
+* `index.size`: Total storlek på index för Lucene som kan migreras.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
