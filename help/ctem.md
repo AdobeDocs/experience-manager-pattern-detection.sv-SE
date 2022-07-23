@@ -2,8 +2,7 @@
 title: CTEM
 description: Hjälpsida för mönsteravkännarkod
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-translation-type: tm+mt
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 9a993a5cf078e5bc61cb5d314d2a15abcbd33f2a
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -44,10 +43,10 @@ Mallar identifieras av ett primärt typvärde för &quot;cq:Template&quot;. En u
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="Verktyg och resurser"
->abstract="Med hjälp av AEM Modernization Suite kan kunderna ändra strukturen på en sida från en statisk definition till en redigerbar mall. Avsikten är att hjälpa kunderna att gå över från de begränsade funktionerna i de gamla funktionerna till de robusta, moderna AEM. De här verktygen är konfigurerbara, konfigureringsmedvetna och utökningsbara. Kontakta Adobe Support för hjälp och förtydliganden"
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="Sidstrukturkonverterare"
+>abstract="Med hjälp av AEM Modernization Suite kan kunderna ändra strukturen på en sida från en statisk definition till en redigerbar mall. Avsikten är att hjälpa kunderna att gå över från de begränsade funktionerna i de gamla funktionerna till de robusta, moderna AEM. Dessa verktyg är konfigurerbara, konfigureringsmedvetna och utökningsbara. Kontakta Adobe Support för hjälp och förtydliganden"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Sidstrukturkonverterare"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Utnyttja [AEM Moderniseringsverktyg](https://opensource.adobe.com/aem-modernize-tools/) för att migrera statiska mallar till redigerbara mallar.
-* Mer information om redigerbara mallar finns i [Mallar](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
-* Kontakta vårt [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Utnyttja [AEM](https://opensource.adobe.com/aem-modernize-tools/) för att migrera statiska mallar till redigerbara mallar.
+* Mer information om redigerbara mallar finns på [Mallar](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
+* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
