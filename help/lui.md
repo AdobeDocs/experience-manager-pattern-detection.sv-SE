@@ -2,7 +2,7 @@
 title: LUI
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
+source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 1%
@@ -57,8 +57,8 @@ Undertyper används för att identifiera olika typer av element i användargrän
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Verktyg och resurser"
->abstract="Med hjälp av AEM Modernization Suite kan kunderna konvertera klassiska (ExtJS) dialogrutor till koralldialogrutor. Avsikten är att hjälpa kunderna att gå över från funktioner som inte stöds eller äldre till robusta, moderna AEM. De här verktygen är konfigurerbara, konfigureringsmedvetna och utökningsbara. Utforska även att ersätta anpassade komponenter med en uppsättning standardkomponenter för att snabba upp utvecklingstiden och minska underhållskostnaderna för dina program."
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Komponentkonverterare"
+>abstract="Med hjälp av AEM Modernization Suite kan kunderna konvertera klassiska (ExtJS) dialogrutor till koralldialogrutor. Avsikten är att hjälpa kunderna att gå över från funktioner som inte stöds eller äldre till robusta, moderna AEM. Dessa verktyg är konfigurerbara, konfigureringsmedvetna och utökningsbara. Utforska även att ersätta anpassade komponenter med en uppsättning standardkomponenter för att snabba upp utvecklingstiden och minska underhållskostnaderna för dina program."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Komponentkonverterare"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kärnkomponenter"
 
 * Utnyttja [AEM Moderniseringsverktyg](https://opensource.adobe.com/aem-modernize-tools/) för att minska den ansträngning som krävs för att modernisera era AEM Sites-implementeringar. Bland dessa verktyg finns konvertering av:
