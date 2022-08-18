@@ -2,9 +2,9 @@
 title: LUI
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
+source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ Undertyper används för att identifiera olika typer av element i användargrän
    * Mallar för innehållsfragment finns på följande platser:
       * Innehållsfragmentmallar som ligger utanför ramarna lagras i `/libs/settings/dam/cfm/templates`
       * De kan överlappas av  `/apps/settings/dam/cfm/templates`  eller  `/conf/.../settings/dam/cfm/templates`(... = global eller &quot;tenant&quot;)
+* `translation.dictionary`: I18n-ordlistan finns under /apps.
+   * /apps är oföränderlig vid körning och translator.html är inte längre tillgänglig i AEM som en molntjänst.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -51,6 +53,7 @@ Undertyper används för att identifiera olika typer av element i användargrän
 * Det klassiska användargränssnittet är inte längre tillgängligt på AEM as a Cloud Service. Standardgränssnittet för redigering är det pekaktiverade gränssnittet.
 * Om du förlitar dig på äldre anpassade komponenter kan underhållskostnaderna öka med tiden.
 * Mallar för innehållsfragment ersattes av innehållsfragmentmodeller i AEM 6.3. Om du migrerar innehållsfragment som är baserade på äldre mallar till AEM as a Cloud Service bevaras dessa fragment som funktionella, men det går inte att skapa nya fragment som är baserade på den äldre mallen. Det går inte heller att leverera dessa fragment med AEM GraphQL, som kräver innehållsfragmentmodeller som scheman.
+* /apps är oföränderlig vid körning och translator.html är inte längre tillgänglig i AEM som en molntjänst. I18n-ordlistor måste därför komma från Git via CI/CD-flödet.
 
 ## Möjliga lösningar {#solutions}
 
@@ -68,4 +71,5 @@ Undertyper används för att identifiera olika typer av element i användargrän
    * Designa och utforma dialogrutor till redigerbara mallprofiler
 * Granska projektets anpassade komponentbibliotek och överför om möjligt till uppsättningen standardiserade [Kärnkomponenter](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) för att snabba upp utvecklingstiden och minska underhållskostnaderna för dina program.
 * Vi rekommenderar att du skapar innehållsfragmentmodeller med funktioner som är likvärdiga med de gamla mallarna och använder dessa modeller för att skapa innehållsfragment som går framåt.Mer information finns i [Modeller för innehållsfragment](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) för mer information.
+* I18n-ordlistor måste komma från Git via CI/CD-flödet. [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
 * Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
