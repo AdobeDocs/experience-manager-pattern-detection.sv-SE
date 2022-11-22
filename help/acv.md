@@ -2,9 +2,9 @@
 title: ACV
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
+source-git-commit: e7096efc1d9da7f5aad5a5b353ba622c879cc4a5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,19 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Betydande ändringar - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager as a Cloud Service - versionsinformation"
 
-`ACV`  Resursens innehållsvaliderare identifierar de saknade obligatoriska noderna i resursinnehållet. Detta kan leda till fel på vissa Assets-funktioner på Experience Manager as a Cloud Service.
+`ACV`  Resursens innehållsvaliderare identifierar de saknade obligatoriska noderna och felen i resursinnehållet. Detta kan leda till fel på vissa Assets-funktioner på Experience Manager as a Cloud Service.
 
 Undertyper används för att identifiera olika typer av information, t.ex.:
 
 * `missing.jcrcontent`: Identifiera mappar där obligatoriska noder saknas i databasen. Om du identifierar innehåll som saknas i databasen kan du förhindra att funktioner som inte fungerar fungerar eller att använda dem.
-* `missing.original.rendition`: Identifiera resurserna med en obligatorisk ursprunglig återgivning som saknas i databasen.
+* `missing.original.rendition`: Identifiera resurserna med en obligatorisk ursprunglig återgivning som saknas i databasen. Observera att det inte krävs någon generering av underresurser i AEMaaCS för att förhandsgranska PDF-sidor. Därför ignoreras rapportering av underresurser som saknar ursprunglig återgivning för PDF-resurser.
+* `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under objektets metadatanod i databasen.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
 * Detta kan leda till fel på vissa resursfunktioner som är beroende av ärvda egenskaper i Experience Manager as a Cloud Service.
-* AEM Assets är beroende av den ursprungliga återgivningen. Resursbearbetningen i Cloud Servicen kommer att hamna i en slinga om den ursprungliga återgivningen saknas.
+* AEM Assets är beroende av den ursprungliga återgivningen. Resursbearbetningen i Cloud Servicen kommer att hamna i en slinga om den ursprungliga återgivningen saknas. Generering av delresurser stöds inte i AEMaaCS.
+* Ett stort antal underordnade under metadatanoden kan göra inläsningen av mappar som består av resurser som bryter mot detta kan gå långsammare.
 
 ## Möjliga lösningar {#solutions}
 
@@ -44,4 +46,5 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 
 * Analysera en mapp om den saknar en underordnad nod. Skapa noderna manuellt om det går att hantera antalet mappar. Använd i annat fall ett skript.
 * För resurser som saknar den ursprungliga återgivningen kan du antingen överföra resurserna igen eller ta bort dem innan du migrerar.
+* Ingen åtgärd krävs för den ursprungliga återgivningen av underresurser som saknas.
 * Nå ut till [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
