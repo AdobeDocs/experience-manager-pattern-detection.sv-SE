@@ -2,9 +2,9 @@
 title: ACV
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 0a6b0f8f2b64bf1c966b8f282a2205f2772afe3f
+source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 * `missing.original.rendition`: Identifiera resurserna med en obligatorisk ursprunglig återgivning som saknas i databasen. Observera att det inte krävs någon generering av underresurser i AEMaaCS för att förhandsgranska PDF-sidor. Därför ignoreras rapportering av underresurser som saknar ursprunglig återgivning för PDF-resurser.
 * `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under objektets metadatanod i databasen.
 * `conflict.node`: Identifiera om det finns konfliktnoder i databasen under /content/dam/ path.
+* `psb.file.large`: Identifiera stora PSB-filer (dc:format: application/vnd.3gpp.pic-bw-small) som är större än 2 gigabyte.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -37,6 +38,7 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 * AEM Assets är beroende av den ursprungliga återgivningen. Resursbearbetningen i Cloud Servicen kommer att hamna i en slinga om den ursprungliga återgivningen saknas. Generering av delresurser stöds inte i AEMaaCS.
 * Ett stort antal underordnade under metadatanoden kan göra inläsningen av mappar som består av resurser som bryter mot detta kan gå långsammare.
 * Om det finns noder med konflikt kan det leda till att det inte går att ta emot på AEM as a Cloud Service.
+* Experience Manager kanske inte bearbetar PSB-filer med hög upplösning. Kunder som använder ImageMagick för att bearbeta stora filer kan drabbas av prestandan om inte Experience Manager-servern testas korrekt.
 
 ## Möjliga lösningar {#solutions}
 
@@ -50,4 +52,5 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 * För resurser som saknar den ursprungliga återgivningen kan du antingen överföra resurserna igen eller ta bort dem innan du migrerar.
 * Ingen åtgärd krävs för den ursprungliga återgivningen av underresurser som saknas.
 * Om det finns noder i konflikt bör de antingen lösas eller tas bort innan du migrerar till AEM as a Cloud Service.
+* Kontakta Adobe kundsupport om du tänker bearbeta många stora PSD- eller PSB-filer. Det går inte att bearbeta PSB-filer med hög upplösning som är större än 30000 x 23000 pixlar i Experience Manager. Se [dokumentation](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
 * Nå ut till [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
