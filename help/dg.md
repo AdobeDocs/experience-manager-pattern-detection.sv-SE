@@ -2,9 +2,9 @@
 title: DG
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
+source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 * `maintenance.task.configuration`: Konfigurationen av en viss periodisk underhållsaktivitet.
 * `sling.commons.scheduler`: Användning av API:t för Sling Commons Scheduler för en schemalagd aktivitet.
 * `unsupported.asset.api`: Användning av Asset Manager-API:er som inte stöds i programkoden.
+* `javax.jcr.observation.EventListener`: Användning av händelseavlyssnare i programkod.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -51,6 +52,10 @@ Undertyper används för att identifiera olika typer av identifierade överträd
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
+
+* `javax.jcr.observation.EventListener`
+   * Program som är beroende av händelseavlyssnaren kanske inte fungerar som förväntat eftersom körningen inte kan garanteras.
+
 
 ## Möjliga lösningar {#solutions}
 
@@ -75,4 +80,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `unsupported.asset.api`
    * Använd inte de API:er för Asset Manager som inte stöds [aem-upload](https://github.com/adobe/aem-upload).
+
+* `javax.jcr.observation.EventListener`
+   * I stället för att använda händelseavlyssnaren bör du ändra händelsehanteringsmekanismen till [Försäljningsjobb](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) eftersom det garanterar behandlingen.
 * Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
