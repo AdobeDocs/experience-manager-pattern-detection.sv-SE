@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
+source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ Undertyper används för att identifiera olika typer av information:
 * `unprocessed.asset.count`: Antalet obearbetade resurser.
 * `vanity.url.count`: Antal mål-URL:er.
 * `index.size`: Total storlek på index för Lucene som kan migreras.
+* `workflow.count`: Antal författararbetsflöden i körnings- och inkörningstillstånd.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -47,6 +48,7 @@ Undertyper används för att identifiera olika typer av information:
 * Det högre antalet tillfälliga URL:er (>1000) kan göra att Dispatcher och Publish-servrarna laddas med dyra frågor.
 * Det anpassade programmet kan förlita sig på produkter eller funktioner som inte finns i AEM as a Cloud Service.
 * Uppgradering med funktioner som inte stöds kan leda till en misslyckad uppgradering och ett icke-funktionellt program.
+* Ett stort antal arbetsflöden för författare i kört eller inaktuellt tillstånd kan försämra prestanda.
 
 ## Möjliga lösningar {#solutions}
 
