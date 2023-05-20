@@ -2,7 +2,6 @@
 title: DM
 description: Hjälpsida för mönsteravkännarkod
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-translation-type: tm+mt
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
 source-wordcount: '201'
@@ -41,12 +40,12 @@ En undertyp används med den här koden:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Implementeringsvägledning"
->abstract="AEM som Cloud Service har endast stöd för körningsläget dynamicmedia_scene7. Granska de aktuella inställningarna och kontakta Adobe Support Team för hjälp och förtydliganden."
+>abstract="AEM as a Cloud Service stöder bara körningsläget dynamicmedia_scene7. Granska de aktuella inställningarna och kontakta Adobe Support Team för hjälp och förtydliganden."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Installera Dynamic Media"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 
 * `dynamic.media.runmode`
-   * Mer information finns i [Konfigurera Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html).
+   * Mer information finns på [Konfigurera Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html).
 
-* Kontakta vårt [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

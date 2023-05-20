@@ -2,7 +2,6 @@
 title: CCOM
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-translation-type: tm+mt
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
 source-wordcount: '270'
@@ -43,6 +42,6 @@ En undertyp används med den här koden för att identifiera komponentkategorin:
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kärnkomponenter"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring" text="Formatsystem"
 
-* Mer information om kärnkomponenter finns i [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
-* Mer information om Style System finns på [Använda Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
-* Kontakta vårt [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Mer information om kärnkomponenter finns på [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
+* Mer information om Style System finns på [Använda formatsystemet](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
+* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

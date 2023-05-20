@@ -2,7 +2,6 @@
 title: PCX
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-translation-type: tm+mt
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
 source-wordcount: '227'
@@ -20,8 +19,8 @@ Sidkomplexitet
 >id="aemcloud_bpa_pcx_overview"
 >title="Sidkomplexitet"
 >abstract="PCX identifierar sidor som innehåller ett stort antal noder i sin struktur."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM som en Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM som Cloud Service - Versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - versionsinformation"
 
 `PCX` identifierar sidor som innehåller ett stort antal noder i sin struktur.
 
@@ -48,4 +47,4 @@ Undertyper används för att identifiera olika typer av information:
    * Förenkla sidinnehållet.
    * Minska djupet i nodstrukturen.
    * Spärra eventuella medföljande upplevelsefragment för enkelhetens skull.
-* Kontakta vårt [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

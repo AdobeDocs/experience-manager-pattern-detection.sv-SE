@@ -1,7 +1,6 @@
 ---
 title: MALL
 description: Hjälpsida för Mönsteravkännarens kod
-translation-type: tm+mt
 source-git-commit: 79561c1f0f5bab7c070557e3fd950c728c33e79c
 workflow-type: tm+mt
 source-wordcount: '121'
@@ -34,4 +33,4 @@ Svara på frågan: &quot;Vad kan jag göra åt det?&quot;
 
 * möjlig lösning nr 1
 * möjlig lösning nr 2
-* Kontakta vårt [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

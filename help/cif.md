@@ -1,7 +1,8 @@
 ---
 title: CIF
 description: Hjälpsida för mönsteravkännarkod
-source-git-commit: b611b595267e60df8a15511a8a2b4b30b601df1b
+exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
+source-git-commit: d50f278a5b74b625b650bca7af67dfd77283ad9e
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
