@@ -4,7 +4,7 @@ description: Hjälpsida för mönsteravkännarkod
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
