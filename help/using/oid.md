@@ -2,7 +2,7 @@
 title: OID
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Oak Index-definition
 
 Undertyper används för att identifiera olika typer av information:
 
-* `index.rule.violation`: Ett anpassat Oak-index är inkompatibelt med AEM as a Cloud Service.
+* `index.rule.violation`: Ett anpassat Oak-index är inkompatibelt med AEM as a Cloud Service
 * `standard.index.modification`: En ändring av ett standardekindexvärde.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
