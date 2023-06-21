@@ -2,9 +2,9 @@
 title: URS
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Undertyper används för att identifiera specifika typer av databasproblem som s
 * `node.location`: En nod under `/etc` som har ändrats sedan installationen.
 * `workflow.location`: En arbetsflödesmodell eller startfunktion under `/etc/workflow`.
 * `package.structure`: Ett paket som innehåller både ändringsbart och oföränderligt innehåll.
-* `node.name.length`: Ett nodnamn med en längd som inte stöds.
 * `node.size`: En nod med en storlek som inte stöds.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
