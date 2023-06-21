@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ Undertyper används för att identifiera olika typer av information:
 * Det anpassade programmet kan förlita sig på produkter eller funktioner som inte finns i AEM as a Cloud Service.
 * Uppgradering med funktioner som inte stöds kan leda till en misslyckad uppgradering och ett icke-funktionellt program.
 * Ett stort antal arbetsflöden för författare i kört eller inaktuellt tillstånd kan försämra prestanda.
+* Långsamma frågor kan försämra systemets prestanda.
 
 ## Möjliga lösningar {#solutions}
 
@@ -61,5 +62,6 @@ Undertyper används för att identifiera olika typer av information:
 * AEM uppgraderingar med produkter eller funktioner som inte stöds rekommenderas inte och kanske inte stöds.
 * De obearbetade resurserna måste bearbetas och egenskapen dam:assetState på noden jcr:content i resursen måste ställas in på&quot;bearbetad&quot; eller ta bort dessa resurser från migreringsuppsättningen innan de migreras till AEMaaCS.
 * Vanity-URL:er kan ersättas med Apache Rewrites.
+* Se [dokumentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) för felsökning av långsamma frågor.
 * Granska [versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) om du vill veta mer om de senaste förändringarna AEM as a Cloud Service.
 * Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
