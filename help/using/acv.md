@@ -2,9 +2,9 @@
 title: ACV
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 * `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under objektets metadatanod i databasen.
 * `conflict.node`: Identifiera om det finns konfliktnoder i databasen under /content/dam/ path.
 * `psb.file.large`: Identifiera stora PSB-filer (dc:format: application/vnd.3gpp.pic-bw-small) som är större än 2 gigabyte.
+* `invalid.asset.name`: Identifiera resurser med ogiltiga tecken[* / : [\] | # % { } ? &amp;] i namnet.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 * Ett stort antal underordnade under metadatanoden kan göra inläsningen av mappar som består av resurser som bryter mot detta kan gå långsammare.
 * Om det finns noder med konflikt kan det leda till att det inte går att ta emot på AEM as a Cloud Service.
 * Experience Manager kanske inte bearbetar PSB-filer med hög upplösning. Kunder som använder ImageMagick för att bearbeta stora filer kan drabbas av prestandan om inte Experience Manager-servern testas korrekt.
+* Ogiltiga tecken i resursnamnet kan leda till fel vid migrering till AEM as a Cloud Service.
 
 ## Möjliga lösningar {#solutions}
 
