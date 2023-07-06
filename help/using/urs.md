@@ -2,9 +2,9 @@
 title: URS
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Databasstrukturen stöds inte
 
 * AEM produktkod placeras alltid i `/libs`, som inte får skrivas över av anpassad kod.
 * Anpassad kod ska placeras i `/apps`, `/content` och `/conf`.
-* AEM as a Cloud Service stöder inte långa nodnamn (>150 byte).
 * Vi rekommenderar starkt att dessa riktlinjer följs AEM as a Cloud Service.
 
 Undertyper används för att identifiera specifika typer av databasproblem som ska åtgärdas:
