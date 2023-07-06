@@ -2,9 +2,9 @@
 title: DG
 description: Hjälpsida för mönsteravkännarkod
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 * `sling.commons.scheduler`: Användning av API:t för Sling Commons Scheduler för en schemalagd aktivitet.
 * `unsupported.asset.api`: Användning av Asset Manager-API:er som inte stöds i programkoden.
 * `javax.jcr.observation.EventListener`: Användning av händelseavlyssnare i programkod.
+* `custom.guava.cache`: Användning av Guava Cache i programkod.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -55,6 +56,9 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `javax.jcr.observation.EventListener`
    * Program som är beroende av händelseavlyssnaren kanske inte fungerar som förväntat eftersom körningen inte kan garanteras.
+
+* `custom.guava.cache`
+   * Användning av Guava Cache kan orsaka prestandaproblem i AEM.
 
 
 ## Möjliga lösningar {#solutions}
@@ -83,4 +87,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `javax.jcr.observation.EventListener`
    * I stället för att använda händelseavlyssnaren bör du ändra händelsehanteringsmekanismen till [Försäljningsjobb](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) eftersom det garanterar behandlingen.
+
+* `custom.guava.cache`
+   * Cacheminnen bör skapas utanför AEM, om det behövs. Extern cachningslösning kan övervägas.
 * Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
