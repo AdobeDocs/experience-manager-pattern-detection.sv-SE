@@ -27,7 +27,7 @@ Sidkomplexitet
 Undertyper används för att identifiera olika typer av information:
 
 * `page.complexity.medium`: En sida innehåller ett måttligt stort antal noder som kan påverka återgivningsprestanda.
-* `page.complexity.high`: En sida innehåller ett mycket stort antal noder som troligen kommer att påverka återgivningsprestanda.
+* `page.complexity.high`: En sida innehåller ett mycket stort antal noder som troligen påverkar återgivningsprestanda.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -37,7 +37,7 @@ Undertyper används för att identifiera olika typer av information:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Det bästa sättet är att granska innehållsstrukturen för att minska sidkomplexiteten, vilket resulterar i bättre sidåtergivningsprestanda. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
@@ -46,5 +46,5 @@ Undertyper används för att identifiera olika typer av information:
    * Testa om samma layout kan användas med färre behållare.
    * Förenkla sidinnehållet.
    * Minska djupet i nodstrukturen.
-   * Spärra eventuella medföljande upplevelsefragment för enkelhetens skull.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+   * Spärra eventuella medföljande upplevelsefragment för enkelhet.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

@@ -18,7 +18,7 @@ Widget för anpassad dialogruta
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
 >title="Widget för anpassad dialogruta"
->abstract="CDW identifierar widgetar för anpassade dialogrutor som bör uppdateras för att vara kompatibla med AEM as a Cloud Service."
+>abstract="CDW identifierar widgetar för anpassade dialogrutor som bör uppdateras för att de ska vara kompatibla med AEM as a Cloud Service."
 
 `CDW`  Anpassade dialogrutewidgetar identifierar anpassade klassiska dialogrutewidgetar. Dessa bör uppdateras för att vara kompatibla med AEM as a Cloud Service.
 
@@ -34,7 +34,7 @@ Undertyper används för att identifiera informationen, till exempel:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Kontakta kundtjänst om du behöver hjälp."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 

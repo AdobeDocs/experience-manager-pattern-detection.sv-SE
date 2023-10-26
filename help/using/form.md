@@ -17,8 +17,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
->title="Forms"
->abstract="Forms kod identifierar potentiella problem med migrering från Adobe Experience Manager Forms till Adobe Experience Manager Forms as a Cloud Service. Granska eventuella konsekvenser och risker som är förknippade med detta och åtgärda dessa problem innan du migrerar till Cloud Servicen."
+>title="FORMS"
+>abstract="FORMS kod identifierar potentiella problem med migrering från Adobe Experience Manager Forms till Adobe Experience Manager Forms as a Cloud Service. Granska eventuella konsekvenser och risker som är förknippade med detta och åtgärda dessa problem innan du migrerar till Cloud Servicen."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="Möjliga konsekvenser och risker"
 
 `FORMS` Identifierar potentiella problem relaterade till migrering från [!DNL Adobe Experience Manager Forms] till [!DNL Adobe Experience Manager Form]som [!DNL Cloud Service]. Åtgärda problemen innan du migrerar till [!DNL Cloud Service].
@@ -26,9 +26,9 @@ ht-degree: 0%
 Följande undertyper hjälper dig att identifiera olika typer av problem:
 
 * `modified.feature`: Dessa funktioner, resurser och API:er har uppdaterats eller ändrats för Cloud Service. Innan du migrerar till Cloud Servicen kör du migreringsverktyget för att göra dessa funktioner och resurser kompatibla med Cloud Servicen.
-* `unavailable.feature`: Miljön innehåller funktioner och resurser som inte är tillgängliga eller har tagits bort från Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö.
-* `unsupported.feature`: I din miljö används vissa funktioner som inte stöds på Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
-* `unsupported.api`: Miljön har vissa API:er som inte stöds på Cloud Servicen. Inaktivera, ersätt eller ta bort dessa API:er från koden innan du migrerar till Cloud Servicen. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
+* `unavailable.feature`: Din miljö har funktioner och resurser som inte är tillgängliga eller har tagits bort från Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö.
+* `unsupported.feature`: Din miljö använder vissa funktioner som inte stöds på Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
+* `unsupported.api`: Din miljö har vissa API:er som inte stöds på Cloud Servicen. Inaktivera, ersätt eller ta bort dessa API:er från koden innan du migrerar till Cloud Servicen. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
 
 Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lösningar](#solutions) för information om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen
 
@@ -50,7 +50,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Verifieringssteget är inte tillgängligt. (VERIFY_STEP)
 
-* The **[!UICONTROL Submit to Forms Workflow]** Åtgärden Skicka är inte tillgänglig. På AEM 6.5 Forms och tidigare användes åtgärden Skicka för att skicka data med anpassningsbara formulär till äldre AEM Forms för JEE-arbetsflöden och LiveCycle Workflow. (LC_WORKFLOW_SUBMISSION)
+* The **[!UICONTROL Submit to Forms Workflow]** Åtgärden Skicka är inte tillgänglig. I AEM 6.5 Forms och tidigare användes åtgärden Skicka för att skicka data med anpassningsbara formulär till äldre AEM Forms i JEE-arbetsflöden och -LiveCyclen Workflow. (LC_WORKFLOW_SUBMISSION)
 
 * Funktionen Interactive Communications är inte tillgänglig.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -66,7 +66,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Information som visas via FORMS-kod kan ge vägledning om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
@@ -82,7 +82,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Ta bort verifieringssteget från din befintliga adaptiva Forms innan du flyttar sådana formulär till en [!DNL Cloud Service] miljö. (VERIFY_STEP)
 
-* Ändra dina befintliga anpassningsbara formulär så att de kan användas [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)och [Anropa ett AEM arbetsflöde](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Skicka åtgärder.
+* Ändra dina befintliga anpassningsbara formulär så att de kan användas [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)och [Anropa ett AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Skicka åtgärder.
 
 * Du kan utveckla ett AEM arbetsflöde och ändra befintliga anpassningsbara formulär så att de kan användas [AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Skicka åtgärd för att skicka data till ett AEM arbetsflöde i stället för att använda **[!UICONTROL Submit to Forms Workflow]** Skicka åtgärd. Du kan utveckla en anpassad Skicka-åtgärd för att skicka data, bilagor eller DoR-filer (Document of Record) till en LiveCycle-process i stället för att använda [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 

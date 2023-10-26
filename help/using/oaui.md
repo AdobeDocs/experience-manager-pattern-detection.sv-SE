@@ -23,7 +23,7 @@ OAuth-användarinstans
 
 `OAUI` identifierar mönstret där det finns minst en OAuth-relaterad konfigurerad användare som kräver korrekt migrering.
 
-OAuth är konfigurerad för användare när det finns en undernod med namnet `oauth` direkt under `rep:AuthorizableId` nod i form av `/home/user-path/user-node/oauth`.
+OAuth är konfigurerad för användare när det finns en undernod med namnet `oauth` direkt under `rep:AuthorizableId` i form av `/home/user-path/user-node/oauth`.
 
 Ett exempel är: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 
@@ -35,10 +35,10 @@ Ett exempel är: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Externa användare som konfigurerats med OAuth kan inte logga in på författare-/publiceringsinstanser förrän de har konfigurerats om så att de är kompatibla med AEM as a Cloud Service. AEM as a Cloud Service har endast stöd för IMS-autentisering för författare, administratörer och utvecklare samt SAML-baserad integration för publiceringsmiljöerna. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html" text="IMS-stöd - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html?lang=en#integration-with-an-idp" text="SAML-integrering - publicera"
 
 * Kontakta din Adobe-representant för att diskutera olika alternativ för migrering av användare.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

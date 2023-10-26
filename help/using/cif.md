@@ -11,32 +11,32 @@ ht-degree: 0%
 
 # CIF {#cif}
 
-Commerce Integration Framework Classic
+Commerce integration framework Classic
 
 ## Bakgrund {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_overview"
->title="Commerce Integration Framework Classic"
->abstract="CIF identifierar den klassiska versionen av Commerce Integration Framework-användningen som är inkompatibel med AEM as a Cloud Service."
+>title="Commerce integration framework Classic"
+>abstract="CIF identifierar den klassiska versionen av Commerce integrationa frameworkens användning som är inkompatibel med AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/introduction.html" text=" Innehåll och handel"
 
-`CIF` CIF identifierar den klassiska versionen av Commerce Integration Framework-användningen som är inkompatibel med AEM as a Cloud Service. Meddelandet för varje `CIF` sökningen identifierar användningen och ger ytterligare information.
+`CIF` CIF identifierar den klassiska versionen av Commerce integrationa frameworkens användning som är inkompatibel med AEM as a Cloud Service. Meddelandet för varje `CIF` sökningen identifierar användningen och ger ytterligare information.
 
 Undertyper används för att identifiera olika typer av information:
 
-* `commerce.integration.framework.detected`: En klassisk version av Commerce Integration Framework är inte kompatibel med AEM as a Cloud Service.
+* `commerce.integration.framework.detected`: En klassisk version av Commerce integration framework som inte är kompatibel med AEM as a Cloud Service.
 
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"
->title="Implementeringsvägledning"
->abstract="Bästa praxis är att granska alla klassiska versioner av Commerce Integration Framework-användning."
+>title="Genomförande"
+>abstract="Det bästa sättet är att granska all klassisk Commerce integration framework."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/changes.html" text="Betydande ändringar i CIF"
 
-* Den klassiska versionen av Commerce Integration Framework stöds inte längre på AEM as a Cloud Service. Det skulle blockera uppgraderingen till AEM as a Cloud Service.
+* Den klassiska versionen av Commerce integrationa frameworken stöds inte längre på AEM as a Cloud Service. Det skulle blockera uppgraderingen till AEM as a Cloud Service.
 
 ## Möjliga lösningar {#solutions}
 
@@ -46,7 +46,7 @@ Undertyper används för att identifiera olika typer av information:
 >abstract="Den här guiden hjälper dig att identifiera de områden du behöver uppdatera för migrering av Experience Manager Cloud Service."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/migration.html" text="Migreringsguide för CIF"
 
-* För Experience Manager as a Cloud Service är CIF-tillägget den enda handelslösningen som stöds för Adobe Commerce och tredjepartslösningar för e-handel. CIF-tillägget distribueras automatiskt till kunder på Experience Manager as a Cloud Service, och ingen manuell driftsättning behövs. Se [Komma igång med AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/storefront/getting-started.html).
-* Att stödja projekt som distribuerar CIF Adobe tillhandahåller [AEM CIF-kärnkomponenter](https://github.com/adobe/aem-core-cif-components).
-* CIF-tillägg finns för AEM 6.5 och via [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). Den är kompatibel och har samma funktioner som CIF-tillägget för Experience Manager as a Cloud Service - inga justeringar krävs.
-* Klassisk CIF med sina beroenden är inte längre tillgänglig. Kod som är beroende av den här CIF-versionen med com.adobe.cq.commerce.api Java API:er måste justeras till CIF-tillägget och dess principer.
+* För Experience Manager as a Cloud Service är CIF-tillägget den enda e-handelslösningen som stöds för Adobe Commerce och e-handelslösningar från tredje part. Tillägget CIF driftsätts automatiskt för kunder på Experience Manager as a Cloud Service; ingen manuell driftsättning behövs. Se [Komma igång med AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/storefront/getting-started.html).
+* För att stödja projekt som distribueras CIF Adobe tillhandahåller [AEM CIF-kärnkomponenter](https://github.com/adobe/aem-core-cif-components).
+* CIF är även tillgängligt för AEM 6.5 via [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). Den är kompatibel och innehåller samma funktioner som CIF för Experience Manager as a Cloud Service - inga justeringar krävs.
+* Klassisk CIF med sina beroenden är inte längre tillgänglig. Kod som är beroende av den här CIF versionen med com.adobe.cq.commerce.api Java API:er måste justeras till CIF och dess principer.

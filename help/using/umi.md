@@ -39,13 +39,13 @@ Följande konfigurationer kontrolleras för ändring:
    * Behörighetsproblem kan uppstå efter uppgradering (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Vissa funktioner kanske inte fungerar som de ska. Till exempel ändra `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` kan leda till att vissa JSP-filer inte kompileras, vilket i slutänden leder till funktionsförlust.
    * Värdena för externaliserarkonfigurationen `com.day.cq.commons.impl.ExternalizerImpl` anges av miljövariabler i molnhanteraren i AEM as a Cloud Service.
-   * AEM som en Cloud Services stöder inte anpassade loggfiler. Loggar som skrivits till anpassade loggar är inte tillgängliga från AEM as a Cloud Service.
+   * AEM som en Cloud Service stöder inte anpassade loggfiler. Loggar som skrivits till anpassade loggar är inte tillgängliga från AEM as a Cloud Service.
 
 ## Möjliga lösningar {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Bästa praxis är att granska dina aktuella konfigurationer och återställa ändringar som gjorts i de angivna konfigurationerna för att undvika framtida uppgraderingsproblem. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
@@ -56,4 +56,4 @@ Följande konfigurationer kontrolleras för ändring:
 * Om konfigurationerna har ändrats bör de återställas till sina förväntade värden. Dessa värden anges i `UMI` meddelanden.
 * För `com.day.cq.commons.impl.ExternalizerImpl`, se [dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en) för att ställa in extern konfigurering med hjälp av miljövariabler för molnhantering i AEM as a Cloud Service.
 * För `org.apache.sling.commons.log.LogManager.factory.config`, Ändra OSGI-konfigurationen för att skicka den anpassade loggboken till `logs/error.log` -fil. Se [dokumentation](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs.html) för att peka på `logs/error.log` -fil.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

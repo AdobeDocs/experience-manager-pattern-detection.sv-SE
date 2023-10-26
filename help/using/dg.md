@@ -45,7 +45,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `sling.commons.scheduler`
    * Program som är beroende av bakgrundsuppgifter som använder [Schemaläggare för Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) kanske inte fungerar som väntat eftersom körningen inte kan garanteras på AEM as a Cloud Service.
-   * AEM riktlinjer för as a Cloud Service utveckling för [bakgrundsuppgifter och tidskrävande jobb](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) föreslå att koden som körs som en schemalagd aktivitet måste anta att instansen som den körs på när som helst kan tas ned. Därför måste koden vara flexibel och återanvändbar.
+   * AEM riktlinjer för as a Cloud Service utveckling för [bakgrundsuppgifter och tidskrävande jobb](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) föreslå att koden som körs som en schemalagd aktivitet måste anta att instansen som den körs på när som helst kan tas ned. Koden måste därför vara flexibel och återtagbar.
 
 * `unsupported.asset.api`
    * Följande API:er för AssetManager har markerats som ej stöds på AEM as a Cloud Service.
@@ -65,21 +65,21 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="I enlighet AEM utvecklingsriktlinjer och bästa praxis bör kunderna granska sina implementeringar av användningen av Sling Commons Scheduler och strukturera om dem till Sling Jobs, omstrukturera sina systemunderhållsuppgifter, granska strömning av binära data och omfaktorisera koden så att den överensstämmer med AEM as a Cloud Service."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Försäljningsjobb"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Underhållsaktiviteter på AEM as a Cloud Service"
 
 * `java.io.inputstream`
    * Använd en direkt binär överföringsmetod där binärfilen läggs till direkt i datalagret.
-   * Användningsexempel: [aem-upload](https://github.com/adobe/aem-upload). För andra typer av binärfiler kan anpassad överföringslogik modelleras efter samma mönster.
+   * För resursanvändning, använd [aem-upload](https://github.com/adobe/aem-upload). För andra typer av binärfiler kan anpassad överföringslogik modelleras efter samma mönster.
 
 * `maintenance.task.configuration`
    * Granska AEM as a Cloud Service [Underhållsaktivitet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html) dokumentation.
    * Se till att [Konfiguration av underhållsaktivitet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#maintenance-tasks-configuration-in-source-control) är i källkontrollen.
 
 * `sling.commons.scheduler`
-   * Ersätt användningen av [Schemaläggare för Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) med [Försäljningsjobb](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)som har en minst en exekveringsgaranti.
+   * Ersätt användningen av [Schemaläggare för Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) med [Försäljningsjobb](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), som har en minst en gång exekveringsgaranti.
    * Långa jobb bör om möjligt undvikas.
 
 * `unsupported.asset.api`
@@ -90,4 +90,4 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `custom.guava.cache`
    * Cacheminnen bör skapas utanför AEM, om det behövs. Extern cachningslösning kan övervägas.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

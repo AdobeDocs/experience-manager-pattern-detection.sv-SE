@@ -34,11 +34,11 @@ Eftersom de gamla versionerna inte installeras som standard kanske kundapplikati
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Det bästa sättet är att granska och anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er. Kontakta Adobe Support för hjälp och förtydliganden."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kortfristig: Installation av kompatibilitetspaket kan vara till hjälp.
-* Långsiktigt: Anpassa kundkoden till den senaste versionen av AEM eller API:er.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kortsiktig: Installation av kompatibilitetspaket kan vara till hjälp.
+* Långsiktigt: Anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

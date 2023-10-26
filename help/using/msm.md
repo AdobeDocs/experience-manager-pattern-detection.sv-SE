@@ -34,8 +34,8 @@ Undertyper används för att identifiera olika typer av information:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Det bästa sättet är att granska alla anpassade MSM-introduktionskonfigurationer och anpassade rollout-åtgärder och se till att de fungerar AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

@@ -32,7 +32,7 @@ Undertyper används för att identifiera olika typer av information:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Det bästa sättet är att granska alla anpassade index och strukturerade enligt riktlinjerna för innehållsindexering. Utnyttja indexkonverteraren för att migrera befintliga anpassade indexdefinitioner för eko till AEM as a Cloud Service kompatibla indexdefinitioner för eko"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#oak-indexes" text="Riktlinjer för paketering"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="Indexkonverterare"
@@ -54,5 +54,5 @@ Undertyper används för att identifiera olika typer av information:
 * Följ AEM as a Cloud Service [riktlinjer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) för att distribuera nya eller anpassade indexdefinitioner för ekv.
 * Anpassade AEM standardindex och nya anpassade Oak-indexdefinitioner bör följa [riktlinjer för innehållsindexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html#preparing-the-new-index-definition) för AEM som Cloud Service.
 * Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) projekt och förstå hur [OID-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
 * Utnyttja [Indexkonverterare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools) om du vill migrera befintliga definitioner för anpassade ekindexvärden för ekon till AEM as a Cloud Service kompatibla indexdefinitioner för ekon.

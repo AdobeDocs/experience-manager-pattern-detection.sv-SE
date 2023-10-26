@@ -33,10 +33,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Kunderna bör granska sin egen kod och sina paket för att identifiera om innehåll levereras till /libs och omfaktorisera det för att förlita sig på att innehållet under /apps överlappar och gör det kompatibelt med AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Övertäckningar"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Kundpaket ska distribuera innehåll till `/apps` i stället för `/libs`.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

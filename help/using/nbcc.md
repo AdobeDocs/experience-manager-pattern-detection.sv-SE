@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # NBCC {#nbcc}
 
-INAKTUELL: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla ändringar)
+UTTRYCKT: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla ändringar)
 
 ## Bakgrund {#background}
 
@@ -33,11 +33,11 @@ INAKTUELL: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla ä
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Det bästa sättet är att granska anpassad kod och se till att endast bakåtkompatibla Sling-komponenter överlappas eller refereras. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Övertäckningar"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Överlägg eller referera endast bakåtkompatibla Sling-komponenter.
 * Överväg att anpassa resurser som kommer från `/libs` eller paket efter en AEM uppgradering.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

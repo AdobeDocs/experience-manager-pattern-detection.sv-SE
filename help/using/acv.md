@@ -24,11 +24,11 @@ Assets Content Validator
 
 `ACV`  Resursens innehållsvaliderare identifierar de saknade obligatoriska noderna och felen i resursinnehållet. Detta kan leda till fel på vissa Assets-funktioner på Experience Manager as a Cloud Service.
 
-Undertyper används för att identifiera olika typer av information, t.ex.:
+Undertyper används för att identifiera olika typer av information, som:
 
 * `missing.jcrcontent`: Identifiera mappar där obligatoriska noder saknas i databasen. Om du identifierar innehåll som saknas i databasen kan du förhindra att funktioner som inte fungerar fungerar eller att använda dem.
 * `missing.original.rendition`: Identifiera resurserna med en obligatorisk ursprunglig återgivning som saknas i databasen. Observera att det inte krävs någon generering av underresurser i AEMaaCS för att förhandsgranska PDF-sidor. Därför ignoreras rapportering av underresurser som saknar ursprunglig återgivning för PDF-resurser.
-* `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under objektets metadatanod i databasen.
+* `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under resursens metadatanod i databasen.
 * `conflict.node`: Identifiera om det finns konfliktnoder i databasen under /content/dam/ path.
 * `psb.file.large`: Identifiera stora PSB-filer (dc:format: application/vnd.3gpp.pic-bw-small) som är större än 2 gigabyte.
 * `invalid.asset.name`: Identifiera resurser med ogiltiga tecken[* / : [\] | # % { } ? &amp;] i namnet.
@@ -46,7 +46,7 @@ Undertyper används för att identifiera olika typer av information, t.ex.:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Adobe rekommenderar att du granskar innehållsstrukturen för att förhindra att arbetsflöden som är beroende av ärvda egenskaper bryts. Kontakta kundtjänst om du behöver hjälp."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 

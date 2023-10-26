@@ -28,7 +28,7 @@ Inaktuellt sorterat egenskapsindex
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Bästa praxis är att granska alla inaktuella sorterade index och flytta dem till en typ av lucenindex som stöds för att undvika betydande prestandaproblem eller icke-funktionella kundkrav."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/practices/best-practices-for-queries-and-indexing.html" text="God praxis - frågor och indexering"
 
@@ -47,4 +47,4 @@ Inaktuellt sorterat egenskapsindex
 
 * Ändra indexdefinitionen så att den blir, eller ersätter indexet med, en indexdefinition som stöds. (Se [Fråga och indexering](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html)).
 * Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) projekt och förstå hur [DOPI-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

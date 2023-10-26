@@ -27,8 +27,8 @@ Dynamic Media
 En undertyp används med den här koden:
 
 * `dynamic.media.runmode`: Det associerade värdet för den här undertypen, om den anges, är antingen:
-   * `dynamicmedia`: Dynamic Media - hybridläge
-   * `dynamicmedia_scene7`: Dynamic Media - Scene 7-läge
+   * `dynamicmedia`: Dynamic Media - Hybrid-läge
+   * `dynamicmedia_scene7`: Dynamic Media - Scen 7-läge
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -39,7 +39,7 @@ En undertyp används med den här koden:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="AEM as a Cloud Service stöder bara körningsläget dynamicmedia_scene7. Granska de aktuella inställningarna och kontakta Adobe Support Team för hjälp och förtydliganden."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Installera Dynamic Media"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
@@ -48,4 +48,4 @@ En undertyp används med den här koden:
 * `dynamic.media.runmode`
    * Mer information finns på [Konfigurera Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html).
 
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.

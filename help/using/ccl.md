@@ -33,8 +33,8 @@ En undertyp används med den här koden:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
->title="Implementeringsvägledning"
+>title="Genomförande"
 >abstract="Klientbiblioteken som läggs till i AEM som identifieras av CCL bör granskas för att säkerställa att det inte förekommer några dubbletter och att de senaste versionerna används. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
