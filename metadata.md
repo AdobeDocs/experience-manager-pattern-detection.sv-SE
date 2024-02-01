@@ -6,9 +6,10 @@ type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-pattern-detection.sv-SE
 index: n
-source-git-commit: d51e2bf28c9d403ddee90a22c67fc0d1a3d3a4ec
+recommendations: noDisplay
+source-git-commit: 43e14fe12de17128882609f41a40b690e44d0268
 workflow-type: tm+mt
-source-wordcount: '8'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
