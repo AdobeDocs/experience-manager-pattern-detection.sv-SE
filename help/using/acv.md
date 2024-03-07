@@ -4,7 +4,7 @@ description: Hjälpsida för mönsteravkännarkod
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Undertyper används för att identifiera olika typer av information, som:
 * `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under resursens metadatanod i databasen.
 * `conflict.node`: Identifiera om det finns konfliktnoder i databasen under /content/dam/ path.
 * `psb.file.large`: Identifiera stora PSB-filer (dc:format: application/vnd.3gpp.pic-bw-small) som är större än 2 gigabyte.
-* `invalid.asset.name`: Identifiera resurser med ogiltiga tecken[* / : [\] | # % { } ? &amp;] i namnet.
+* `invalid.asset.name`: Identifiera resurser med ogiltiga tecken[* / : [\] | # % {} ? &amp;] i namnet.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 

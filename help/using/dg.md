@@ -4,8 +4,8 @@ description: Hjälpsida för mönsteravkännarkod
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 1%
+source-wordcount: '620'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Utvecklarriktlinje
 >title="Riktlinjer för utvecklare"
 >abstract="DG-kod identifierar avvikelser från valda utvecklingsriktlinjer för AEM 6.5 och AEM as a Cloud Service. Om du följer vedertagna standarder kan du förbättra systemets underhålls- och prestanda. Även om vissa av dessa avvikelser kanske inte är något problem i andra programsammanhang, inklusive i tidigare versioner av AEM, kan de orsaka problem när de används med AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM - riktlinjer och bästa praxis"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Utvecklingsriktlinjer för AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM riktlinjer för as a Cloud Service utveckling"
 
 
 `DG` identifierar avvikelser i valda utvecklingsriktlinjer för [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html) och [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html). Om du följer vedertagna standarder kan du förbättra systemets underhålls- och prestanda. Även om vissa av dessa avvikelser kanske inte är något problem i andra programsammanhang, inklusive i tidigare versioner av AEM, kan de orsaka problem när de används med AEM as a Cloud Service.

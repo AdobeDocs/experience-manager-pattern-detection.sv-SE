@@ -4,8 +4,8 @@ description: Hjälpsida för mönsteravkännarkod
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 7%
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Dynamic Media
 >title="Dynamic Media"
 >abstract="DM-koden identifierar användningen av AEM Assets Dynamic Media i den aktuella implementeringen. Dynamic Media-läget identifieras av körningsläget."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM - riktlinjer och bästa praxis"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Utvecklingsriktlinjer för AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM riktlinjer för as a Cloud Service utveckling"
 
 `DM` använder AEM Assets Dynamic Media. Dynamic Media-läget identifieras av körningsläget.
 
@@ -41,7 +41,7 @@ En undertyp används med den här koden:
 >id="aemcloud_bpa_dm_guidance"
 >title="Genomförande"
 >abstract="AEM as a Cloud Service stöder bara körningsläget dynamicmedia_scene7. Granska de aktuella inställningarna och kontakta Adobe Support Team för hjälp och förtydliganden."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Installera Dynamic Media"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Konfigurera Dynamic Media"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 
