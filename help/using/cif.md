@@ -1,10 +1,10 @@
 ---
 title: CIF
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,6 @@ Undertyper används för att identifiera olika typer av information:
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/migration.html" text="Migreringsguide för CIF"
 
 * För Experience Manager as a Cloud Service är CIF-tillägget den enda e-handelslösningen som stöds för Adobe Commerce och e-handelslösningar från tredje part. Tillägget CIF driftsätts automatiskt för kunder på Experience Manager as a Cloud Service; ingen manuell driftsättning behövs. Se [Komma igång med AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/storefront/getting-started.html).
-* För att stödja projekt som distribueras CIF Adobe tillhandahåller [AEM CIF-kärnkomponenter](https://github.com/adobe/aem-core-cif-components).
+* För att stödja projekt som distribueras CIF Adobe tillhandahåller [AEM CIF kärnkomponenter](https://github.com/adobe/aem-core-cif-components).
 * CIF är även tillgängligt för AEM 6.5 via [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). Den är kompatibel och innehåller samma funktioner som CIF för Experience Manager as a Cloud Service - inga justeringar krävs.
 * Klassisk CIF med sina beroenden är inte längre tillgänglig. Kod som är beroende av den här CIF versionen med com.adobe.cq.commerce.api Java API:er måste justeras till CIF och dess principer.

@@ -1,10 +1,10 @@
 ---
 title: OID
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -54,5 +54,5 @@ Undertyper används för att identifiera olika typer av information:
 * Följ AEM as a Cloud Service [riktlinjer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) för att distribuera nya eller anpassade indexdefinitioner för ekv.
 * Anpassade AEM standardindex och nya anpassade Oak-indexdefinitioner bör följa [riktlinjer för innehållsindexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html#preparing-the-new-index-definition) för AEM som Cloud Service.
 * Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) projekt och förstå hur [OID-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
 * Utnyttja [Indexkonverterare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools) om du vill migrera befintliga definitioner för anpassade ekindexvärden för ekon till AEM as a Cloud Service kompatibla indexdefinitioner för ekon.

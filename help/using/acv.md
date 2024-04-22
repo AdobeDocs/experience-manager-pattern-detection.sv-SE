@@ -1,10 +1,10 @@
 ---
 title: ACV
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ Undertyper används för att identifiera olika typer av information, som:
 * Ingen åtgärd krävs för den ursprungliga återgivningen av underresurser som saknas.
 * Om det finns noder i konflikt bör de antingen lösas eller tas bort innan du migrerar till AEM as a Cloud Service.
 * Kontakta Adobe kundsupport om du tänker bearbeta många stora PSD- eller PSB-filer. Det går inte att bearbeta PSB-filer med hög upplösning som är större än 30000 x 23000 pixlar i Experience Manager. Se [dokumentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html).
-* Nå ut till [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för klargöranden eller för att bemöta farhågor.

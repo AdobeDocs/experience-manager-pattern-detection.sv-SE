@@ -1,10 +1,10 @@
 ---
 title: ARRK
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ En undertyp används för att identifiera den typ av arbetsflödesproblem som f�
 >abstract="Eftersom standardarbetsflöden för resurser automatiskt stöds av mina tillgångsmikrotjänster är bästa praxis att granska alla anpassade arbetsflödesmodeller eller startfunktioner för att se om de behövs när vi väl har övergått till AEM as a Cloud Service. Anpassningar av arbetsflöden för resurser kräver migrering för att kunna arbeta med AEM as a Cloud Service med hjälp av verktyget för migrering av arbetsflöden för resurser"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html" text="Komma igång - Asset Microservices"
 
-* Resursbearbetning har traditionellt utförts med resursarbetsflöden som körs på AEM författarinstans. Med AEM as a Cloud Service utförs nu bearbetning av mediefiler av mikrotjänster. (Se [asset microservices overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html) för mer information.
+* Resursbearbetning har traditionellt utförts med resursarbetsflöden som körs på AEM författarinstans. Med AEM as a Cloud Service utförs nu bearbetning av mediefiler av mikrotjänster. Se [asset microservices overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html) för mer information.
 * Standardarbetsflöden för resurser stöds automatiskt av mina tillgångsmikrotjänster.
 * Anpassningar av arbetsflöden för resurser kräver migrering för att fungera med AEM as a Cloud Service.
 
@@ -50,4 +50,4 @@ En undertyp används för att identifiera den typ av arbetsflödesproblem som f�
 
 * Om en anpassad arbetsflödesmodell eller startfunktion för en resurs identifieras, ska du köra [Migreringsverktyg för arbetsflöde för resurs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html).
 * Granska [Komma igång med att använda objektmikrotjänster](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html) för mer information.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

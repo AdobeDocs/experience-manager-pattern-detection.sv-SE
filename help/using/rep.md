@@ -1,10 +1,10 @@
 ---
 title: REP
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,4 +52,4 @@ AEM as a Cloud Service användningsområden [Distribution av säljinnehåll](htt
 * Se AEM as a Cloud Service [Utvecklingsriktlinjer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) och versionsinformation för [replikeringsagenter](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents).
 * Granska, omforma och optimera funktioner som är direkt beroende av replikeringsagenter för att utföra affärsuppgifter.
 * Se hur [replikering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication) påverkas av distributionen på AEM as a Cloud Service.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

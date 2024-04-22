@@ -1,10 +1,10 @@
 ---
 title: NBCC
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -40,4 +40,4 @@ UTTRYCKT: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla än
 
 * Överlägg eller referera endast bakåtkompatibla Sling-komponenter.
 * Överväg att anpassa resurser som kommer från `/libs` eller paket efter en AEM uppgradering.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

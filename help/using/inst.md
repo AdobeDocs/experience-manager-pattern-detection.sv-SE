@@ -1,10 +1,10 @@
 ---
 title: INST
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -59,4 +59,4 @@ Undertyper används för att identifiera olika typer av information:
 * Granska hur [bädda in tredjepartspaket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages) i ditt projekt för AEM as a Cloud Service.
 * Tredjepartspaket måste följa AEM as a Cloud Service [utveckling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html) och [packning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html) riktlinjer.
 * Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) projekt och förstå hur [INST-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

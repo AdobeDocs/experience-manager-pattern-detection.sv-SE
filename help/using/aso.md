@@ -1,10 +1,10 @@
 ---
 title: ASO
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ AEM - systemöversikt
 Undertyper används för att identifiera olika typer av information:
 
 * `aem.version`: AEM.
-* `aem.product`: Identifiering av användningen av en AEM (Commerce, Forms osv.).
+* `aem.product`: Upptäckt av användning av en AEM (Commerce, Forms osv.).
 * `node.count`: Det ungefärliga antalet noder av en viss typ (Sida, Resurs osv.) och det totala antalet noder.
 * `node.store`: Nodlagringens implementeringstyp (SegmentNodeStore, DocumentNodeStore) och dess storlek.
 * `data.store`: Implementeringstypen för datalagret (FileDataStore, S3DataStore, AzureDataStore).
@@ -65,4 +65,4 @@ Undertyper används för att identifiera olika typer av information:
 * Vanity-URL:er kan ersättas med Apache Rewrites.
 * Se [dokumentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) för felsökning av långsamma frågor.
 * Granska [versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) om du vill veta mer om de senaste förändringarna AEM as a Cloud Service.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

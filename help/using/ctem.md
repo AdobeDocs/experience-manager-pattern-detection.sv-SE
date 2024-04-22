@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -49,4 +49,4 @@ Mallar identifieras av ett primärt typvärde för &quot;cq:Template&quot;. En u
 
 * Utnyttja [Verktyg för AEM](https://opensource.adobe.com/aem-modernize-tools/) för att migrera statiska mallar till redigerbara mallar.
 * Mer information om redigerbara mallar finns på [Mallar](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

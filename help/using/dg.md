@@ -1,10 +1,10 @@
 ---
 title: DG
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `java.io.inputstream`
    * Använd en direkt binär överföringsmetod där binärfilen läggs till direkt i datalagret.
-   * För resursanvändning, använd [aem-upload](https://github.com/adobe/aem-upload). För andra typer av binärfiler kan anpassad överföringslogik modelleras efter samma mönster.
+   * Exempel på användning av resurser finns i [aem-upload](https://github.com/adobe/aem-upload). För andra typer av binärfiler kan anpassad överföringslogik modelleras efter samma mönster.
 
 * `maintenance.task.configuration`
    * Granska AEM as a Cloud Service [Underhållsaktivitet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html) dokumentation.
@@ -83,11 +83,11 @@ Undertyper används för att identifiera olika typer av identifierade överträd
    * Långa jobb bör om möjligt undvikas.
 
 * `unsupported.asset.api`
-   * Använd inte de API:er för Asset Manager som inte stöds [aem-upload](https://github.com/adobe/aem-upload).
+   * Istället för att använda API:er för Asset Manager som inte stöds går du till [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * I stället för att använda händelseavlyssnaren bör du ändra händelsehanteringsmekanismen till [Försäljningsjobb](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) eftersom det garanterar behandlingen.
 
 * `custom.guava.cache`
    * Cacheminnen bör skapas utanför AEM, om det behövs. Extern cachningslösning kan övervägas.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

@@ -1,9 +1,9 @@
 ---
 title: INGEN
-description: Hjälpsida för mönsteravkännarkod
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+description: Hjälpsida för Mönsteravkännarkod.
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Sidan borde inte ha nåtts.
 
 ## Möjliga lösningar {#solutions}
 
-* Kontakta [AEM supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att rapportera felet.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) måste rapportera felet.

@@ -1,10 +1,10 @@
 ---
 title: CCL
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ En undertyp används med den här koden:
 >abstract="Klientbiblioteken som läggs till i AEM som identifieras av CCL bör granskas för att säkerställa att det inte förekommer några dubbletter och att de senaste versionerna används. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

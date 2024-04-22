@@ -1,10 +1,10 @@
 ---
 title: MI
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Felkonfigurationsproblem
 >title="Felkonfigurationsproblem"
 >abstract="MI identifierar konfigurationsproblem AEM instansen"
 
-`MI`  Felkonfigurationsproblem identifierar konfigurationsproblem på AEM.
+Felkonfigurationsproblem i felkommunikation identifierar konfigurationsproblem i AEM.
 
 Undertyper används för att identifiera olika typer av information, som:
 
@@ -43,11 +43,11 @@ Undertyper används för att identifiera olika typer av information, som:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * `sling.job.max.parallel`
-   * Värdet bör anges till 0,5 för att hälften av de tillgängliga processorerna ska kunna användas.
+   * Adobe rekommenderar att du anger värdet till 0,5 för att utnyttja hälften av de tillgängliga processorerna.
 * `missing.maintenance.configuration`
-   * Revision Clean Up: Please refer [Rensa version](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html). Den viktiga delen som rör konfigurationen är här: [Revision Cleanup - Configure Tail and Full compaction](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html#how-to-configure-full-and-tail-compaction).
-   * Lucene Binaries Cleanup: Se [Operations Dashboard - Lucene Binaries Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#lucene-binaries-cleanup).
-   * Skräpinsamling för datalager: se [Skräpinsamling för datalager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html).
-   * Töm arbetsflöde: se [Vanlig tömning av arbetsflödesinstanser](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html#regular-purging-of-workflow-instances).
-   * Underhållsaktivitet för granskningslogg: se [Underhåll av granskningslogg](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html).
-* Nå ut till [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+   * Rensa revision: Se [Rensa version](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). Den viktiga delen som rör konfigurationen är här: [Revision Cleanup - Configure Tail and Full compaction](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Lucene Binaries Cleanup: Se [Operations Dashboard - Lucene Binaries Cleanup](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Skräpinsamling för datalager: Se [Skräpinsamling för datalager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * Rensa arbetsflöde: Se [Vanlig tömning av arbetsflödesinstanser](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * Underhållsaktivitet för granskningslogg: Se [Underhåll av granskningslogg](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för klargöranden eller för att bemöta farhågor.

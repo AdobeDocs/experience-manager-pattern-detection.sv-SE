@@ -1,8 +1,8 @@
 ---
 title: FORMULÄR
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%

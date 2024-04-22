@@ -1,10 +1,10 @@
 ---
 title: URS
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -51,5 +51,5 @@ Undertyper används för att identifiera specifika typer av databasproblem som s
 
 * Se [Omstrukturering av lager](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) för att ta fram riktlinjer för AEM as a Cloud Service.
 * Se även [AEM projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) om du vill veta mer om ändringsbara och oföränderliga områden i databasen.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
 * Utnyttja [Databasmodernisering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) för att strukturera om befintliga projektpaket genom att separera innehåll och kod i separata paket som är kompatibla med den projektstruktur som har definierats för Adobe Experience Manager as a Cloud Service.

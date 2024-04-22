@@ -1,10 +1,10 @@
 ---
 title: CCOM
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ En undertyp används med den här koden för att identifiera komponentkategorin:
 
 * Mer information om kärnkomponenter finns på [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
 * Mer information om Style System finns på [Använda formatsystemet](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

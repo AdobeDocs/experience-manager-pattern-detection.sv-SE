@@ -1,10 +1,10 @@
 ---
 title: intresseanmälning
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ Vissa av dessa används av `com.adobe.granite.repository`, som konfigurerar en d
 
 * Använd Sling Resource API (eller JCR API) i stället för åtkomst på låg nivå.
 * Undvik beroende på interna paket som inte är en del av något offentligt API eller SPI.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
