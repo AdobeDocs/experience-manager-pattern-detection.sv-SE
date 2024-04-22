@@ -1,10 +1,10 @@
 ---
 title: DOPI
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Inaktuellt sorterat egenskapsindex
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="Inaktuellt sorterat egenskapsindex"
->abstract="DOPI-kod identifierar användningen av ordnade egenskapsindexdefinitioner (primärType=oak:QueryIndexDefinition AND type=&quot;ordered&quot;), som har tagits bort sedan 6.1 och tagits bort i 6.2."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#the-ordered-index" text="Beställt index - inaktuellt"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html" text="Indexering - AEM as a Cloud Service"
+>abstract="DOPI-kod identifierar användningen av ordnade egenskapsindexdefinitioner (`primaryType=oak:QueryIndexDefinition` AND type=&quot;ordered&quot;), som har ersatts sedan 6.1 och tagits bort i 6.2."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Beställt index - inaktuellt"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexering - AEM as a Cloud Service"
 
-`DOPI` identifierar användningen av ordnade egenskapsindexdefinitioner (`primaryType=oak:QueryIndexDefinition` OCH `type="ordered"`), som har tagits bort sedan 6.1 och tagits bort i 6.2.
+DOPI identifierar användningen av indexdefinitioner för ordnade egenskaper (`primaryType=oak:QueryIndexDefinition` OCH `type="ordered"`), som har tagits bort sedan 6.1 och tagits bort i 6.2.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_guidance"
 >title="Genomförande"
->abstract="Bästa praxis är att granska alla inaktuella sorterade index och flytta dem till en typ av lucenindex som stöds för att undvika betydande prestandaproblem eller icke-funktionella kundkrav."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/practices/best-practices-for-queries-and-indexing.html" text="God praxis - frågor och indexering"
+>abstract="Bästa praxis är att granska alla inaktuella sorterade index och flytta dem till den form av Lucene-index som stöds för att undvika betydande prestandaproblem eller icke-funktionella kundkrav."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing" text="God praxis - frågor och indexering"
 
 * Vissa frågor kanske inte svarar.
 * Kundens funktionalitet kanske inte fungerar som den ska.
@@ -41,10 +41,10 @@ Inaktuellt sorterat egenskapsindex
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="Verktyg och resurser"
->abstract="Granska WKND-äldre projekt för att förstå hur DOPI-överträdelser kan göras kompatibla med AEM Cloud Service. Granska också Exempel på DOPI-överträdelse på Github för att förstå hur äldre sorterade index kan konverteras till Lucene-baserade index som stöds i AEM as a Cloud Service."
+>abstract="Granska WKND-äldre projekt för att förstå hur DOPI-överträdelser kan göras kompatibla med AEM Cloud Service. Granska också Exempel på DOPI-överträdelse i GitHub för att förstå hur äldre sorterade index kan konverteras till Lucene-baserade index som stöds i AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-Legacy Project"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Exempel på DOPI-överträdelse - Github"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI-överträdelse - GitHub"
 
-* Ändra indexdefinitionen så att den blir, eller ersätter indexet med, en indexdefinition som stöds. (Se [Fråga och indexering](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html)).
+* Ändra indexdefinitionen så att den blir - eller ersätter indexet med - en indexdefinition som stöds. (Se [Fråga och indexering](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
 * Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) projekt och förstå hur [DOPI-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

@@ -1,10 +1,10 @@
 ---
 title: LOCP
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för mönsteravkännarkod..
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Skriva över anpassade paket"
 >abstract="LOCP identifierar identifieringen av ett anpassat paket som levererar innehåll till /libs, som är ett antimönsterpaket (förutom i ACL-listor)."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Hållbara uppgraderingar"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Samla resurser"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Hållbara uppgraderingar"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Samla resurser"
 
-`LOCP` identifierar identifieringen av ett anpassat paket som levererar innehåll till `/libs`, som är ett antimönster (utom ACL-listor).
+LOCP identifierar identifieringen av ett anpassat paket som levererar innehåll till `/libs`, som är ett antimönster (utom ACL-listor).
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
-* Kundkoden kan tas bort eller ersättas för alla uppgraderingar av CFP, SP eller större AEM.
-* I vissa fall kanske det nya innehållet inte installeras korrekt.
+* Kundkoden kan tas bort eller ersättas för alla CFP-, SP- eller större AEM-uppgraderingar.
+* Ibland kanske det nya innehållet inte installeras korrekt.
 
 ## Möjliga lösningar {#solutions}
 
@@ -35,8 +35,8 @@ ht-degree: 0%
 >id="aemcloud_bpa_locp_guidance"
 >title="Genomförande"
 >abstract="Kunderna bör granska sin egen kod och sina paket för att identifiera om innehåll levereras till /libs och omfaktorisera det för att förlita sig på att innehållet under /apps överlappar och gör det kompatibelt med AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Övertäckningar"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Övertäckningar"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Kundpaket ska distribuera innehåll till `/apps` i stället för `/libs`.
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om ni behöver klargöranden eller frågor som behandlas.

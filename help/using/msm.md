@@ -1,31 +1,31 @@
 ---
 title: MSM
-description: Hjälpsida för mönsteravkännarkod
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # MSM {#msm}
 
-Multi Site Manager
+Hanterare för flera webbplatser
 
 ## Bakgrund {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
->title="Multi Site Manager"
->abstract="MSM identifierar allmän information om AEM Multi Site Manager-funktion. Denna typ av arbete bidrar till att karakterisera systemet."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM as a Cloud Service"
+>title="Hanterare för flera webbplatser"
+>abstract="MSM identifierar allmän information om funktionen AEM Multi-site Manager. Denna typ av arbete bidrar till att karakterisera systemet."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
-`MSM` används för att identifiera allmän information om AEM Multi Site Manager-funktion. Denna information tillhandahålls för att bidra till att karakterisera systemet.
+MSM identifierar allmän information om funktionen AEM Multi-site Manager. Denna information tillhandahålls för att bidra till att karakterisera systemet.
 
 Undertyper används för att identifiera olika typer av information:
 
-* `cq.livesyncconfig.found`: Upptäckt av en `/jcr:content/cq:LiveSyncConfig` nod i innehåll som har lagts till i AEM, vilket är en indikation på användning av Multi Site Manager.
+* `cq.livesyncconfig.found`: Upptäckt av en `/jcr:content/cq:LiveSyncConfig` nod i innehåll som har lagts till i AEM, vilket är en indikation på användning av Multi-site Manager.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -38,4 +38,4 @@ Undertyper används för att identifiera olika typer av information:
 >abstract="Det bästa sättet är att granska alla anpassade MSM-introduktionskonfigurationer och anpassade rollout-åtgärder och se till att de fungerar AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kontakta oss [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller ta itu med frågor.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
