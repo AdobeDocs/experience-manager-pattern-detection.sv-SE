@@ -1,9 +1,9 @@
 ---
 title: MALL
 description: Mall för hjälpsidan för Mönsteravkännarkod.
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Mall
 
 ## Bakgrund {#background}
 
-Ange en beskrivning av problemet som den här koden representerar.
+Ange en beskrivning av ett eller flera problem som den här koden representerar.
 Svara på frågan:&quot;Vad är detta?&quot;
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
@@ -28,7 +28,7 @@ Svara på frågan:&quot;Varför ska jag bry mig?&quot;
 
 ## Möjliga lösningar {#solutions}
 
-Ange en beskrivning av möjliga åtgärder som minskar eller löser problemet. Undvik att duplicera information som kan finnas någon annanstans - referera till den offentliga Adobe-dokumentationen när det är möjligt.
+Beskriv möjliga åtgärder som minskar eller löser problemet. Undvik att duplicera information som kan finnas någon annanstans - referera till den offentliga Adobe-dokumentationen när det är möjligt.
 Svara på frågan:&quot;Vad kan jag göra åt det?&quot;
 
 * möjlig lösning nr 1
