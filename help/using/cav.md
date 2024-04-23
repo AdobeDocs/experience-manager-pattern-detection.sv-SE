@@ -2,9 +2,9 @@
 title: CAV
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ För att göra det säkrare och enklare för kunderna att förstå vilka delar a
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Genomförande"
->abstract="Mönster som identifieras med CAS där olika innehållsområdets överträdelser förekommer bör granskas. Klassificeringsområden för slutligt och internt innehåll bör undvikas. Kontakta Adobe Support för hjälp och förtydliganden."
+>abstract="Mönster som identifieras med CAS där olika innehållsområdets överträdelser förekommer bör granskas. Klassificeringsområden för slutligt och internt innehåll bör undvikas. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Hållbara uppgraderingar"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 

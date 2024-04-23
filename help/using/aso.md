@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ AEM - systemöversikt
 >id="aemcloud_bpa_aso_overview"
 >title="AEM - systemöversikt"
 >abstract="ASO-koden identifierar allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation som kan vara till hjälp vid migreringsplanering och omfaktorisering."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - versionsinformation"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - versionsinformation"
 
-`ASO` används för att identifiera allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation.
+ASO identifierar allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation.
 
 Undertyper används för att identifiera olika typer av information:
 
 * `aem.version`: AEM.
-* `aem.product`: Upptäckt av användning av en AEM (Commerce, Forms osv.).
-* `node.count`: Det ungefärliga antalet noder av en viss typ (Sida, Resurs osv.) och det totala antalet noder.
+* `aem.product`: Identifiering av användningen av en AEM (Commerce, Forms osv.).
+* `node.count`: Det ungefärliga antalet noder av en viss typ (Sida, Resurs och så vidare) och totalsumman för noder.
 * `node.store`: Nodlagringens implementeringstyp (SegmentNodeStore, DocumentNodeStore) och dess storlek.
 * `data.store`: Implementeringstypen för datalagret (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: En underhållsåtgärd.
@@ -57,12 +57,12 @@ Undertyper används för att identifiera olika typer av information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Genomförande"
->abstract="Information som visas via ASO-koden ger allmän information för din AEM, inklusive version, produkttillägg, information på systemnivå och denna bör granskas för alla produkter eller funktioner som inte stöds i AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden."
+>abstract="Information som exponeras via ASO-kod ger allmän information för din AEM, inklusive version, produkttillägg och information på systemnivå. Se om det finns några produkter eller funktioner som inte stöds på AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * AEM uppgraderingar med produkter eller funktioner som inte stöds rekommenderas inte och kanske inte stöds.
-* De obearbetade resurserna måste bearbetas och egenskapen dam:assetState på noden jcr:content i resursen måste ställas in på&quot;bearbetad&quot; eller ta bort dessa resurser från migreringsuppsättningen innan de migreras till AEMaaCS.
+* De obearbetade resurserna måste bearbetas och `dam:assetState` -egenskapen på `jcr:content` resursens nod måste vara inställd på&quot;bearbetad&quot;. Du kan också ta bort dessa resurser från migreringsuppsättningen innan du migrerar till AEMaaCS.
 * Vanity-URL:er kan ersättas med Apache Rewrites.
-* Se [dokumentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) för felsökning av långsamma frågor.
-* Granska [versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) om du vill veta mer om de senaste förändringarna AEM as a Cloud Service.
+* Se [dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) för felsökning av långsamma frågor.
+* Se [versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) om du vill veta mer om de senaste förändringarna AEM as a Cloud Service.
 * Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

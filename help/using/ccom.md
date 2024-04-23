@@ -2,9 +2,9 @@
 title: CCOM
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Egen komponent
 >title="Egen komponent"
 >abstract="CCOM identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls i syfte att bedöma bästa praxis"
 
-`CCOM` identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
+CCOM identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
 
 En undertyp används med den här koden för att identifiera komponentkategorin:
 
@@ -31,17 +31,17 @@ En undertyp används med den här koden för att identifiera komponentkategorin:
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
-* Bästa praxis är att minimera antalet anpassade komponenter, utnyttja kärnkomponenterna och använda huvudkomponenterna med Style System för att minska den tekniska skulden.
+* Bästa praxis är att minimera antalet anpassade komponenter, använda kärnkomponenter och använda kärnkomponenter med Style System för att minska den tekniska skulden.
 
 ## Möjliga lösningar {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="Genomförande"
->abstract="Bästa praxis är att minimera antalet anpassade komponenter, utnyttja kärnkomponenterna och använda huvudkomponenterna med Style System för att minska den tekniska skulden."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kärnkomponenter"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring" text="Formatsystem"
+>abstract="Bästa praxis är att minimera antalet anpassade komponenter, använda kärnkomponenter och använda kärnkomponenter med Style System för att minska den tekniska skulden."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="Kärnkomponenter"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Formatsystem"
 
-* Mer information om kärnkomponenter finns på [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
-* Mer information om Style System finns på [Använda formatsystemet](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
+* Mer information om kärnkomponenter finns på [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction).
+* Mer information om Style System finns på [Använda formatsystemet](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
 * Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

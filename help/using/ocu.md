@@ -2,9 +2,9 @@
 title: OCU
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Eftersom de gamla versionerna inte installeras som standard kanske kundapplikati
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_guidance"
 >title="Genomförande"
->abstract="Det bästa sättet är att granska och anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er. Kontakta Adobe Support för hjälp och förtydliganden."
+>abstract="Det bästa sättet är att granska och anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 

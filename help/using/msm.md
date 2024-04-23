@@ -2,9 +2,9 @@
 title: MSM
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Undertyper används för att identifiera olika typer av information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Genomförande"
->abstract="Det bästa sättet är att granska alla anpassade MSM-introduktionskonfigurationer och anpassade rollout-åtgärder och se till att de fungerar AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
+>abstract="Det bästa sättet är att granska alla anpassade MSM-introduktionskonfigurationer och anpassade rollout-åtgärder och se till att de fungerar AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

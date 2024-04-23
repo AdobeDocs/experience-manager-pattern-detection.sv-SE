@@ -2,9 +2,9 @@
 title: DG
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Utvecklarriktlinje
 >id="aemcloud_bpa_dg_overview"
 >title="Riktlinjer för utvecklare"
 >abstract="DG-kod identifierar avvikelser från valda utvecklingsriktlinjer för AEM 6.5 och AEM as a Cloud Service. Om du följer vedertagna standarder kan du förbättra systemets underhålls- och prestanda. Även om vissa av dessa avvikelser kanske inte är något problem i andra programsammanhang, inklusive i tidigare versioner av AEM, kan de orsaka problem när de används med AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM - riktlinjer och bästa praxis"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM riktlinjer för as a Cloud Service utveckling"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM - riktlinjer och bästa praxis"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM riktlinjer för as a Cloud Service utveckling"
 
 
-`DG` identifierar avvikelser i valda utvecklingsriktlinjer för [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html) och [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html). Om du följer vedertagna standarder kan du förbättra systemets underhålls- och prestanda. Även om vissa av dessa avvikelser kanske inte är något problem i andra programsammanhang, inklusive i tidigare versioner av AEM, kan de orsaka problem när de används med AEM as a Cloud Service.
+DG identifierar avvikelser i valda utvecklingsriktlinjer för [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) och [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Om du följer vedertagna standarder kan du förbättra systemets underhålls- och prestanda. Även om vissa av dessa avvikelser kanske inte är något problem i andra programsammanhang, inklusive i tidigare versioner av AEM, kan de orsaka problem när de används med AEM as a Cloud Service.
 
 Undertyper används för att identifiera olika typer av identifierade överträdelser:
 
@@ -45,7 +45,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `sling.commons.scheduler`
    * Program som är beroende av bakgrundsuppgifter som använder [Schemaläggare för Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) kanske inte fungerar som väntat eftersom körningen inte kan garanteras på AEM as a Cloud Service.
-   * AEM riktlinjer för as a Cloud Service utveckling för [bakgrundsuppgifter och tidskrävande jobb](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) föreslå att koden som körs som en schemalagd aktivitet måste anta att instansen som den körs på när som helst kan tas ned. Koden måste därför vara flexibel och återtagbar.
+   * Riktlinjer för [bakgrundsuppgifter och tidskrävande jobb](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) föreslå att koden som körs som en schemalagd aktivitet också måste anta att instansen som den körs på när som helst kan tas ned. Koden måste därför vara flexibel och återtagbar.
 
 * `unsupported.asset.api`
    * Följande API:er för AssetManager har markerats som ej stöds på AEM as a Cloud Service.
@@ -66,21 +66,21 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="Genomförande"
->abstract="I enlighet AEM utvecklingsriktlinjer och bästa praxis bör kunderna granska sina implementeringar av användningen av Sling Commons Scheduler och strukturera om dem till Sling Jobs, omstrukturera sina systemunderhållsuppgifter, granska strömning av binära data och omfaktorisera koden så att den överensstämmer med AEM as a Cloud Service."
+>abstract="Granska implementeringarna av användningen av Sling Commons Scheduler. Strukturera om dem till Sling Jobs, omstrukturera deras systemunderhållsuppgifter, granska direktuppspelning av binära data och omfaktorisera koden så att den överensstämmer med AEM as a Cloud Service."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Försäljningsjobb"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Underhållsaktiviteter på AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="Underhållsaktiviteter på AEM as a Cloud Service"
 
 * `java.io.inputstream`
    * Använd en direkt binär överföringsmetod där binärfilen läggs till direkt i datalagret.
    * Exempel på användning av resurser finns i [aem-upload](https://github.com/adobe/aem-upload). För andra typer av binärfiler kan anpassad överföringslogik modelleras efter samma mönster.
 
 * `maintenance.task.configuration`
-   * Granska AEM as a Cloud Service [Underhållsaktivitet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html) dokumentation.
-   * Se till att [Konfiguration av underhållsaktivitet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#maintenance-tasks-configuration-in-source-control) är i källkontrollen.
+   * Granska AEM as a Cloud Service [Underhållsaktivitet](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance) dokumentation.
+   * Se till att [Konfiguration av underhållsaktivitet](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) är i källkontrollen.
 
 * `sling.commons.scheduler`
    * Ersätt användningen av [Schemaläggare för Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) med [Försäljningsjobb](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), som har en minst en gång exekveringsgaranti.
-   * Långa jobb bör om möjligt undvikas.
+   * Långvariga jobb bör undvikas.
 
 * `unsupported.asset.api`
    * Istället för att använda API:er för Asset Manager som inte stöds går du till [aem-upload](https://github.com/adobe/aem-upload).
@@ -89,5 +89,5 @@ Undertyper används för att identifiera olika typer av identifierade överträd
    * I stället för att använda händelseavlyssnaren bör du ändra händelsehanteringsmekanismen till [Försäljningsjobb](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) eftersom det garanterar behandlingen.
 
 * `custom.guava.cache`
-   * Cacheminnen bör skapas utanför AEM, om det behövs. Extern cachningslösning kan övervägas.
+   * Om det behövs bör cacheminnen skapas utanför AEM. Extern cachningslösning kan övervägas.
 * Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

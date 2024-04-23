@@ -2,9 +2,9 @@
 title: UMI
 description: Hjälpsida för mönsteravkännarkod..
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Följande konfigurationer kontrolleras för ändring:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Genomförande"
->abstract="Det bästa sättet är att granska dina aktuella konfigurationer och återställa ändringar som gjorts i de angivna konfigurationerna för att undvika framtida uppgraderingsproblem. Kontakta Adobe Support för hjälp och förtydliganden"
+>abstract="Det bästa sättet är att granska dina aktuella konfigurationer och återställa ändringar som gjorts i de angivna konfigurationerna för att undvika framtida uppgraderingsproblem. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Ändra inte eller ta bort de fyra konfigurationer som nämns ovan.

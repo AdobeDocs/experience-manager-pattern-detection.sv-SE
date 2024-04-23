@@ -2,9 +2,9 @@
 title: intresseanmälning
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vissa av dessa används av `com.adobe.granite.repository`, som konfigurerar en d
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="Genomförande"
->abstract="Kunderna bör granska sin egen kod för att identifiera användningen av sådana API:er och omvärdera dem så att de är kompatibla med AEM as a Cloud Service. Kontakta Adobe Support för hjälp och förtydliganden"
+>abstract="Kunderna bör granska sin egen kod för att identifiera användningen av sådana API:er och omvärdera dem så att de är kompatibla med AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Använd Sling Resource API (eller JCR API) i stället för åtkomst på låg nivå.

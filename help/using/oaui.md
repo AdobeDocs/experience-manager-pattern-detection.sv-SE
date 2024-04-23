@@ -2,9 +2,9 @@
 title: OAUI
 description: Hjälpsida för mönsteravkännarkod..
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Ett exempel är: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="Genomförande"
->abstract="Externa användare som konfigurerats med OAuth kan inte logga in på författare-/publiceringsinstanser förrän de har konfigurerats om så att de är kompatibla med AEM as a Cloud Service. AEM as a Cloud Service har endast stöd för IMS-autentisering för författare, administratörer och utvecklare samt SAML-baserad integration för publiceringsmiljöerna. Kontakta Adobe Support för hjälp och förtydliganden"
+>abstract="Externa användare som konfigurerats med OAuth kan inte logga in på författare-/publiceringsinstanser förrän de har konfigurerats om så att de är kompatibla med AEM as a Cloud Service. AEM as a Cloud Service har endast stöd för IMS-autentisering för författare, administratörer och utvecklare samt SAML-baserad integration för publiceringsmiljöerna. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS-stöd - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML-integrering - publicera"
 
