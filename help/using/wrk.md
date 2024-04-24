@@ -2,9 +2,9 @@
 title: ARRK
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Arbetsflöde
 >abstract="WRK-kod identifierar en sökning som är relaterad till en arbetsflödesmodell eller startprogram. Dessa rapporteras eftersom anpassade arbetsflödesmodeller för resurser måste migreras när de uppgraderas till AEM as a Cloud Service. Med AEM as a Cloud Service utförs nu bearbetning av mediefiler av mikrotjänster."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Asset Microservices"
 
-WRK identifierar en sökning som är relaterad till en arbetsflödesmodell eller startare. Dessa rapporteras eftersom anpassade arbetsflödesmodeller för resurser måste migreras när de uppgraderas till AEM as a Cloud Service.
+`WRK`  Identifierar en sökning som är relaterad till en arbetsflödesmodell eller startprogram. Dessa rapporteras eftersom anpassade arbetsflödesmodeller för resurser måste migreras när de uppgraderas till AEM as a Cloud Service.
 
 En undertyp används för att identifiera den typ av arbetsflödesproblem som för närvarande upptäcks.
 

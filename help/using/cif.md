@@ -2,9 +2,9 @@
 title: CIF
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Commerce integration framework Classic
 >abstract="CIF identifierar den klassiska versionen av Commerce integrationa frameworkens användning som är inkompatibel med AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Innehåll och handel"
 
-CIF CIF identifierar den klassiska versionen av Commerce integrationa frameworken som inte är kompatibel med AEM as a Cloud Service. Meddelandet för varje `CIF` identifierar användningen och ger ytterligare information.
+`CIF`  Identifierar den klassiska versionen av Commerce integrationa frameworkens användning som är inkompatibel med AEM as a Cloud Service. Meddelandet för varje `CIF` identifierar användningen och ger ytterligare information.
 
 Undertyper används för att identifiera olika typer av information:
 

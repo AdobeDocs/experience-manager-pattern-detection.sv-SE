@@ -2,9 +2,9 @@
 title: ACV
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Betydande ändringar - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - versionsinformation"
 
-Innehållsverifieraren i ACV Assets identifierar de saknade obligatoriska noderna och felen i resursinnehållet. Detta kan leda till fel på vissa Assets-funktioner på Experience Manager as a Cloud Service.
+`ACV` (Resursens innehållsvaliderare) Identifierar de saknade obligatoriska noderna och felen i resursinnehållet. Detta kan leda till fel på vissa Assets-funktioner på Experience Manager as a Cloud Service.
 
 Undertyper används för att identifiera olika typer av information, som:
 

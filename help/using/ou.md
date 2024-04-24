@@ -2,9 +2,9 @@
 title: OU
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,10 @@ Inaktuell användning
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_overview"
 >title="Inaktuell användning"
->abstract="OU identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Betydande ändringar - AEM as a Cloud Service"
+>abstract="OU identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
-`OU` identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till den här ändringen före en uppgradering. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
+`OU`  Identifierar situationen där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
 
 Eftersom de gamla versionerna inte installeras som standard kanske kundapplikationen inte fungerar som den ska.
 

@@ -2,9 +2,9 @@
 title: URC
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Körningsläget stöds inte
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Körningslägen som stöds"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Runmodes"
 
-URC identifierar användningen av konfigurationer som är baserade på ett körningslägesnamn som inte stöds i AEM as a Cloud Service.
+`URC`  Identifierar användningen av konfigurationer som är baserade på ett körningslägesnamn som inte stöds i AEM as a Cloud Service.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 

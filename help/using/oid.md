@@ -2,9 +2,9 @@
 title: OID
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Oak Index-definition
 >abstract="OID identifierar problem som är relaterade till indexdefinitioner för Oak. Den identifierar ändringar som har gjorts i standardindexdefinitionerna för ekak. Den identifierar också anpassade Oak-indexdefinitioner som är inkompatibla med AEM as a Cloud Service. Meddelandet för varje OID-sökning identifierar indexet och ger ytterligare information."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Riktlinjer för innehållsindexering"
 
-OID identifierar problem som är relaterade till indexdefinitioner för Oak. Den identifierar ändringar som har gjorts i standardindexdefinitionerna för ekak. Den identifierar också anpassade Oak-indexdefinitioner som är inkompatibla med AEM as a Cloud Service. Meddelandet för varje `OID` identifierar indexet och anger ytterligare information.
+`OID`  Identifierar problem som är relaterade till indexdefinitioner för läckage. Den identifierar ändringar som har gjorts i standardindexdefinitionerna för ekak. Den identifierar också anpassade Oak-indexdefinitioner som är inkompatibla med AEM as a Cloud Service. Meddelandet för varje `OID` identifierar indexet och anger ytterligare information.
 
 Undertyper används för att identifiera olika typer av information:
 

@@ -2,7 +2,7 @@
 title: CCL
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -20,9 +20,10 @@ Anpassat klientbibliotek
 >title="Anpassat klientbibliotek"
 >abstract="CCL identifierar klientbibliotek som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder."
 
-`CCL` identifierar klientbibliotek som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
+`CCL` Identifierar klientbibliotek som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
 
 En undertyp används med den här koden:
+
 * `custom.client.library`
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}

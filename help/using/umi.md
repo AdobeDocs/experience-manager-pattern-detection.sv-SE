@@ -1,10 +1,10 @@
 ---
 title: UMI
-description: Hjälpsida för mönsteravkännarkod..
+description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Fel vid felkonfiguration av uppgradering
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - versionsinformation"
 
-UMI identifierar ändringar i vissa OSGi-konfigurationer som orsakar problem vid uppgradering, inklusive en misslyckad uppgradering eller reducerad funktionalitet.
+`UMI`  Identifierar ändringar av vissa OSGi-konfigurationer som orsakar problem vid uppgradering, inklusive en misslyckad uppgradering eller reducerad funktionalitet.
 
 Följande konfigurationer kontrolleras för ändring:
 

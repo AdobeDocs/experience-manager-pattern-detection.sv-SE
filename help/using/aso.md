@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ AEM - systemöversikt
 >abstract="ASO-koden identifierar allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation som kan vara till hjälp vid migreringsplanering och omfaktorisering."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - versionsinformation"
 
-ASO identifierar allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation.
+`ASO` Identifierar allmän information om AEM. Varje sökning ger ett värde av en viss typ av systeminformation.
 
 Undertyper används för att identifiera olika typer av information:
 

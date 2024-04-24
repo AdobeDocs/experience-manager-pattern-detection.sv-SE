@@ -2,9 +2,9 @@
 title: INS
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ogiltigt namnutrymme
 >title="Ogiltigt namnutrymme"
 >abstract="INS identifierar namnutrymmesproblem AEM instansen"
 
-`INS`  Ogiltigt namnutrymme identifierar namnområdesproblem AEM instansen.
+`INS`  (Ogiltigt namnutrymme) Identifierar namnutrymmesproblem i AEM.
 
 Undertyper används för att identifiera olika typer av information, som:
 
@@ -28,7 +28,7 @@ Undertyper används för att identifiera olika typer av information, som:
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
-* Det går inte att replikera innehåll (över skiktet) eller kopiera innehåll (över kuvertet - via `/crx/packMgr` eller Innehållskopia).
+* Det går inte att replikera innehåll (över hela nivån) eller kopiera innehåll (över hela nivån) `env`, genom `/crx/packMgr`, eller innehållskopia).
 
 ## Möjliga lösningar {#solutions}
 

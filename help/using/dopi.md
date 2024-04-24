@@ -2,9 +2,9 @@
 title: DOPI
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Inaktuellt sorterat egenskapsindex
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Beställt index - inaktuellt"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexering - AEM as a Cloud Service"
 
-DOPI identifierar användningen av indexdefinitioner för ordnade egenskaper (`primaryType=oak:QueryIndexDefinition` OCH `type="ordered"`), som har tagits bort sedan 6.1 och tagits bort i 6.2.
+`DOPI`  Identifierar användningen av indexdefinitioner för ordnade egenskaper (`primaryType=oak:QueryIndexDefinition` OCH `type="ordered"`), som har tagits bort sedan AEM 6.1 och tagits bort i AEM 6.2.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -45,6 +45,6 @@ DOPI identifierar användningen av indexdefinitioner för ordnade egenskaper (`p
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI-överträdelse - GitHub"
 
-* Ändra indexdefinitionen så att den blir - eller ersätter indexet med - en indexdefinition som stöds. (Se [Fråga och indexering](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
+* Redigera indexdefinitionen så att den blir - eller ersätter indexet med - en indexdefinition som stöds. (Se [Fråga och indexering](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
 * Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) projekt och förstå hur [DOPI-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
 * Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.

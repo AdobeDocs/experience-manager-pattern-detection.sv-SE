@@ -2,9 +2,9 @@
 title: CAV
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Felaktigt innehållsområde
 >abstract="CAV-koden identifierar mönstret där olika innehållsområden används på ett sätt som bryter mot reglerna i innehållsklassificeringen. Överträdelsen ger dig en översikt över övertäckningar, begränsat innehåll som kan behöva ändras efter att det har flyttats till AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Samla resurser"
 
-CAV identifierar mönstret där olika innehållsområden används på ett sätt som bryter mot reglerna i innehållsklassificeringen.
+`CAV` Identifierar mönstret där olika innehållsområden används på ett sätt som bryter mot reglerna i innehållsklassificeringen.
 
 Bearbetning av Sling-begäran definierar hur innehållet i en resurs, dess `sling:resourceType` egenskapen används särskilt för att avgöra vilket skript som används för att återge innehållet. Se [Hitta skriptet](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) för mer information. Sling tillhandahåller också tekniker för åtkomst och sammanslagning av resurser via&quot;Övertäckningar&quot; och&quot;Åsidosättningar&quot;. Dessa beskrivs som en del av [Samla resurser](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) och in [Övertäckningar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 

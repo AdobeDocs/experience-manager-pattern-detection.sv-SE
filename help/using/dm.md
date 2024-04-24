@@ -2,9 +2,9 @@
 title: DM
 description: Lär dig mer om hur koden för Mönsteravkännare identifierar användningen av AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM - riktlinjer och bästa praxis"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM riktlinjer för as a Cloud Service utveckling"
 
-`DM` (Dynamic Media) identifierar användning av AEM Assets Dynamic Media. Dynamic Media-läget identifieras av körningsläget.
+`DM` (Dynamic Media) Identifierar användningen av AEM Assets Dynamic Media. Dynamic Media-läget identifieras av körningsläget.
 
 En undertyp används med den här koden:
 
@@ -48,4 +48,4 @@ En undertyp används med den här koden:
 * `dynamic.media.runmode`
    * Mer information finns på [Konfigurera Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* Nå ut till [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om ni behöver klargöranden eller frågor som behandlas.
+* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om ni behöver klargöranden eller frågor som behandlas.

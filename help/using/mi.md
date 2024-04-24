@@ -2,9 +2,9 @@
 title: MI
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Felkonfigurationsproblem
 >title="Felkonfigurationsproblem"
 >abstract="MI identifierar konfigurationsproblem AEM instansen"
 
-Felkonfigurationsproblem i felkommunikation identifierar konfigurationsproblem i AEM.
+`MI` (Felkonfigurationsproblem) Identifierar konfigurationsproblem i AEM.
 
 Undertyper används för att identifiera olika typer av information, som:
 

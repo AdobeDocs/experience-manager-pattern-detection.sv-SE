@@ -2,9 +2,9 @@
 title: URS
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Databasstrukturen stöds inte
 
 ## Bakgrund {#background}
 
-URS identifierar fall av databasstruktur och nodegenskaper som inte stöds. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod och undvika konflikter mellan dem struktureras innehållet om från `/etc` till andra mappar i databasen enligt följande högnivåregler:
+`URS`  Identifierar fall av databasstruktur och nodegenskaper som inte stöds. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod och undvika konflikter mellan dem struktureras innehållet om från `/etc` till andra mappar i databasen enligt följande högnivåregler:
 
 * AEM produktkod placeras alltid i `/libs`, som inte får skrivas över av anpassad kod.
 * Anpassad kod ska placeras i `/apps`, `/content`och `/conf`.

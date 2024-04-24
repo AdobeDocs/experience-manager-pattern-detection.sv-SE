@@ -2,9 +2,9 @@
 title: LUI
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >abstract="LUI identifierar användning av borttagna element i användargränssnittet som inte rekommenderas eller inte stöds i senare versioner av AEM och i AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
-LUI identifierar användning av borttagna element i användargränssnittet som inte rekommenderas eller inte stöds i senare versioner av AEM och i AEM as a Cloud Service.
+`LUI`  Identifierar användningen av inaktuella användargränssnittselement som inte rekommenderas eller inte stöds i senare versioner av AEM och i AEM as a Cloud Service.
 
 Undertyper används för att identifiera olika typer av element i användargränssnittet som ska eller måste uppgraderas:
 

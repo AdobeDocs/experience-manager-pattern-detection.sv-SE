@@ -2,9 +2,9 @@
 title: REP
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Replikeringsagent
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Betydande ändringar - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Utvecklingsriktlinjer"
 
-REP identifierar aktiverade replikeringsagenter. Dessa rapporteras på grund av risken för problem som bör åtgärdas vid uppgradering till AEM as a Cloud Service.
+`REP`  Anger aktiverade replikeringsagenter. Dessa rapporteras på grund av risken för problem som bör åtgärdas vid uppgradering till AEM as a Cloud Service.
 
 Undertyper används för att identifiera olika typer av information:
 

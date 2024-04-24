@@ -2,9 +2,9 @@
 title: ecu
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ INAKTUELL: Ovidkommande innehållsanvändning (ersätts med CAV, felaktiga inneh
 
 ## Bakgrund {#background}
 
-Med ecu identifieras mönstret där olika innehållsområden används på ett sätt som bryter mot reglerna i innehållsklassificeringen.
+`ECU`  Identifierar mönstret där olika innehållsområden används på ett sätt som bryter mot reglerna i innehållsklassificeringen.
 
 Bearbetning av Sling-begäran definierar hur innehållet i en resurs, dess `sling:resourceType` egenskapen används särskilt för att avgöra vilket skript som används för att återge innehållet. (Se [Hitta skriptet](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) för mer information.) Sling tillhandahåller också tekniker för åtkomst och sammanslagning av resurser via&quot;Övertäckningar&quot; och&quot;Åsidosättningar&quot;. Dessa beskrivs som en del av [Samla resurser](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) och in [Övertäckningar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 

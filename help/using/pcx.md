@@ -2,9 +2,9 @@
 title: PCX
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Sidkomplexitet
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - versionsinformation"
 
-PCX identifierar sidor som innehåller många noder i sin struktur.
+`PCX`  Identifierar sidor som innehåller många noder i sin struktur.
 
 Undertyper används för att identifiera olika typer av information:
 

@@ -2,9 +2,9 @@
 title: NCC
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Ej kompatibla ändringar
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionsinformation - AEM as a Cloud Service"
 
-NCC identifierar situationen där vissa JCR-noder eller paket ändras på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen.
+`NCC`  Identifierar den situation där vissa JCR-noder eller paket ändras på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 

@@ -2,9 +2,9 @@
 title: intresseanmälning
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Import av intern Oak
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Import av intern Oak"
->abstract="IOI-koden identifierar kundernas användning av interna Oak-paket, som importerar dem via OSGi. De exporteras vanligtvis utan någon särskild version och är avsedda endast för konsumtion av andra ekpaket eller AEM på låg nivå."
+>abstract="IOI-koden identifierar kundernas användning av interna Oak-paket, som importerar dem via OSGi. De exporteras utan någon särskild version och är endast avsedda för konsumtion av andra ekpaket eller AEM."
 
-`IOI` identifierar kundernas användning av interna Oak-paket, och importerar dem via OSGi. De exporteras vanligtvis utan någon särskild version och är avsedda endast för konsumtion av andra ekpaket eller AEM på låg nivå.
+`IOI`  Identifierar kundens användning av interna Oak-paket, som importeras via OSGi. De exporteras utan någon särskild version och är endast avsedda för konsumtion av andra ekpaket eller AEM.
 
 Vissa av dessa används av `com.adobe.granite.repository`, som konfigurerar en databas för AEM vid start. Ett annat exempel är `com.adobe.granite.maintenance.oak` Adobe bundle, som omsluter och tillhandahåller ekunderhåll.
 

@@ -2,9 +2,9 @@
 title: CCOM
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Egen komponent
 >title="Egen komponent"
 >abstract="CCOM identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls i syfte att bedöma bästa praxis"
 
-CCOM identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
+`CCOM` Identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
 
 En undertyp används med den här koden för att identifiera komponentkategorin:
 
