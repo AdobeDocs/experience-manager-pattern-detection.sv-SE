@@ -2,9 +2,9 @@
 title: CDW
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Widget för anpassad dialogruta
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
 >title="Widget för anpassad dialogruta"
->abstract="CDW identifierar widgetar för anpassade dialogrutor som bör uppdateras för att de ska vara kompatibla med AEM as a Cloud Service."
+>abstract="CDW identifierar widgetar för anpassade dialogrutor som ska uppdateras för att vara kompatibla med AEM as a Cloud Service."
 
-`CDW`  (Widgetar för anpassad dialogruta) Identifierar widgetar för anpassade klassiska dialogrutor. Dessa bör uppdateras för att vara kompatibla med AEM as a Cloud Service.
+`CDW`  (`Custom Dialog Widgets`) Identifierar de anpassade widgetarna för klassisk dialogruta. Dessa widgetar bör uppdateras för att de ska vara kompatibla med AEM as a Cloud Service.
 
 Undertyper används för att identifiera informationen, till exempel:
 
