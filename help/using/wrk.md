@@ -2,9 +2,9 @@
 title: ARRK
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ En undertyp används för att identifiera den typ av arbetsflödesproblem som f�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Verktyg och resurser"
->abstract="Granska och planera för att köra verktyget för resursarbetsflödesmigrering när en anpassad arbetsflödesmodell eller startfunktion för resurser har identifierats. Kontakta Adobe Support för hjälp eller klargöranden."
+>abstract="Granska och planera körningen av verktyget för resursarbetsflödesmigrering när en anpassad arbetsflödesmodell eller startfunktion för en resurs har identifierats. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Verktyg för resursarbetsflödesmigrering"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 

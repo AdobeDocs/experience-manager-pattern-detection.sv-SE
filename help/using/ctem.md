@@ -2,7 +2,7 @@
 title: CTEM
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 2%
@@ -18,14 +18,14 @@ Egen mall
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Egen mall"
->abstract="CTEM identifierar anpassade komponenter som har installerats på AEM. Denna information tillhandahålls i syfte att bedöma bästa praxis"
+>abstract="CTEM identifierar anpassade komponenter som är installerade på AEM. Denna information tillhandahålls i syfte att bedöma bästa praxis"
 
-`CTEM`  Identifierar anpassade mallar som har installerats på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
+`CTEM`  Identifierar anpassade mallar som är installerade på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
 
-Mallar identifieras av ett primärt typvärde för `cq:Template`. En undertyp används med den här koden för att identifiera mallkategorin:
+Mallar har det primära typvärdet `cq:Template`som hjälper till att identifiera dem. En undertyp används med den här koden för att identifiera mallkategorin:
 
-* `custom.editable.template`: Mallens sökväg börjar inte med /apps.
-* `custom.static.template`: Mallens sökväg börjar med /apps.
+* `custom.editable.template`: Mallens sökväg börjar inte med `/apps`.
+* `custom.static.template`: Mallens sökväg börjar med `/apps`.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
