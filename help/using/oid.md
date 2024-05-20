@@ -2,9 +2,9 @@
 title: OID
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---

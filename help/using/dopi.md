@@ -2,9 +2,9 @@
 title: DOPI
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---

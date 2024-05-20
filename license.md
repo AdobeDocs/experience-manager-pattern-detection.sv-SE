@@ -1,7 +1,7 @@
 ---
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -9,8 +9,8 @@ ht-degree: 0%
 
 © Copyright 2021 Adobe. all rights reserved.
 
-Tillstånd ges kostnadsfritt till alla som erhåller en kopia av programvaran och tillhörande dokumentationsfiler (&quot;Programvaran&quot;) att handla i Programvaran utan begränsning. Detta inkluderar, utan begränsning, rätten att använda, kopiera, redigera, sammanfoga, publicera, distribuera, underlicensiera och/eller sälja kopior av Programvaran. För att de personer till vilka Programvaran tillhandahålls ska kunna göra detta, på följande villkor:
+Denna licens ger kostnadsfritt tillstånd till alla som får en kopia av programvaran och tillhörande dokumentationsfiler (&quot;Programvaran&quot;) att handla i Programvaran utan begränsningar. Denna licens innefattar utan begränsning rätten att använda, kopiera, redigera, slå samman, publicera, distribuera, underlicensiera och/eller sälja kopior av Programvaran. För att de personer till vilka Programvaran tillhandahålls ska kunna göra detta, på följande villkor:
 
 Ovannämnda meddelande om upphovsrätt och detta tillståndsmeddelande ska finnas med i alla exemplar eller väsentliga delar av Programvaran.
 
-PROGRAMVARAN TILLHANDAHÅLLS &quot;I BEFINTLIGT SKICK&quot; UTAN GARANTI AV NÅGON TYP, UTTRYCKLIG ELLER UNDERFÖRSTÅDD, INKLUSIVE MEN INTE BEGRÄNSAD TILL GARANTIER FÖR SÄLJBARHET, LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL OCH ICKE-ÖVERTRÄDELSE. UPPHOVSRÄTTSINNEHAVARE FÅR INTE I NÅGOT FALL ANSVARA FÖR ANSPRÅK, SKADOR ELLER ANDRA ANSVAR. OAVSETT OM DET ÄR EN AVTAL, SORTERA ELLER PÅ ANNAT SÄTT SOM UPPSTÅR FRÅN, UT FRÅN ELLER I SAMBAND MED PROGRAMMET. ELLER ANVÄNDNINGEN ELLER ANDRA ERBJUDANDEN I PROGRAMVARAN.
+PROGRAMVARAN TILLHANDAHÅLLS &quot;I BEFINTLIGT SKICK&quot; UTAN GARANTI AV NÅGON TYP, UTTRYCKLIG ELLER UNDERFÖRSTÅDD. DEN OMFATTAR, MEN ÄR INTE BEGRÄNSAD TILL, GARANTIER FÖR SÄLJBARHET, LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL OCH ICKE-ÖVERTRÄDELSE. UPPHOVSRÄTTSINNEHAVARE FÅR INTE I NÅGOT FALL ANSVARA FÖR ANSPRÅK, SKADOR ELLER ANDRA ANSVAR. OAVSETT OM DET ÄR EN AVTAL, SORTERA ELLER PÅ ANNAT SÄTT SOM UPPSTÅR FRÅN, UT FRÅN ELLER I SAMBAND MED PROGRAMMET. ELLER ANVÄNDNINGEN ELLER ANDRA ERBJUDANDEN I PROGRAMVARAN.
