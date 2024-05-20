@@ -2,9 +2,9 @@
 title: OID
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Undertyper används för att identifiera olika typer av information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Verktyg och resurser"
->abstract="Granska ett WKND-gammalt projekt för att förstå hur OID-överträdelser kan lösas i ditt projekt. Granska också Exempel på OID-överträdelse i GitHub för att förstå hur äldre index kan konverteras med verktyget Indexkonverterare och göras kompatibla med AEM as a Cloud Service."
+>abstract="Granska ett WKND-gammalt projekt för att förstå hur OID-överträdelser kan lösas i ditt projekt. Granska även exemplet på OID-överträdelse på GitHub. Det kan hjälpa dig att förstå hur äldre index kan konverteras med verktyget Indexkonverterare och göras kompatibla med AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Exempel på OID-överträdelse - GitHub"
 
@@ -55,4 +55,4 @@ Undertyper används för att identifiera olika typer av information:
 * Anpassade AEM standardindex och nya anpassade Oak-indexdefinitioner bör följa [riktlinjer för innehållsindexering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) för AEM as a Cloud Service.
 * Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) projekt och förstå hur [OID-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
 * Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
-* Använd [Indexkonverterare](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) om du vill migrera befintliga definitioner för anpassade ekindexvärden för ekon till AEM as a Cloud Service kompatibla indexdefinitioner för ekon.
+* Använd [Indexkonverterare](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) om du vill migrera befintliga definitioner för anpassade ekv-index till AEM as a Cloud Service anpassade ekv-indexdefinitioner.

@@ -2,9 +2,9 @@
 title: INST
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Installerad artefakt
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Installerad artefakt"
->abstract="INST identifierar anpassade paket och paket från tredje part som kunden har installerat i AEM. Dessa rapporteras för att bidra till att karakterisera systemets tillstånd i den allmänna omfattningen av en uppgraderingsinsats. Alla tredjepartspaket måste följa riktlinjerna för AEM as a Cloud Service utveckling och paketering."
+>abstract="INST identifierar anpassade paket och paket från tredje part som kunden har installerat i AEM. Sådana paket och paket rapporteras för att hjälpa till att beskriva systemets status och det allmänna tillämpningsområdet för en uppgraderingsinsats. Alla tredjepartspaket måste följa riktlinjerna för AEM as a Cloud Service utveckling och paketering."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Utvecklingsriktlinjer - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Riktlinjer för paketering - AEM as a Cloud Service"
 
-`INST`  Identifierar anpassade paket och paket från tredje part som kunden har installerat i AEM. Dessa rapporteras för att bidra till att karakterisera systemets tillstånd i den allmänna omfattningen av en uppgraderingsinsats.
+`INST`  Identifierar anpassade paket och paket från tredje part som kunden har installerat i AEM. Sådana paket och paket rapporteras för att hjälpa till att beskriva systemets status och det allmänna tillämpningsområdet för en uppgraderingsinsats.
 
 När flera versioner av ett paket har installerats rapporteras endast den senaste versionen.
 
@@ -51,7 +51,7 @@ Undertyper används för att identifiera olika typer av information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Verktyg och resurser"
->abstract="Läs om hur INST-överträdelser kan göras kompatibla med AEM Cloud Service. Granska också INST-överträdelse-exemplet på GitHub för att förstå hur detta kan korrigeras och distribueras på AEM as a Cloud Service."
+>abstract="Läs om hur INST-överträdelser kan göras kompatibla med AEM Cloud Service. Granska även exemplet på INST-överträdelse på GitHub för att förstå hur problemet kan åtgärdas och distribueras på AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exempel på INST-överträdelse - GitHub"
 

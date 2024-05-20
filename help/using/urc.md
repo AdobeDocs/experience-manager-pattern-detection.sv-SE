@@ -2,9 +2,9 @@
 title: URC
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ Körningsläget stöds inte
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
->title="Runmode-konfigurationen stöds inte"
+>title="Körningsläget stöds inte"
 >abstract="URC identifierar användningen av konfigurationer som är baserade på ett körningslägesnamn som inte stöds i AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Körningslägen som stöds"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Runmodes"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Körningslägen"
 
 `URC`  Identifierar användningen av konfigurationer som är baserade på ett körningslägesnamn som inte stöds i AEM as a Cloud Service.
 
@@ -29,7 +29,7 @@ Körningsläget stöds inte
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Genomförande"
->abstract="Bästa praxis är att granska om alla körningslägen som används i programmet stöds och kontrollera att de följer riktlinjerna för upplösning i körningsläge"
+>abstract="Bästa praxis är att granska om alla körningslägen som används i programmet stöds. Och se till att de följer riktlinjerna för upplösning i körningsläge"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Riktlinjer för upplösning i körläge"
 
 * Den uppsättning namn som kan användas för att köra olika lägen i AEM as a Cloud Service är begränsad.
@@ -40,7 +40,7 @@ Körningsläget stöds inte
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Verktyg och resurser"
->abstract="Granska WKND-äldre projekt för att förstå hur URC-överträdelser kan göras kompatibla med AEM Cloud Service. Granska också URC-överträdelseexemplet på GitHub för att förstå hur anpassade runmode-baserade OSGi-konfigurationer kan uppdateras för att följa AEM as a Cloud Service."
+>abstract="Granska WKND-äldre projekt för att förstå hur URC-överträdelser kan göras kompatibla med AEM Cloud Service. Granska också URC-överträdelseexemplet på GitHub för att förstå hur anpassade körlägesbaserade OSGi-konfigurationer kan uppdateras för att följa AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Exempel på URC-överträdelse - GitHub"
 

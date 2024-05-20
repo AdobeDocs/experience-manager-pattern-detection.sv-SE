@@ -2,9 +2,9 @@
 title: DG
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
 * `java.io.inputstream`
-   * Direktuppspelning av binära data med `java.io.InputStream` kan förbruka minnesresurser så att prestandan påverkas. Detta beror särskilt på det begränsade minne som finns i behållare som används i AEM as a Cloud Service.
+   * Direktuppspelning av binära data med `java.io.InputStream` kan förbruka minnesresurser så att prestandan påverkas. Problemet beror på det begränsade minne som finns i behållare som används i AEM as a Cloud Service.
 
 * `maintenance.task.configuration`
    * Vissa underhållsuppgifter som tidigare krävde explicit konfiguration konfigureras och hanteras nu automatiskt inom AEM as a Cloud Service.

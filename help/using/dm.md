@@ -2,9 +2,9 @@
 title: DM
 description: Lär dig mer om hur koden för Mönsteravkännare identifierar användningen av AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM-koden identifierar användningen av AEM Assets Dynamic Media i den aktuella implementeringen. Dynamic Media-läget identifieras av körningsläget."
+>abstract="DM-koden identifierar användningen av AEM Assets Dynamic Media i den aktuella implementeringen. Körningsläget identifierar Dynamic Media-läget."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM - riktlinjer och bästa praxis"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM riktlinjer för as a Cloud Service utveckling"
 
-`DM` (Dynamic Media) Identifierar användningen av AEM Assets Dynamic Media. Dynamic Media-läget identifieras av körningsläget.
+`DM` (Dynamic Media) Identifierar användningen av AEM Assets Dynamic Media. Körningsläget identifierar Dynamic Media-läget.
 
 En undertyp används med den här koden:
 
