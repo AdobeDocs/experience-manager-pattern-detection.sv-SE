@@ -2,7 +2,7 @@
 title: CCL
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
