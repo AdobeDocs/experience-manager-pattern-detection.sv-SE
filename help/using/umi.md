@@ -2,9 +2,9 @@
 title: UMI
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Följande konfigurationer kontrolleras för ändring:
    * Uppgraderingen kan fastna (till exempel `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` saknades men fanns i `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
    * Behörighetsproblem kan uppstå efter uppgradering (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Vissa funktioner kanske inte fungerar som de ska. Till exempel ändra `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` kan leda till att vissa JSP-filer inte kompileras, vilket i slutänden leder till att funktionaliteten går förlorad.
-   * Värdena för Externalizer-konfigurationen `com.day.cq.commons.impl.ExternalizerImpl` anges av miljövariabler i molnhanteraren i AEM as a Cloud Service.
+   * Värdena för Externalizer-konfigurationen `com.day.cq.commons.impl.ExternalizerImpl` anges med miljövariabler för molnhanteraren i AEM as a Cloud Service.
    * AEM som en Cloud Service stöder inte anpassade loggfiler. Loggar som skrivits till loggar med egna namn är inte tillgängliga från AEM as a Cloud Service.
 
 ## Möjliga lösningar {#solutions}

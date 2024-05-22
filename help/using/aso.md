@@ -2,9 +2,9 @@
 title: ASO
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Undertyper används för att identifiera olika typer av information:
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
 * AEM, antal noder, gruppmedlemskap, nodbutik, implementeringstyper för datalager, CQ-taggantal, antal smarta taggar, kärnkomponentversion, AEM instanstyp och antal obearbetade resurser tillhandahålls i informationssyfte.
-* Det högre antalet tillfälliga URL:er (>1000) kan göra att Dispatcher och Publish-servrarna laddas med dyra frågor.
+* Det högre antalet tillfälliga URL:er (>1000) kan göra att Dispatcher- och Publish-servrarna läses in med dyra frågor.
 * Det anpassade programmet kan förlita sig på produkter eller funktioner som inte finns i AEM as a Cloud Service.
 * Uppgradering med funktioner som inte stöds kan leda till en misslyckad uppgradering och ett icke-funktionellt program.
-* Ett stort antal arbetsflöden för författare i kört eller inaktuellt tillstånd kan försämra prestanda.
+* Ett stort antal arbetsflöden för författare i ett öppet eller inaktuellt tillstånd kan försämra prestanda.
 * Långsamma frågor kan försämra systemets prestanda.
 
 ## Möjliga lösningar {#solutions}

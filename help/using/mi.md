@@ -2,9 +2,9 @@
 title: MI
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Felkonfigurationsproblem
 Undertyper används för att identifiera olika typer av information, som:
 
 * `sling.job.max.parallel`: Identifiera snedstreck där den maximala parallella konfigurationen är -1.
-* `missing.maintenance.configuration`: Identifiera saknade konfigurationer av underhållsaktiviteter.
+* `missing.maintenance.configuration`: Identifiera saknade underhållsuppgiftskonfigurationer.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * Värdet -1 ersätts med antalet tillgängliga processorer. Detta kan orsaka prestandaproblem AEM instansen.
+   * Värdet -1 ersätts med antalet tillgängliga processorer. Det kan därför orsaka prestandaproblem i en AEM.
 * `missing.maintenance.configuration`
    * Konfigurationer för underhållsaktiviteter som saknas kan orsaka prestandaförluster eller instansfel.
 

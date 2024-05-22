@@ -2,9 +2,9 @@
 title: FORMULÄR
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS kod identifierar potentiella problem med migrering från Adobe Experience Manager Forms till Adobe Experience Manager Forms as a Cloud Service. Granska eventuella konsekvenser och risker som är förknippade med detta och åtgärda dessa problem innan du migrerar till Cloud Servicen."
+>abstract="FORMS-kod identifierar potentiella problem med migrering från AEM (Adobe Experience Manager) Forms till AEM Forms as a Cloud Service. Granska eventuella konsekvenser och risker som är förknippade med detta och åtgärda dessa problem innan du migrerar till Cloud Servicen."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Möjliga konsekvenser och risker"
 
 `FORMS`  Identifierar potentiella problem relaterade till migrering från [!DNL Adobe Experience Manager Forms] till [!DNL Adobe Experience Manager Forms] som [!DNL Cloud Service]. Åtgärda problemen innan du migrerar till [!DNL Cloud Service].
@@ -50,7 +50,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Verifieringssteget är inte tillgängligt. (VERIFY_STEP)
 
-* The **[!UICONTROL Submit to Forms Workflow]** Åtgärden Skicka är inte tillgänglig. I AEM 6.5 Forms och tidigare användes åtgärden Skicka för att skicka data med anpassningsbara formulär till äldre AEM Forms i JEE-arbetsflöden och -LiveCyclen Workflow. (LC_WORKFLOW_SUBMISSION)
+* The **[!UICONTROL Submit to Forms Workflow]** Åtgärden Skicka är inte tillgänglig. På AEM 6.5 Forms och tidigare användes åtgärden Skicka för att skicka data med anpassade formulär till äldre AEM Forms om arbetsflöden och LiveCyclen Workflow för JEE. (LC_WORKFLOW_SUBMISSION)
 
 * Funktionen Interactive Communications är inte tillgänglig. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -70,7 +70,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 >abstract="Information som visas via FORMS-kod kan ge vägledning om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Använd migreringsverktyget för att konvertera alla regelskript i miljön till återanvändbara funktioner. Du kan använda de återanvändbara funktionerna med redigeraren för visuell regel för att fortsätta hämta resultat som erhållits med regelskript. (CODE_EDITOR)
+* Använd ett migreringsverktyg för att konvertera alla regelskript i miljön till återanvändbara funktioner. Du kan använda de återanvändbara funktionerna med Visual Rule Editor för att fortsätta hämta resultat som erhållits med regelskript. (CODE_EDITOR)
 
 * Kontakta supportteamet så att de kan aktivera e-postfunktioner (öppna SMTP-porten) för din miljö. Endast utgående HTTP- och HTTPS-anslutningar är aktiverade som standard. (EMAIL_SERVICE_CONFIGURATION, e-poststeg)
 
@@ -78,7 +78,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Skickade data innehåller Adobe Sign Agreement ID. Du kan använda Sign Agreement ID för att hämta ett Sign-avtal PDF, om det behövs. (FORM_SIGN_INTEGRATION)
 
-* Ta bort signatursteget från ett befintligt anpassat formulär. Konfigurera ditt adaptiva formulär att använda [signeringsupplevelse i webbläsaren](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Här visas Adobe Sign-avtal som signerar avtalet i webbläsaren när ett anpassat formulär skickas. Signering i webbläsaren ger en snabbare signeringsupplevelse och sparar tid åt signeraren. (SIGNATURE_STEP)
+* Ta bort signatursteget från ett befintligt anpassat formulär. Konfigurera ditt adaptiva formulär så att det använder en [signeringsupplevelse i webbläsaren](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Här visas Adobe Sign-avtal som signerar avtalet i webbläsaren när ett adaptivt formulär skickas. Signering i webbläsaren ger en snabbare signeringsupplevelse och sparar tid åt signeraren. (SIGNATURE_STEP)
 
 * Ta bort verifieringssteget från din befintliga adaptiva Forms innan du flyttar sådana formulär till en [!DNL Cloud Service] miljö. (VERIFY_STEP)
 
@@ -92,7 +92,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Använd Google reCAPTCHA i stället för den CAPTCHA-tjänst som tillhandahålls av Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Migrera inte en AEM arbetsflödesmodell som använder ett arbetsflödessteg för dokumenttjänster. Migrera eller uppdatera inte heller Adaptive Forms som skickar användardata till en arbetsflödesmodell som använder arbetsflödessteg för dokumenttjänster eller ändrar `Submit Action` till [stöds en](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) innan formuläret migreras. (WORKFLOW_DOCSERVICES)
+* Migrera inte till en AEM arbetsflödesmodell som använder ett arbetsflödessteg för dokumenttjänster. Migrera eller uppdatera inte heller Adaptive Forms som skickar användardata till en arbetsflödesmodell som använder arbetsflödessteg för dokumenttjänster eller ändrar `Submit Action` till [stöds en](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) innan formuläret migreras. (WORKFLOW_DOCSERVICES)
 
 * Adaptiv Forms har en responsiv design. Dessa formulär ändrar utseende, design och interaktivitet baserat på den underliggande enheten. Du kan fortsätta använda Adaptiv Forms på en mobil enhet. Leta efter månadsversionsinformation för information om tillgängligheten för [!DNL AEM Forms] app. (AEM_FORMS_APP)
 
