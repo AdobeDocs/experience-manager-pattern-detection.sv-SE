@@ -2,9 +2,9 @@
 title: URS
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ Databasstrukturen stöds inte
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Databasstrukturen stöds inte"
->abstract="URS identifierar fall av databasstruktur och nodegenskaper som inte stöds. Den här informationen används för att undvika konflikter mellan AEM produktkod och kundkod, och innehållet struktureras om från /etc till andra mappar i databasen med mera."
+>abstract="URS identifierar fall av URS (Databasstruktur som inte stöds) och nodegenskaper. Den här informationen används för att undvika konflikter mellan AEM produktkod och kundkod, och innehållet struktureras om från `/etc` till andra mappar i databasen med mera."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Omstrukturering av lager"
 
 ## Bakgrund {#background}
 
-`URS`  Identifierar fall av databasstruktur och nodegenskaper som inte stöds. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod och undvika konflikter mellan dem struktureras innehållet om från `/etc` till andra mappar i databasen enligt följande högnivåregler:
+`URS`  Identifierar fall av URS (Databasstruktur som inte stöds) och nodegenskaper. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod, och undvika konflikter mellan dem alla, omstruktureras innehållet från `/etc` till andra mappar i databasen. Följ då följande högnivåregler:
 
-* AEM produktkod placeras alltid i `/libs`, som inte får skrivas över av anpassad kod.
+* AEM produktkod placeras alltid i `/libs` den anpassade koden inte får skriva över.
 * Anpassad kod ska placeras i `/apps`, `/content`och `/conf`.
 * Vi rekommenderar starkt att dessa riktlinjer följs AEM as a Cloud Service.
 
@@ -46,7 +46,7 @@ Undertyper används för att identifiera specifika typer av databasproblem som s
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Genomförande"
->abstract="Det bästa är att granska kodprojektet. Se till att den följer riktlinjerna för AEM projektstruktur och undvik att kod som är beroende av äldre/databassökvägar som inte stöds används, vilket kan orsaka oönskat beteende i AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
+>abstract="Det bästa är att granska kodprojektet. Se till att den följer riktlinjerna för AEM projektstruktur och undvik att kod förlitar sig på äldre eller ostödda databassökvägar som kan orsaka oönskat beteende i AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM riktlinjer för projektstruktur"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 

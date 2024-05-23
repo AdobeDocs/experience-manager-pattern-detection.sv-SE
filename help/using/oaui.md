@@ -2,7 +2,7 @@
 title: OAUI
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -18,7 +18,7 @@ OAuth-användarinstans
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth-användarinstans"
->abstract="OAUI-kod identifierar mönstret där det finns minst en OAuth-relaterad konfigurerad användare som kräver korrekt migrering. OAuth är konfigurerad för användare när det finns en undernod med namnet oauth direkt under en rep:AuthorizableId-nod i formatet /home/user-path/user-node/oauth"
+>abstract="OAUI-kod identifierar mönstret där det finns minst en OAuth-relaterad konfigurerad användare som kräver korrekt migrering. OAuth är konfigurerad för användare när det finns en undernod med namnet OAuth direkt under en rep:AuthorizableId-nod i formatet /home/user-path/user-node/oauth"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - versionsinformation"
 
 `OAUI`  Identifierar mönstret där det finns minst en OAuth-relaterad konfigurerad användare som kräver korrekt migrering.

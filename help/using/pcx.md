@@ -2,9 +2,9 @@
 title: PCX
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Undertyper används för att identifiera olika typer av information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Genomförande"
->abstract="Det bästa sättet är att granska innehållsstrukturen för att minska sidans komplexitet, vilket i sin tur kan förbättra sidåtergivningsprestanda. Kontakta Adobe Support för hjälp eller klargöranden."
+>abstract="Det bästa sättet är att granska innehållsstrukturen för att minska sidans komplexitet. Det kan i sin tur förbättra sidåtergivningsprestanda. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Minska det totala antalet noder på en sida genom att utföra följande åtgärd:

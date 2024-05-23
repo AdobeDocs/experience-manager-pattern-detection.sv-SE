@@ -2,9 +2,9 @@
 title: MSM
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Hanterare för flera webbplatser
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="Hanterare för flera webbplatser"
->abstract="MSM identifierar allmän information om funktionen AEM Multi-site Manager. Denna typ av arbete bidrar till att karakterisera systemet."
+>abstract="MSM identifierar allmän information om funktionen AEM Multi-site Manager. Denna information tillhandahålls för att bidra till att karakterisera systemet."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
 `MSM`  Identifierar allmän information om funktionen för hantering av flera AEM webbplatser. Denna information tillhandahålls för att bidra till att karakterisera systemet.
