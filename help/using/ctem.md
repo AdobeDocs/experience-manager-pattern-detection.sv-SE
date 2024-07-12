@@ -20,9 +20,9 @@ Egen mall
 >title="Egen mall"
 >abstract="CTEM identifierar anpassade komponenter som är installerade på AEM. Denna information tillhandahålls i syfte att bedöma bästa praxis"
 
-`CTEM`  Identifierar anpassade mallar som är installerade på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
+`CTEM` Identifierar anpassade mallar som är installerade på AEM. Denna information tillhandahålls för bedömning av bästa metoder.
 
-Mallar har det primära typvärdet `cq:Template`som hjälper till att identifiera dem. En undertyp används med den här koden för att identifiera mallkategorin:
+Mallar har det primära typvärdet `cq:Template`, vilket underlättar identifieringen av dem. En undertyp används med den här koden för att identifiera mallkategorin:
 
 * `custom.editable.template`: Mallens sökväg börjar inte med `/apps`.
 * `custom.static.template`: Mallens sökväg börjar med `/apps`.
@@ -47,6 +47,6 @@ Mallar har det primära typvärdet `cq:Template`som hjälper till att identifier
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Sidstrukturkonverterare"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Använd [Verktyg för AEM](https://opensource.adobe.com/aem-modernize-tools/) för att migrera statiska mallar till redigerbara mallar.
-* Mer information om redigerbara mallar finns på [Mallar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Använd [AEM modereringsverktygen](https://opensource.adobe.com/aem-modernize-tools/) för att migrera statiska mallar till redigerbara mallar.
+* Mer information om redigerbara mallar finns i [Mallar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

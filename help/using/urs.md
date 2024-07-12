@@ -16,23 +16,23 @@ Databasstrukturen stöds inte
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Databasstrukturen stöds inte"
->abstract="URS identifierar fall av URS (Databasstruktur som inte stöds) och nodegenskaper. Den här informationen används för att undvika konflikter mellan AEM produktkod och kundkod, och innehållet struktureras om från `/etc` till andra mappar i databasen med mera."
+>abstract="URS identifierar fall av URS (Databasstruktur som inte stöds) och nodegenskaper. Den här ytinformationen undviker konflikter mellan AEM produktkod och kundkod, och innehållet struktureras om från `/etc` till andra mappar i databasen med mera."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Omstrukturering av lager"
 
 ## Bakgrund {#background}
 
-`URS`  Identifierar fall av URS (Databasstruktur som inte stöds) och nodegenskaper. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod, och undvika konflikter mellan dem alla, omstruktureras innehållet från `/etc` till andra mappar i databasen. Följ då följande högnivåregler:
+`URS` Identifierar fall av URS (Databasstruktur som inte stöds) och nodegenskaper. Från och med AEM 6.4 finns det riktlinjer för omstrukturering av databasinnehåll. Genom att tydligt definiera hierarkier för AEM produktkod och kundkod, och undvika konflikter mellan dem alla, omstruktureras innehållet från `/etc` till andra mappar i databasen. Följ då följande högnivåregler:
 
-* AEM produktkod placeras alltid i `/libs` den anpassade koden inte får skriva över.
-* Anpassad kod ska placeras i `/apps`, `/content`och `/conf`.
-* Vi rekommenderar starkt att dessa riktlinjer följs AEM as a Cloud Service.
+* AEM produktkod placeras alltid i `/libs` som den anpassade koden inte får skriva över.
+* Anpassad kod ska placeras i `/apps`, `/content` och `/conf`.
+* Vi rekommenderar starkt att dessa riktlinjer följs för AEM as a Cloud Service.
 
 Undertyper används för att identifiera specifika typer av databasproblem som ska åtgärdas:
 
-* `clientlibs.location`: Ett klientbibliotek som refererar `/etc` efter bana.
+* `clientlibs.location`: Ett klientbibliotek som refererar till `/etc` via sökväg.
 * `file.location`: En fil under `/etc` som har ändrats sedan installationen.
 * `node.location`: En nod under `/etc` som har ändrats sedan installationen.
-* `workflow.location`: En arbetsflödesmodell eller startmetod under `/etc/workflow`.
+* `workflow.location`: En arbetsflödesmodell eller startfunktion under `/etc/workflow`.
 * `package.structure`: Ett paket som innehåller både muterbart och oföränderligt innehåll.
 * `node.size`: En nod med en storlek som inte stöds.
 
@@ -50,7 +50,7 @@ Undertyper används för att identifiera specifika typer av databasproblem som s
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM riktlinjer för projektstruktur"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Se [Omstrukturering av lager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) för att ta fram riktlinjer för AEM as a Cloud Service.
-* Se även [AEM projektstruktur](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) om du vill veta mer om ändringsbara och oföränderliga områden i databasen.
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
-* Använd [Databasmodernisering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) för att strukturera om befintliga projektpaket genom att separera innehåll och kod i separata paket som är kompatibla med den projektstruktur som har definierats för Adobe Experience Manager as a Cloud Service.
+* Mer information om hur du förbereder dig för AEM as a Cloud Service finns i [Databasomstrukturering](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring).
+* Se även [AEM Projektstruktur](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) om du vill veta mer om ändringsbara och oföränderliga områden i databasen.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Använd [Databasmodernisering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) för att strukturera om befintliga projektpaket genom att separera innehåll och kod i diskreta paket så att de blir kompatibla med den projektstruktur som har definierats för Adobe Experience Manager as a Cloud Service.

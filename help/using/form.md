@@ -21,16 +21,16 @@ ht-degree: 0%
 >abstract="FORMS-kod identifierar potentiella problem med migrering från AEM (Adobe Experience Manager) Forms till AEM Forms as a Cloud Service. Granska eventuella konsekvenser och risker som är förknippade med detta och åtgärda dessa problem innan du migrerar till Cloud Servicen."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Möjliga konsekvenser och risker"
 
-`FORMS`  Identifierar potentiella problem relaterade till migrering från [!DNL Adobe Experience Manager Forms] till [!DNL Adobe Experience Manager Forms] som [!DNL Cloud Service]. Åtgärda problemen innan du migrerar till [!DNL Cloud Service].
+`FORMS` Identifierar potentiella problem relaterade till migrering från [!DNL Adobe Experience Manager Forms] till [!DNL Adobe Experience Manager Forms] som en [!DNL Cloud Service]. Åtgärda dessa problem innan du migrerar till [!DNL Cloud Service].
 
 Följande undertyper hjälper dig att identifiera olika typer av problem:
 
-* `modified.feature`: Dessa funktioner, resurser och API:er har uppdaterats eller ändrats för Cloud Service. Innan du migrerar till Cloud Servicen kör du migreringsverktyget för att göra dessa funktioner och resurser kompatibla med Cloud Servicen.
-* `unavailable.feature`: Din miljö har funktioner och resurser som inte är tillgängliga eller har tagits bort från Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö.
+* `modified.feature`: Dessa funktioner, resurser eller API:er har uppdaterats eller ändrats för Cloud Service. Innan du migrerar till Cloud Servicen kör du migreringsverktyget för att göra dessa funktioner och resurser kompatibla med Cloud Servicen.
+* `unavailable.feature`: Miljön har funktioner och resurser som inte är tillgängliga eller har tagits bort från Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö.
 * `unsupported.feature`: Din miljö använder vissa funktioner som inte stöds på Cloud Servicen. Migrera inte sådana funktioner eller resurser till en Cloud Service-miljö. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
-* `unsupported.api`: Din miljö har vissa API:er som inte stöds på Cloud Servicen. Inaktivera, ersätt eller ta bort dessa API:er från koden innan du migrerar till Cloud Servicen. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
+* `unsupported.api`: Miljön har vissa API:er som inte stöds på Cloud Servicen. Inaktivera, ersätt eller ta bort dessa API:er från koden innan du migrerar till Cloud Servicen. Om du vill ha information om vilka funktioner som är tillgängliga läser du i månadsversionsinformationen.
 
-Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lösningar](#solutions) för information om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen
+Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lösningar](#solutions) för information om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -40,7 +40,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Stöd för e-post (SMTP-port) är inaktiverat som standard. (EMAIL_SERVICE_CONFIGURATION)
 
-* The **[!UICONTROL Email PDF]** Åtgärden Skicka är inte tillgänglig.(EMAIL_PDF_SUBMIT_ACTION)
+* Åtgärden **[!UICONTROL Email PDF]** Skicka är inte tillgänglig.(EMAIL_PDF_SUBMIT_ACTION)
 
 * XFA-baserad Adaptiv Forms stöds inte ännu. (XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -50,7 +50,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Verifieringssteget är inte tillgängligt. (VERIFY_STEP)
 
-* The **[!UICONTROL Submit to Forms Workflow]** Åtgärden Skicka är inte tillgänglig. På AEM 6.5 Forms och tidigare användes åtgärden Skicka för att skicka data med anpassade formulär till äldre AEM Forms om arbetsflöden och LiveCyclen Workflow för JEE. (LC_WORKFLOW_SUBMISSION)
+* Åtgärden **[!UICONTROL Submit to Forms Workflow]** Skicka är inte tillgänglig. På AEM 6.5 Forms och tidigare användes åtgärden Skicka för att skicka data med anpassade formulär till äldre AEM Forms om arbetsflöden och LiveCyclen Workflow för JEE. (LC_WORKFLOW_SUBMISSION)
 
 * Funktionen Interactive Communications är inte tillgänglig. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -58,7 +58,7 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * CAPTCHA-komponenten använder nu Google reCAPTCHA-tjänsten som standard för att validera CAPTCHA. Alternativet att använda Adobe Experience Manager för att validera CAPTCHA är föråldrat. (FORMS_CAPTCHA)
 
-* [!DNL AEM Forms] app är inte tillgänglig för [!DNL Cloud Services]. (AEM_FORMS_APP)
+* [!DNL AEM Forms]-appen är inte tillgänglig för [!DNL Cloud Services]. (AEM_FORMS_APP)
 
 * [Dokumenttjänster](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) steg är inte tillgängliga i AEM arbetsflöden. (WORKFLOW_DOCSERVICES)
 
@@ -74,17 +74,17 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Kontakta supportteamet så att de kan aktivera e-postfunktioner (öppna SMTP-porten) för din miljö. Endast utgående HTTP- och HTTPS-anslutningar är aktiverade som standard. (EMAIL_SERVICE_CONFIGURATION, e-poststeg)
 
-* Använd **[!UICONTROL Email]** Skicka åtgärd i stället för **[!UICONTROL Email PDF]**. The **[!UICONTROL Email]** Skicka åtgärd innehåller alternativ för att skicka bilagor och bifoga DoR (Document of Record) med e-post. (EMAIL_PDF_SUBMIT_ACTION)
+* Använd åtgärden **[!UICONTROL Email]** Skicka i stället för **[!UICONTROL Email PDF]**. Åtgärden **[!UICONTROL Email]** Skicka innehåller alternativ för att skicka bilagor och bifoga DoR-filer (Document of Record) med e-post. (EMAIL_PDF_SUBMIT_ACTION)
 
 * Skickade data innehåller Adobe Sign Agreement ID. Du kan använda Sign Agreement ID för att hämta ett Sign-avtal PDF, om det behövs. (FORM_SIGN_INTEGRATION)
 
 * Ta bort signatursteget från ett befintligt anpassat formulär. Konfigurera ditt adaptiva formulär så att det använder en [signeringsupplevelse i webbläsaren](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Här visas Adobe Sign-avtal som signerar avtalet i webbläsaren när ett adaptivt formulär skickas. Signering i webbläsaren ger en snabbare signeringsupplevelse och sparar tid åt signeraren. (SIGNATURE_STEP)
 
-* Ta bort verifieringssteget från din befintliga adaptiva Forms innan du flyttar sådana formulär till en [!DNL Cloud Service] miljö. (VERIFY_STEP)
+* Ta bort verifieringssteget från din befintliga adaptiva Forms innan du flyttar sådana formulär till en [!DNL Cloud Service]-miljö. (VERIFY_STEP)
 
-* Redigera era befintliga anpassningsbara formulär så att ni kan använda dem [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model)och [Anropa ett AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Skicka åtgärder.
+* Redigera dina befintliga adaptiva formulär så att du kan använda [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model) och [Anropa ett AEM arbetsflöde](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Skicka-åtgärder.
 
-* Du kan utveckla ett AEM arbetsflöde och redigera dina befintliga anpassningsbara formulär så att du kan använda dem [AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Skicka åtgärd för att skicka data till ett AEM arbetsflöde i stället för att använda **[!UICONTROL Submit to Forms Workflow]** Skicka åtgärd. Du kan utveckla en anpassad Skicka-åtgärd för att skicka data, bilagor eller DoR-filer (Document of Record) till en LiveCycle-process i stället för att använda [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
+* Du kan utveckla ett AEM arbetsflöde och redigera dina befintliga adaptiva formulär så att du kan använda [AEM arbetsflöde](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) när du skickar data till ett AEM arbetsflöde i stället för att använda åtgärden **[!UICONTROL Submit to Forms Workflow]** Skicka. Du kan utveckla en anpassad skickaåtgärd för att skicka data, bilagor eller DoR-data (Document of Record) till en LiveCyclena process i stället för att använda [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Information om tillgängligheten av funktionen Interaktiv kommunikation finns i månadsversionsinformationen. Migrera inte dina interaktiva Cloud Service, brev och relaterade ordlistor till en textmiljö förrän funktionen inte är tillgänglig. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -92,10 +92,10 @@ Se [Möjliga konsekvenser och risker](#implications-and-risks) och [Möjliga lö
 
 * Använd Google reCAPTCHA i stället för den CAPTCHA-tjänst som tillhandahålls av Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Migrera inte till en AEM arbetsflödesmodell som använder ett arbetsflödessteg för dokumenttjänster. Migrera eller uppdatera inte heller Adaptive Forms som skickar användardata till en arbetsflödesmodell som använder arbetsflödessteg för dokumenttjänster eller ändrar `Submit Action` till [stöds en](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) innan formuläret migreras. (WORKFLOW_DOCSERVICES)
+* Migrera inte till en AEM arbetsflödesmodell som använder ett arbetsflödessteg för dokumenttjänster. Migrera eller uppdatera inte heller Adaptiv Forms som skickar användardata till en arbetsflödesmodell som använder arbetsflödessteg för dokumenttjänster eller ändra `Submit Action` till en [stödd](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) innan du migrerar formuläret. (WORKFLOW_DOCSERVICES)
 
-* Adaptiv Forms har en responsiv design. Dessa formulär ändrar utseende, design och interaktivitet baserat på den underliggande enheten. Du kan fortsätta använda Adaptiv Forms på en mobil enhet. Leta efter månadsversionsinformation för information om tillgängligheten för [!DNL AEM Forms] app. (AEM_FORMS_APP)
+* Adaptiv Forms har en responsiv design. Dessa formulär ändrar utseende, design och interaktivitet baserat på den underliggande enheten. Du kan fortsätta använda Adaptiv Forms på en mobil enhet. Leta efter månadsversionsinformation om du vill ha information om tillgängligheten för appen [!DNL AEM Forms]. (AEM_FORMS_APP)
 
 * Stöd för XFA-baserad Adaptive Forms finns inte direkt tillgängligt. Om du tänker använda XFA-baserad Adaptive Forms kontaktar du Adobe Support med information om ditt användningsfall och specifika krav.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Kontakt [Stöd för Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+Kontakta [supporten](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du vill ha klargöranden eller vill få svar på frågor.

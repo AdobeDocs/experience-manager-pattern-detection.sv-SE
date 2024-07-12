@@ -22,7 +22,7 @@ UTTRYCKT: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla än
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionsinformation - AEM as a Cloud Service"
 
-`NBCC`  Identifierar situationen där vissa JCR-noder eller paket ändras på ett sätt som inte är kompatibelt. Kunden kanske inte känner till denna förändring innan uppgraderingen.
+`NBCC` Identifierar situationen där vissa JCR-noder eller paket ändras på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -40,4 +40,4 @@ UTTRYCKT: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla än
 
 * Överlägg eller referera endast bakåtkompatibla Sling-komponenter.
 * Överväg att anpassa resurser som kommer från `/libs` eller paket efter en AEM uppgradering.
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

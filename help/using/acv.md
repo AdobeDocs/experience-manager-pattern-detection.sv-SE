@@ -22,23 +22,23 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Betydande ändringar - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - versionsinformation"
 
-`ACV` (Resursens innehållsvaliderare) Identifierar de saknade obligatoriska noderna och överträdelser i resursinnehållet. Sådana saker kan leda till fel på vissa Assets-funktioner på Experience Manager as a Cloud Service.
+`ACV` (Assets Content Validator) Identifierar obligatoriska noder som saknas och överträdelser i resursinnehållet. Sådana saker kan leda till att vissa Assets-funktioner på Experience Manager as a Cloud Service inte fungerar.
 
 Undertyper används för att identifiera olika typer av information, som:
 
 * `missing.jcrcontent`: Identifiera mappar där obligatoriska noder saknas i databasen. Om du identifierar innehåll som saknas i databasen kan du förhindra att funktioner som inte fungerar fungerar eller att använda dem.
 * `missing.original.rendition`: Identifiera resurserna med en obligatorisk ursprunglig återgivning som saknas i databasen. Förhandsgranskning av PDF-sidor kräver inte generering av underresurser i AEMaaCS. Därför ignoreras rapportering av underresurser som saknar ursprunglig återgivning för PDF.
-* `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under resursens metadatanod i databasen.
+* `metadata.descendants.violation`: Identifiera resurserna med fler än 100 underordnade under metadatanoden för resursen i databasen.
 * `conflict.node`: Identifiera om det finns konfliktnoder i databasen under /content/dam/ path.
 * `psb.file.large`: Identifiera stora PSB-filer (`dc:format : application/vnd.3gpp.pic-bw-small`) som är större än 2 GB.
-* `invalid.asset.name`: Identifiera resurser med ogiltiga tecken[`* / : [ \ ] | # % { } ? &`] i namnet.
+* `invalid.asset.name`: Identifiera resurser med ogiltiga tecken [`* / : [ \ ] | # % { } ? &`] i namnet.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
 * Detta kan leda till fel på vissa Assets-funktioner som är beroende av ärvda egenskaper i Experience Manager as a Cloud Service.
 * AEM Assets är beroende av den ursprungliga återgivningen. Resursbearbetningen i Cloud Service placeras i en slinga om den ursprungliga återgivningen saknas. Generering av delresurser stöds inte i AEMaaCS.
 * Ett stort antal underordnade under en metadatanod kan göra det långsammare att hämta mappar som innehåller felaktiga resurser.
-* Konfliktnoder kan leda till att det inte går att ta emot på AEM as a Cloud Service.
+* Konfliktnoder kan leda till att importen misslyckas på AEM as a Cloud Service.
 * Experience Manager får inte behandla högupplösta PSB-filer. Kunder som använder ImageMagick för att bearbeta stora filer kan drabbas av prestandan om inte Experience Manager-servern testas korrekt.
 * Ogiltiga tecken i resursnamnet kan leda till fel vid migrering till AEM as a Cloud Service.
 
@@ -55,4 +55,4 @@ Undertyper används för att identifiera olika typer av information, som:
 * Ingen åtgärd krävs för den ursprungliga återgivningen av underresurser som saknas.
 * Om det finns noder i konflikt bör de lösas eller tas bort innan du migrerar till AEM as a Cloud Service.
 * Kontakta Adobe kundsupport om du tänker bearbeta många stora PSD- eller PSB-filer. Experience Manager får inte bearbeta högupplösta PSB-filer som är större än 30000 x 23000 pixlar. Se [dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för klargöranden eller för att bemöta farhågor.
+* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.

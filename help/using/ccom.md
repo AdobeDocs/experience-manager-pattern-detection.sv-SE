@@ -25,8 +25,8 @@ Egen komponent
 En undertyp används med den här koden för att identifiera komponentkategorin:
 
 * `custom.core`: En supertyp i komponentens kedja av supertyper innehåller `core/wcm/components/`, vilket anger att den ärver från en kärnkomponent.
-* `custom.foundation`: En supertyp i komponentens kedja av supertyper innehåller &quot;`core/wcm/components/`, vilket anger att den ärver från en kärnkomponent.
-* `custom.overlay.foundation`: Komponentsökvägen innehåller `wcm/foundation/components/` eller `foundation/components/`, vilket anger att det täcker en grundkomponent.
+* `custom.foundation`: En supertyp i komponentens kedja av supertyper innehåller `core/wcm/components/`, vilket anger att den ärver från en kärnkomponent.
+* `custom.overlay.foundation`: Komponentsökvägen innehåller `wcm/foundation/components/` eller `foundation/components/`, vilket anger att den täcker en grundkomponent.
 * `custom`: Den anpassade komponenten ärver eller täcker inte över en kärna- eller grundkomponent.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
@@ -42,6 +42,6 @@ En undertyp används med den här koden för att identifiera komponentkategorin:
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="Kärnkomponenter"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Formatsystem"
 
-* Mer information om kärnkomponenter finns på [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction).
-* Mer information om Style System finns på [Använda formatsystemet](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Mer information om kärnkomponenter finns i [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction).
+* Mer information om Style System finns på [Använda Style System](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

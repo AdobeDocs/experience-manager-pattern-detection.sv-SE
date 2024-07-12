@@ -20,15 +20,15 @@ Dynamic Media
 >title="Dynamic Media"
 >abstract="DM-koden identifierar användningen av AEM Assets Dynamic Media i den aktuella implementeringen. Körningsläget identifierar Dynamic Media-läget."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM - riktlinjer och bästa praxis"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM riktlinjer för as a Cloud Service utveckling"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service riktlinjer för utveckling"
 
-`DM` (Dynamic Media) Identifierar användningen av AEM Assets Dynamic Media. Körningsläget identifierar Dynamic Media-läget.
+`DM` (Dynamic Media) Identifierar användning av AEM Assets Dynamic Media. Körningsläget identifierar Dynamic Media-läget.
 
 En undertyp används med den här koden:
 
 * `dynamic.media.runmode`: Det associerade värdet för den här undertypen, om den anges, är antingen:
-   * `dynamicmedia`: Dynamic Media - Hybrid-läge
-   * `dynamicmedia_scene7`: DYNAMIC MEDIA - SCENE7
+   * `dynamicmedia`: Dynamic Media - hybridläge
+   * `dynamicmedia_scene7`: Dynamic Media - Scene7
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -46,6 +46,6 @@ En undertyp används med den här koden:
 
 
 * `dynamic.media.runmode`
-   * Mer information finns på [Konfigurera Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
+   * Mer information finns i [Konfigurera Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om ni behöver klargöranden eller frågor som behandlas.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du behöver klargöranden eller frågor som har åtgärdats.

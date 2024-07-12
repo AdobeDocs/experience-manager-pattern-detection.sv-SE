@@ -21,11 +21,11 @@ Hanterare för flera webbplatser
 >abstract="MSM identifierar allmän information om funktionen AEM Multi-site Manager. Denna information tillhandahålls för att bidra till att karakterisera systemet."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
-`MSM`  Identifierar allmän information om funktionen för hantering av flera AEM webbplatser. Denna information tillhandahålls för att bidra till att karakterisera systemet.
+`MSM` Identifierar allmän information om funktionen för hantering av flera AEM. Denna information tillhandahålls för att bidra till att karakterisera systemet.
 
 Undertyper används för att identifiera olika typer av information:
 
-* `cq.livesyncconfig.found`: Upptäckt av en `/jcr:content/cq:LiveSyncConfig` nod i innehåll som har lagts till i AEM, vilket är en indikation på användning av Multi-site Manager.
+* `cq.livesyncconfig.found`: Identifiering av en `/jcr:content/cq:LiveSyncConfig`-nod i innehåll som har lagts till i AEM, vilket är en indikation på användning av Multi-site Manager.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -35,7 +35,7 @@ Undertyper används för att identifiera olika typer av information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Genomförande"
->abstract="Det bästa sättet är att granska alla anpassade MSM-introduktionskonfigurationer och anpassade rollout-åtgärder och se till att de fungerar AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
+>abstract="Det bästa sättet är att granska alla anpassade MSM-introduktionskonfigurationer och anpassade rollout-åtgärder och se till att de fungerar på AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

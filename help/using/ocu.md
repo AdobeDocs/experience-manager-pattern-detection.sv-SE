@@ -21,7 +21,7 @@ INAKTUELL: Inaktuell kodanvändning (ersatt av OU, inaktuell användning)
 >abstract="OCU identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
-`OCU`  Identifierar situationen där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
+`OCU` Identifierar situationen där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
 
 Eftersom de gamla versionerna inte installeras som standard kanske kundapplikationen inte fungerar som den ska.
 
@@ -41,4 +41,4 @@ Eftersom de gamla versionerna inte installeras som standard kanske kundapplikati
 
 * Kortsiktig: Installation av ett kompatibilitetspaket kan vara till hjälp.
 * Långsiktigt: Anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er.
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

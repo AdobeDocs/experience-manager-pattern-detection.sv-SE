@@ -38,4 +38,4 @@ En undertyp används med den här koden:
 >abstract="Klientbiblioteken som läggs till i AEM som identifieras av CCL bör granskas för att säkerställa att det inte förekommer några dubbletter och att de senaste versionerna används. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

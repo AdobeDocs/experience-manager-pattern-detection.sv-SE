@@ -22,7 +22,7 @@ Körningsläget stöds inte
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Körningslägen som stöds"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Körningslägen"
 
-`URC`  Identifierar användningen av konfigurationer som är baserade på ett körningslägesnamn som inte stöds i AEM as a Cloud Service.
+`URC` Identifierar användningen av konfigurationer som är baserade på ett körningslägesnamn som inte stöds i AEM as a Cloud Service.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -32,7 +32,7 @@ Körningsläget stöds inte
 >abstract="Bästa praxis är att granska om alla körningslägen som används i programmet stöds. Och se till att de följer riktlinjerna för upplösning i körningsläge"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Riktlinjer för upplösning i körläge"
 
-* Den uppsättning namn som kan användas för att köra olika lägen i AEM as a Cloud Service är begränsad.
+* Namnuppsättningen som kan användas för att köra olika lägen i AEM as a Cloud Service är begränsad.
 * Konfigurationer som baseras på körlägesnamn som inte stöds har ingen effekt när de distribueras till AEM as a Cloud Service.
 
 ## Möjliga lösningar {#solutions}
@@ -45,6 +45,6 @@ Körningsläget stöds inte
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Exempel på URC-överträdelse - GitHub"
 
 * Granska användningen av den här konfigurationen så att du kan avgöra om det är nödvändigt.
-* Byt namn på konfigurationen med något av de [namn på körningsläge](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes) och följ [riktlinjer för upplösning i körläge](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#runmode-resolution).
-* Granska [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc) projekt och förstå hur [URC-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc) kan korrigeras och göras kompatibelt med AEM as a Cloud Service.
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Byt namn på konfigurationen med något av de [namn på körningsläge](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes) som stöds och följ [riktlinjerna för körningsupplösning](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#runmode-resolution).
+* Granska [gammaldags](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc)-projekt och förstå hur [URC-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc) kan korrigeras och göras kompatibla med AEM as a Cloud Service.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

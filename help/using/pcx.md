@@ -20,9 +20,9 @@ Sidkomplexitet
 >title="Sidkomplexitet"
 >abstract="PCX identifierar sidor som innehåller ett stort antal noder i sin struktur."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - versionsinformation"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Versionsinformation"
 
-`PCX`  Identifierar sidor som innehåller många noder i sin struktur.
+`PCX` Identifierar sidor som innehåller många noder i sin struktur.
 
 Undertyper används för att identifiera olika typer av information:
 
@@ -47,4 +47,4 @@ Undertyper används för att identifiera olika typer av information:
    * Förenkla sidinnehållet.
    * Minska djupet i nodstrukturen.
    * Spärra eventuella medföljande upplevelsefragment för enkelhet.
-* Kontakta [AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för förtydliganden eller för att ta itu med frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

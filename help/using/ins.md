@@ -20,7 +20,7 @@ Ogiltigt namnutrymme
 >title="Ogiltigt namnutrymme"
 >abstract="INS identifierar namnutrymmesproblem AEM instansen"
 
-`INS`  (Ogiltigt namnutrymme) Identifierar namnutrymmesproblem i AEM.
+`INS` (ogiltigt namnområde) Identifierar namnområdesproblem i AEM.
 
 Undertyper används för att identifiera olika typer av information, som:
 
@@ -28,7 +28,7 @@ Undertyper används för att identifiera olika typer av information, som:
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
-* Det går inte att replikera innehåll (över hela nivån) eller kopiera innehåll (över hela nivån) `env`, genom `/crx/packMgr`, eller innehållskopia).
+* Det går inte att replikera innehåll (över skiktet) eller kopiera innehåll (över `env`, via `/crx/packMgr` eller innehållskopia).
 
 ## Möjliga lösningar {#solutions}
 
@@ -38,5 +38,5 @@ Undertyper används för att identifiera olika typer av information, som:
 >abstract="Kontakta kundtjänst om du behöver hjälp."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Korrigera namnutrymmesdefinitioner enligt [JCR-specifikation](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Följ stegen som anges [här](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
-* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för klargöranden eller för att bemöta farhågor.
+* Åtgärda namnutrymmesdefinitionerna enligt [JCR-specifikationen](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Följ stegen som anges [här](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
+* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.

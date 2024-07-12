@@ -20,11 +20,11 @@ Felkonfigurationsproblem
 >title="Felkonfigurationsproblem"
 >abstract="MI identifierar konfigurationsproblem AEM instansen"
 
-`MI` (Felkonfigurationsproblem) Identifierar konfigurationsproblem i AEM.
+`MI` (Misconfiguration Issue) Identifierar konfigurationsproblem i AEM.
 
 Undertyper används för att identifiera olika typer av information, som:
 
-* `sling.job.max.parallel`: Identifiera snedstreck där den maximala parallella konfigurationen är -1.
+* `sling.job.max.parallel`: Identifiera snedställningsjobben där den maximala parallella konfigurationen är inställd på -1.
 * `missing.maintenance.configuration`: Identifiera saknade underhållsuppgiftskonfigurationer.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
@@ -45,9 +45,9 @@ Undertyper används för att identifiera olika typer av information, som:
 * `sling.job.max.parallel`
    * Adobe rekommenderar att du anger värdet till 0,5 för att utnyttja hälften av de tillgängliga processorerna.
 * `missing.maintenance.configuration`
-   * Rensa revision: Se [Rensa version](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). Den viktiga delen som rör konfigurationen är här: [Revision Cleanup - Configure Tail and Full compaction](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
-   * Lucene Binaries Cleanup: Se [Operations Dashboard - Lucene Binaries Cleanup](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Rensa version: Se [Rensa version](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). Den viktiga delen av konfigurationen är här: [Revision Cleanup - Configure Tail och Full compaction](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Lucene-binärrensning: Se [Operations Dashboard - Lucene Binaries Cleanup](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
    * Skräpinsamling för datalager: Se [Skräpinsamling för datalager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
-   * Rensa arbetsflöde: Se [Vanlig tömning av arbetsflödesinstanser](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * Rensa arbetsflöde: Se [Regelbunden tömning av arbetsflödesinstanser](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
    * Underhållsaktivitet för granskningslogg: Se [Underhåll av granskningslogg](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
-* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för klargöranden eller för att bemöta farhågor.
+* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
