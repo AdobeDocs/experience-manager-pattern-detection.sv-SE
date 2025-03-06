@@ -2,9 +2,9 @@
 title: INST
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Installerad artefakt
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Utvecklingsriktlinjer - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Riktlinjer för paketering - AEM as a Cloud Service"
 
-`INST` Identifierar anpassade paket och paket från tredje part och paket som kunden har installerat i AEM. Sådana paket och paket rapporteras för att hjälpa till att beskriva systemets status och det allmänna tillämpningsområdet för en uppgraderingsinsats.
+`INST` Identifierar anpassade paket och paket från tredje part som kunden har installerat i AEM. Sådana paket och paket rapporteras för att hjälpa till att beskriva systemets status och det allmänna tillämpningsområdet för en uppgraderingsinsats.
 
 När flera versioner av ett paket har installerats rapporteras endast den senaste versionen.
 
@@ -46,12 +46,16 @@ Undertyper används för att identifiera olika typer av information:
 * Program som är beroende av tredjepartspaket kanske inte fungerar som förväntat förrän de distribueras korrekt för att fungera med AEM as a Cloud Service.
 * Om leverantörspaket från tredje part inte är optimerade för AEM som en molntjänst kan det leda till oönskat beteende.
 
+Tänk också på följande deltyper:
+
+* `guava.bundle` - Guava stöds inte direkt i AEM 6.5 LTS och paketet är inte tillgängligt efter uppgraderingen.
+
 ## Möjliga lösningar {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Verktyg och resurser"
->abstract="Läs om hur INST-överträdelser kan göras kompatibla med AEM Cloud Service. Granska även exemplet på INST-överträdelse på GitHub för att förstå hur problemet kan åtgärdas och distribueras i AEM as a Cloud Service."
+>abstract="Granska ett WKND-gammalt projekt för att förstå hur INST-överträdelser kan göras kompatibla med AEM Cloud-tjänsten. Granska även exemplet på INST-överträdelse på GitHub för att förstå hur problemet kan åtgärdas och distribueras i AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exempel på INST-överträdelse - GitHub"
 
@@ -59,4 +63,5 @@ Undertyper används för att identifiera olika typer av information:
 * Granska hur du [bäddar in tredjepartspaket](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) i ditt projekt för AEM as a Cloud Service.
 * Tredjepartspaket måste följa riktlinjerna för AEM as a Cloud Service [utveckling](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) och [paketering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package).
 * Granska [projekt som är äldre än ](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) och förstå hur [INST-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) kan korrigeras och göras kompatibla med AEM as a Cloud Service.
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* För undertypen `guava.bundle` måste du antingen installera Guava eller ta bort användningen om Guava används i din egen kod.

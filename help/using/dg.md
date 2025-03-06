@@ -2,9 +2,9 @@
 title: DG
 description: Hjälpsida för Mönsteravkännarkod.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Utvecklarriktlinje
 >id="aemcloud_bpa_dg_overview"
 >title="Riktlinjer för utvecklare"
 >abstract="DG-kod identifierar avvikelser i valda utvecklingsriktlinjer för AEM 6.5 och AEM as a Cloud Service. Om du följer vedertagna standarder kan du förbättra systemets underhålls- och prestanda. Även om vissa av dessa avvikelser kanske inte är något problem i andra programsammanhang, inklusive i tidigare versioner av AEM, kan de orsaka problem när de används med AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM - riktlinjer och bästa praxis"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM-utveckling - riktlinjer och bästa praxis"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service riktlinjer för utveckling"
 
 
@@ -33,6 +33,10 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 * `unsupported.asset.api`: Användning av Asset Manager-API:er som inte stöds i programkoden.
 * `javax.jcr.observation.EventListener`: Användning av händelseavlyssnare i programkod.
 * `custom.guava.cache`: Användning av Guava-cache i programkod.
+* `java.api`: Vissa Java API:er har tagits bort från Java 11 till Java 17.
+* `configuration.admin`: Anpassad kod som använder konfigurationer flaggas.
+* `guava.api`: Guava stöds inte i Box på AEM 6.5 LTS.
+* `com.day.cq.dam.scene7.api.model`: Det finns en större versionsändring för `package com.day.cq.dam.scene7.api.model`.
 
 ## Möjliga konsekvenser och risker {#implications-and-risks}
 
@@ -59,6 +63,18 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `custom.guava.cache`
    * Användning av Guava Cache kan orsaka prestandaproblem i AEM.
+
+* `java.api`
+   * Med AEM 6.5 LTS i JRE17 kommer dessa borttagna Java API:er inte att vara tillgängliga och användningen av dem kommer att misslyckas.
+
+* `configuration.admin`
+   * Du bör kontrollera din användning för att vara säker på att du inte använder konfigurationer som inte stöds, som sociala medier.
+
+* `guava.api`
+   * Eftersom Guava inte stöds i AEM 6.5 LTS kommer den anpassade koden att använda guava inte att vara aktiv.
+
+* `com.day.cq.dam.scene7.api.model`
+   * Det importerade paketet `com.day.cq.dam.scene7.api.model` i anpassade paket kommer inte att matchas på grund av en större versionsändring.
 
 
 ## Möjliga lösningar {#solutions}
@@ -90,4 +106,13 @@ Undertyper används för att identifiera olika typer av identifierade överträd
 
 * `custom.guava.cache`
    * Om det behövs bör cacheminnen skapas utanför AEM. Extern cachningslösning kan övervägas.
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+
+* `configuration.admin`
+   * Ta bort all konfigurationsanvändning av funktioner som inte stöds, som Social.
+
+* `guava.api`
+   * Installera Guava eller ta bort användningen om Guava används i din egen kod.
+
+* `com.day.cq.dam.scene7.api.model`
+   * Uppdatera versionsområdet för det importerade paketet `com.day.cq.dam.scene7.api.model` till **3.0.4**.
