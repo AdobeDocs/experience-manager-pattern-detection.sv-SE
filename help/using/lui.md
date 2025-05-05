@@ -37,6 +37,7 @@ egenskapsvärdet `jcr:primaryType` eller egenskapsvärdet `xtype` är `cq:Dialog
 och egenskapsvärdet `sling:resourceType` inte innehåller `granite/ui/components/coral/foundation` .
 * `legacy.custom.component`: Komponenter som ärver från `foundation/components` ska uppdateras för att använda kärnkomponenter.
    * Den här undertypen identifieras när egenskapsvärdet `jcr:primaryType` är `cq:Component` och
+
      Egenskapsvärdet `sling:resourceSuperType` innehåller &quot;grund/komponenter&quot;. Eller någon av
      `sling:resourceSuperType` egenskapsvärden för kedjan med supertypskomponenter innehåller
 &quot;grund/komponenter.&quot;
