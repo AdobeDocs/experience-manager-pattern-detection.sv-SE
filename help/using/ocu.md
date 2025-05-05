@@ -19,7 +19,7 @@ INAKTUELL: Inaktuell kodanvändning (ersatt av OU, inaktuell användning)
 >id="aemcloud_bpa_ocu_overview"
 >title="Inaktuell kodanvändning"
 >abstract="OCU identifierar den situation där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
 `OCU` Identifierar situationen där vissa JCR-noder, som Sling- eller AEM-komponenter eller API OSGi-exporter, ändras eller tas bort på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen. De kan uppgraderas till en version som inte är kompatibel eller inte vara tillgängliga alls.
 
@@ -37,8 +37,8 @@ Eftersom de gamla versionerna inte installeras som standard kanske kundapplikati
 >title="Genomförande"
 >abstract="Det bästa sättet är att granska och anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er. Kontakta Adobe Support för hjälp eller klargöranden."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Kortsiktig: Installation av ett kompatibilitetspaket kan vara till hjälp.
 * Långsiktigt: Anpassa kundkoden så att den använder den senaste versionen av AEM eller API:er.
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

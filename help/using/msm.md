@@ -19,7 +19,7 @@ Hanterare för flera webbplatser
 >id="aemcloud_bpa_msm_overview"
 >title="Hanterare för flera webbplatser"
 >abstract="MSM identifierar allmän information om funktionen AEM Multi-site Manager. Denna information tillhandahålls för att bidra till att karakterisera systemet."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
 `MSM` Identifierar allmän information om funktionen för hantering av flera AEM. Denna information tillhandahålls för att bidra till att karakterisera systemet.
 
@@ -36,6 +36,6 @@ Undertyper används för att identifiera olika typer av information:
 >id="aemcloud_bpa_msm_guidance"
 >title="Genomförande"
 >abstract="Det bästa sättet är att granska alla anpassade MSM-introduktionskonfigurationer och anpassade rollout-åtgärder och se till att de fungerar på AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

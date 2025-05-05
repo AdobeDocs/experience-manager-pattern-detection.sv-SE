@@ -19,7 +19,7 @@ ht-degree: 1%
 >id="aemcloud_bpa_lui_overview"
 >title="Äldre användargränssnitt"
 >abstract="LUI identifierar användningen av inaktuella användargränssnittselement. Dessa element som inte rekommenderas eller som inte stöds i senare versioner av AEM och i AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
 
 `LUI` Identifierar användningen av inaktuella användargränssnittselement. Dessa element rekommenderas inte eller stöds inte i senare versioner av AEM och AEM as a Cloud Service.
 
@@ -70,14 +70,14 @@ och egenskapsvärdet `sling:resourceType` inte innehåller `granite/ui/component
 >title="Verktyg och resurser"
 >abstract="Med hjälp av AEM Modernization Suite kan kunderna konvertera klassiska (ExtJS) dialogrutor till koralldialogrutor. Avsikten är att hjälpa kunderna att gå över från funktioner som inte stöds eller äldre till robusta, moderna AEM. Dessa verktyg är konfigurerbara, konfigureringsmedvetna och utökningsbara. Utforska även att ersätta anpassade komponenter med en uppsättning standardkomponenter för att snabba upp utvecklingstiden och minska underhållskostnaderna för dina program."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Komponentkonverterare"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="Kärnkomponenter"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-core-components/using/introduction" text="Kärnkomponenter"
 
 * Använd [AEM Modernization Tools Suite](https://opensource.adobe.com/aem-modernize-tools/) om du vill minska den arbetsinsats som krävs för att modernisera dina AEM Sites-implementeringar. Bland dessa verktyg finns konvertering av:
    * Klassiska (ExtJS) dialogrutor till koralldialogrutor
    * Foundation-komponenter till Core-komponenter
    * Statiska mallar och kolumnkontroll till redigerbara mallar och responsivt rutnät
    * Designa och utforma dialogrutor till redigerbara mallprofiler
-* Granska projektets anpassade komponentbibliotek och, om det är möjligt, gå över till den standardiserade [Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction) för att snabba upp utvecklingstiden och minska underhållskostnaderna för dina program.
-* Skapa Content Fragment-modeller med funktioner som motsvarar de gamla mallarna och använd dessa modeller för att skapa innehållsfragment i framtiden. Mer information finns i [Modeller för innehållsfragment](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models).
-* `I18n` ordlistor måste komma från Git via CI/CD-pipeline. [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Granska projektets anpassade komponentbibliotek och, om det är möjligt, gå över till den standardiserade [Core Components](https://experienceleague.adobe.com/sv/docs/experience-manager-core-components/using/introduction) för att snabba upp utvecklingstiden och minska underhållskostnaderna för dina program.
+* Skapa Content Fragment-modeller med funktioner som motsvarar de gamla mallarna och använd dessa modeller för att skapa innehållsfragment i framtiden. Mer information finns i [Modeller för innehållsfragment](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models).
+* `I18n` ordlistor måste komma från Git via CI/CD-pipeline. [Dokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

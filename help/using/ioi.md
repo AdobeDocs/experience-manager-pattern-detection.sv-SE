@@ -34,8 +34,8 @@ Vissa av dessa områden används av `com.adobe.granite.repository`, som konfigur
 >id="aemcloud_bpa_ioi_guidance"
 >title="Genomförande"
 >abstract="Kunderna bör granska sin egen kod för att identifiera användningen av sådana API:er och göra dem kompatibla med AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Använd Sling Resource API (eller JCR API) i stället för åtkomst på låg nivå.
 * Undvik beroende på interna paket som inte är en del av något offentligt API eller SPI.
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

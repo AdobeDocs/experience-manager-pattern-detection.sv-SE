@@ -19,8 +19,8 @@ Assets Content Validator
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV identifierar de saknade obligatoriska noderna i resursinnehållet."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Betydande ändringar - Experience Manager as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - versionsinformation"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/overview" text="Betydande ändringar - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - versionsinformation"
 
 `ACV` (Assets Content Validator) Identifierar obligatoriska noder som saknas och överträdelser i resursinnehållet. Sådana saker kan leda till att vissa Assets-funktioner på Experience Manager as a Cloud Service inte fungerar.
 
@@ -48,11 +48,11 @@ Undertyper används för att identifiera olika typer av information, som:
 >id="aemcloud_bpa_acv_guidance"
 >title="Genomförande"
 >abstract="Adobe rekommenderar att du granskar innehållsstrukturen för att förhindra att arbetsflöden som är beroende av ärvda egenskaper bryts. Kontakta kundtjänst om du behöver hjälp."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Analysera en mapp om den saknar en underordnad nod. Skapa noderna manuellt om det går att hantera antalet mappar. Använd i annat fall ett skript.
 * För resurser som saknar den ursprungliga återgivningen kan du antingen överföra resurserna igen eller ta bort dem innan du migrerar.
 * Ingen åtgärd krävs för den ursprungliga återgivningen av underresurser som saknas.
 * Om det finns noder i konflikt bör de lösas eller tas bort innan du migrerar till AEM as a Cloud Service.
-* Kontakta Adobe kundsupport om du tänker bearbeta många stora PSD- eller PSB-filer. Experience Manager får inte bearbeta högupplösta PSB-filer som är större än 30000 x 23000 pixlar. Se [dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Kontakta Adobe kundsupport om du tänker bearbeta många stora PSD- eller PSB-filer. Experience Manager får inte bearbeta högupplösta PSB-filer som är större än 30000 x 23000 pixlar. Se [dokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.

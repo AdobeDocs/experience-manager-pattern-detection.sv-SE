@@ -19,7 +19,7 @@ Oak Index Definition
 >id="aemcloud_bpa_oid_overview"
 >title="Oak Index Definition"
 >abstract="OID identifierar problem relaterade till Oak indexdefinitioner. Här identifieras ändringar som har gjorts i Oak standardindexdefinitioner. Den identifierar också anpassade indexdefinitioner för Oak som är inkompatibla med AEM as a Cloud Service. Meddelandet för varje OID-sökning identifierar indexet och ger ytterligare information."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Riktlinjer för innehållsindexering"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Riktlinjer för innehållsindexering"
 
 `OID` Identifierar problem relaterade till Oak indexdefinitioner. Här identifieras ändringar som har gjorts i Oak standardindexdefinitioner. Den identifierar också anpassade indexdefinitioner för Oak som är inkompatibla med AEM as a Cloud Service. Meddelandet för varje `OID`-sökning identifierar indexet och ger ytterligare information.
 
@@ -34,8 +34,8 @@ Undertyper används för att identifiera olika typer av information:
 >id="aemcloud_bpa_oid_guidance"
 >title="Genomförande"
 >abstract="Det bästa sättet är att granska alla anpassade index och omstrukturera enligt riktlinjerna för innehållsindexering. Använd indexkonverteraren för att migrera befintliga anpassade Oak-indexdefinitioner till AEM as a Cloud Service-kompatibla anpassade Oak-indexdefinitioner"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#oak-indexes" text="Riktlinjer för paketering"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools" text="Indexkonverterare"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#oak-indexes" text="Riktlinjer för paketering"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools" text="Indexkonverterare"
 
 * Ändringar av Oak standardindexdefinitioner kan gå förlorade under en AEM uppgradering.
 * Oak-definitioner är oföränderliga, ska paketeras med kundens projektkod och ska bara distribueras med Cloud Manager.
@@ -51,8 +51,8 @@ Undertyper används för att identifiera olika typer av information:
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Exempel på OID-överträdelse - GitHub"
 
 * Åtgärda de indexregelfel som identifieras i meddelandet.
-* Om du vill distribuera nya eller anpassade Oak-indexdefinitioner följer du AEM as a Cloud Service [packningsriktlinjer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure).
-* Anpassade AEM standardindex och nya anpassade Oak-indexdefinitioner bör följa [riktlinjerna för innehållsindexering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) för AEM as a Cloud Service.
+* Om du vill distribuera nya eller anpassade Oak-indexdefinitioner följer du AEM as a Cloud Service [packningsriktlinjer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure).
+* Anpassade AEM standardindex och nya anpassade Oak-indexdefinitioner bör följa [riktlinjerna för innehållsindexering](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) för AEM as a Cloud Service.
 * Granska [WKD-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid)-projekt och förstå hur [OID-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) kan korrigeras och göras kompatibla med AEM as a Cloud Service.
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
-* Använd [Indexkonverteraren](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) för att migrera befintliga anpassade Oak-indexdefinitioner till AEM as a Cloud Service-kompatibla anpassade Oak-indexdefinitioner.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Använd [Indexkonverteraren](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) för att migrera befintliga anpassade Oak-indexdefinitioner till AEM as a Cloud Service-kompatibla anpassade Oak-indexdefinitioner.

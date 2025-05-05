@@ -19,4 +19,4 @@ Sidan borde inte ha nåtts.
 
 ## Möjliga lösningar {#solutions}
 
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) måste rapportera felet.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) måste rapportera felet.

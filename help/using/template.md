@@ -33,4 +33,4 @@ Svara på frågan:&quot;Vad kan jag göra åt det?&quot;
 
 * möjlig lösning nr 1
 * möjlig lösning nr 2
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

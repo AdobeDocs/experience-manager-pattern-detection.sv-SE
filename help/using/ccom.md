@@ -39,9 +39,9 @@ En undertyp används med den här koden för att identifiera komponentkategorin:
 >id="aemcloud_bpa_ccom_guidance"
 >title="Genomförande"
 >abstract="Bästa praxis är att minimera antalet anpassade komponenter, använda kärnkomponenter och använda kärnkomponenter med Style System för att minska den tekniska skulden."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="Kärnkomponenter"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Formatsystem"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-core-components/using/introduction" text="Kärnkomponenter"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Formatsystem"
 
-* Mer information om kärnkomponenter finns i [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction).
-* Mer information om Style System finns på [Använda Style System](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Mer information om kärnkomponenter finns i [Introduktion till kärnkomponenter](https://experienceleague.adobe.com/sv/docs/experience-manager-core-components/using/introduction).
+* Mer information om Style System finns på [Använda Style System](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

@@ -19,8 +19,8 @@ UTTRYCKT: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla än
 >id="aemcloud_bpa_nbcc_overview"
 >title="Icke-bakåtkompatibla ändringar"
 >abstract="NBCC identifierar den situation där vissa JCR-noder eller paket ändras på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionsinformation - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Betydande ändringar - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionsinformation - AEM as a Cloud Service"
 
 `NBCC` Identifierar situationen där vissa JCR-noder eller paket ändras på ett icke-kompatibelt sätt. Kunden kanske inte känner till denna förändring innan uppgraderingen.
 
@@ -35,9 +35,9 @@ UTTRYCKT: Icke-bakåtkompatibla ändringar (ersätts av NCC, icke-kompatibla än
 >id="aemcloud_bpa_nbcc_guidance"
 >title="Genomförande"
 >abstract="Det bästa sättet är att granska anpassad kod och se till att endast bakåtkompatibla Sling-komponenter överlappas eller refereras. Kontakta Adobe Support för hjälp eller klargöranden."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Övertäckningar"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Övertäckningar"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Överlägg eller referera endast bakåtkompatibla Sling-komponenter.
 * Överväg att anpassa resurser som kommer från `/libs` eller paket efter en AEM uppgradering.
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.

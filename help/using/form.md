@@ -19,7 +19,7 @@ ht-degree: 0%
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
 >abstract="FORMS-kod identifierar potentiella problem med migrering från AEM (Adobe Experience Manager) Forms till AEM Forms as a Cloud Service. Granska eventuella konsekvenser och risker som är förknippade med detta och åtgärda dessa problem innan du migrerar till Cloud Servicen."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Möjliga konsekvenser och risker"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Möjliga konsekvenser och risker"
 
 `FORMS` Identifierar potentiella problem relaterade till migrering från [!DNL Adobe Experience Manager Forms] till [!DNL Adobe Experience Manager Forms] som en [!DNL Cloud Service]. Åtgärda dessa problem innan du migrerar till [!DNL Cloud Service].
 
@@ -60,7 +60,7 @@ Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [M�
 
 * [!DNL AEM Forms]-appen är inte tillgänglig för [!DNL Cloud Services]. (AEM_FORMS_APP)
 
-* [Dokumenttjänster](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) steg är inte tillgängliga i AEM arbetsflöden. (WORKFLOW_DOCSERVICES)
+* [Dokumenttjänster](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) steg är inte tillgängliga i AEM arbetsflöden. (WORKFLOW_DOCSERVICES)
 
 ## Möjliga lösningar {#solutions}
 
@@ -68,7 +68,7 @@ Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [M�
 >id="aemcloud_bpa_forms_guidance"
 >title="Genomförande"
 >abstract="Information som visas via FORMS-kod kan ge vägledning om ersättningar och andra åtgärder som krävs för att göra vissa funktioner och API:er kompatibla med Cloud Servicen. Kontakta Adobe Support för hjälp eller klargöranden."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Använd ett migreringsverktyg för att konvertera alla regelskript i miljön till återanvändbara funktioner. Du kan använda de återanvändbara funktionerna med Visual Rule Editor för att fortsätta hämta resultat som erhållits med regelskript. (CODE_EDITOR)
 
@@ -82,9 +82,9 @@ Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [M�
 
 * Ta bort verifieringssteget från din befintliga adaptiva Forms innan du flyttar sådana formulär till en [!DNL Cloud Service]-miljö. (VERIFY_STEP)
 
-* Redigera dina befintliga adaptiva formulär så att du kan använda [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model) och [Anropa ett AEM arbetsflöde](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Skicka-åtgärder.
+* Redigera dina befintliga adaptiva formulär så att du kan använda [Skicka till REST-slutpunkt](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Skicka e-post](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Skicka med formulärdatamodell](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model) och [Anropa ett AEM arbetsflöde](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Skicka-åtgärder.
 
-* Du kan utveckla ett AEM arbetsflöde och redigera dina befintliga adaptiva formulär så att du kan använda [AEM arbetsflöde](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) när du skickar data till ett AEM arbetsflöde i stället för att använda åtgärden **[!UICONTROL Submit to Forms Workflow]** Skicka. Du kan utveckla en anpassad skickaåtgärd för att skicka data, bilagor eller DoR-data (Document of Record) till en LiveCyclena process i stället för att använda [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
+* Du kan utveckla ett AEM arbetsflöde och redigera dina befintliga adaptiva formulär så att du kan använda [AEM arbetsflöde](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) när du skickar data till ett AEM arbetsflöde i stället för att använda åtgärden **[!UICONTROL Submit to Forms Workflow]** Skicka. Du kan utveckla en anpassad skickaåtgärd för att skicka data, bilagor eller DoR-data (Document of Record) till en LiveCyclena process i stället för att använda [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Information om tillgängligheten av funktionen Interaktiv kommunikation finns i månadsversionsinformationen. Migrera inte dina interaktiva Cloud Service, brev och relaterade ordlistor till en textmiljö förrän funktionen inte är tillgänglig. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -92,10 +92,10 @@ Se avsnitten [Möjliga konsekvenser och risker](#implications-and-risks) och [M�
 
 * Använd Google reCAPTCHA i stället för den CAPTCHA-tjänst som tillhandahålls av Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Migrera inte till en AEM arbetsflödesmodell som använder ett arbetsflödessteg för dokumenttjänster. Migrera eller uppdatera inte heller Adaptiv Forms som skickar användardata till en arbetsflödesmodell som använder arbetsflödessteg för dokumenttjänster eller ändra `Submit Action` till en [stödd](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) innan du migrerar formuläret. (WORKFLOW_DOCSERVICES)
+* Migrera inte till en AEM arbetsflödesmodell som använder ett arbetsflödessteg för dokumenttjänster. Migrera eller uppdatera inte heller Adaptiv Forms som skickar användardata till en arbetsflödesmodell som använder arbetsflödessteg för dokumenttjänster eller ändra `Submit Action` till en [stödd](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) innan du migrerar formuläret. (WORKFLOW_DOCSERVICES)
 
 * Adaptiv Forms har en responsiv design. Dessa formulär ändrar utseende, design och interaktivitet baserat på den underliggande enheten. Du kan fortsätta använda Adaptiv Forms på en mobil enhet. Leta efter månadsversionsinformation om du vill ha information om tillgängligheten för appen [!DNL AEM Forms]. (AEM_FORMS_APP)
 
 * Stöd för XFA-baserad Adaptive Forms finns inte direkt tillgängligt. Om du tänker använda XFA-baserad Adaptive Forms kontaktar du Adobe Support med information om ditt användningsfall och specifika krav.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Kontakta [supporten](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du vill ha klargöranden eller vill få svar på frågor.
+Kontakta [supporten](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du vill ha klargöranden eller vill få svar på frågor.

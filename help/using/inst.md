@@ -19,8 +19,8 @@ Installerad artefakt
 >id="aemcloud_bpa_inst_overview"
 >title="Installerad artefakt"
 >abstract="INST identifierar anpassade paket och paket från tredje part som kunden har installerat i AEM. Sådana paket och paket rapporteras för att hjälpa till att beskriva systemets status och det allmänna tillämpningsområdet för en uppgraderingsinsats. Alla tredjepartspaket måste följa AEM as a Cloud Service riktlinjer för utveckling och paketering."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Utvecklingsriktlinjer - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Riktlinjer för paketering - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Utvecklingsriktlinjer - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Riktlinjer för paketering - AEM as a Cloud Service"
 
 `INST` Identifierar anpassade paket och paket från tredje part som kunden har installerat i AEM. Sådana paket och paket rapporteras för att hjälpa till att beskriva systemets status och det allmänna tillämpningsområdet för en uppgraderingsinsats.
 
@@ -39,7 +39,7 @@ Undertyper används för att identifiera olika typer av information:
 >id="aemcloud_bpa_inst_guidance"
 >title="Genomförande"
 >abstract="Kunder kan inte längre installera paket från tredje part med CRX Package Manager. Kunderna bör granska dessa installerade artefakter som måste struktureras och optimera dem för att arbeta med AEM as a Cloud Service. Verifiera alla tredjepartspaket med antingen dess skapare eller med Adobe för kompatibilitet med AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="Bädda in delpaket i behållarpaketet"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="Bädda in delpaket i behållarpaketet"
 
 
 * Det går inte att installera tredjepartspaket med CRX Package Manager i AEM as a Cloud Service.
@@ -59,9 +59,9 @@ Tänk också på följande deltyper:
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exempel på INST-överträdelse - GitHub"
 
-* Tredjepartspaket ska distribueras till AEM som en del av projektet med Cloud Manager [distributionsprocess](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process).
-* Granska hur du [bäddar in tredjepartspaket](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) i ditt projekt för AEM as a Cloud Service.
-* Tredjepartspaket måste följa riktlinjerna för AEM as a Cloud Service [utveckling](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) och [paketering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package).
+* Tredjepartspaket ska distribueras till AEM som en del av projektet med Cloud Manager [distributionsprocess](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process).
+* Granska hur du [bäddar in tredjepartspaket](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) i ditt projekt för AEM as a Cloud Service.
+* Tredjepartspaket måste följa riktlinjerna för AEM as a Cloud Service [utveckling](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) och [paketering](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package).
 * Granska [projekt som är äldre än ](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) och förstå hur [INST-överträdelser](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) kan korrigeras och göras kompatibla med AEM as a Cloud Service.
-* Kontakta [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
+* Kontakta [AEM Support Team](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller frågor.
 * För undertypen `guava.bundle` måste du antingen installera Guava eller ta bort användningen om Guava används i din egen kod.

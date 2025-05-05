@@ -36,7 +36,7 @@ Undertyper används för att identifiera informationen, till exempel:
 >id="aemcloud_bpa_cdw_guidance"
 >title="Genomförande"
 >abstract="Kontakta kundtjänst om du behöver hjälp."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Anpassade widgetar för klassisk dialog ska konverteras från ExtJS till [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.
+* Kontakta [Experience Manager kundtjänstteam](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) för att få klargöranden eller för att ta itu med frågor.

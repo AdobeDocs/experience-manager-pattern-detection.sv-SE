@@ -19,8 +19,8 @@ ht-degree: 0%
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Skriva över anpassade paket"
 >abstract="LOCP identifierar identifieringen av ett anpassat paket som levererar innehåll till `/libs`, som är ett antimönster (förutom om det finns åtkomstkontrollistor)."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Hållbara uppgraderingar"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Samla resurser"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Hållbara uppgraderingar"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Samla resurser"
 
 `LOCP` Identifierar identifieringen av ett anpassat paket som levererar innehåll till `/libs`, som är ett antimönsterpaket (förutom i ACL-listor).
 
@@ -35,8 +35,8 @@ ht-degree: 0%
 >id="aemcloud_bpa_locp_guidance"
 >title="Genomförande"
 >abstract="Kunder bör granska sin egen kod och sina paket för att identifiera om innehåll levereras till `/libs`. Om det behövs kan du göra om det så att det förlitar sig på överlägg av innehållet under /apps och göra det kompatibelt med AEM as a Cloud Service. Kontakta Adobe Support för hjälp eller klargöranden."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Övertäckningar"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Övertäckningar"
+>additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Stöd för Experience Cloud"
 
 * Kundpaket ska distribuera innehåll till `/apps` i stället för till `/libs`.
-* Kontakta [AEM supportteamet](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om du behöver klargöranden eller frågor som har åtgärdats.
+* Kontakta [AEM supportteamet](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) om du behöver klargöranden eller frågor som har åtgärdats.
