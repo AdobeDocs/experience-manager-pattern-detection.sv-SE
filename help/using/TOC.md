@@ -6,7 +6,7 @@ user-guide-description: Läs om Adobe Experience Manager Mönsterupptäckt.
 feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
-source-git-commit: e050b9190f67fd6ccfac31490c4bf2a60d47731f
+source-git-commit: 0ddaae9adcad1dc4b75dae5fdd1c83e8f4748af8
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%

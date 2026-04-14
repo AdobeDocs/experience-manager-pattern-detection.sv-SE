@@ -2,14 +2,16 @@
 cloud: Experience Cloud
 product: adobe experience manager
 solution: Experience Manager
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-manager-pattern-detection.sv-SE
-index: n
+git-repo: https://github.com/AdobeDocs/experience-manager-pattern-detection.en
+index: false
 recommendations: noDisplay
-source-git-commit: 43e14fe12de17128882609f41a40b690e44d0268
+source-git-commit: 0ddaae9adcad1dc4b75dae5fdd1c83e8f4748af8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '11'
 ht-degree: 0%
 
 ---
